@@ -1,0 +1,38 @@
+name: Publicar en Instagram
+
+on:
+  schedule:
+    - cron: "0 16 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Publicar el post de hoy
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          BASE_URL: ${{ secrets.BASE_URL }}
+        run: python publicar.py
+
+      - name: Guardar el estado del calendario
+        run: |
+          if [ -n "$(git status --porcelain calendario.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add calendario.json
+            git commit -m "Marca el post de hoy como publicado"
+            git push
+          else
+            echo "Sin cambios en el calendario."
+          fi
