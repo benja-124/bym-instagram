@@ -2,12 +2,13 @@
   {
     "id": "post-01",
     "fecha": "2026-09-10",
-    "publicado": false,
+    "publicado": true,
     "plantilla": "declaracion",
     "kicker": "Almacenes y botillerías",
     "titulo": "¿Se te acabó justo el fin de semana?",
     "bajada": "Te avisamos antes de que se acabe lo que más vendes.",
-    "texto": "¿Cuántas veces se te acabó justo lo que más se vende, justo el fin de semana? 😩\n\nNo es mala suerte: es que llevar el stock en la cabeza o en un cuaderno no alcanza cuando el negocio se mueve.\n\nEn ByM Solutions armamos un sistema simple que lleva la cuenta por ti y te avisa antes de que te quedes sin nada. Sin instalar apps raras, sin capacitaciones eternas.\n\n📍 Tarapacá\n\n#Iquique #AltoHospicio #Tarapacá #Almacén #Botillería #Minimarket #Inventario #NegocioLocal"
+    "texto": "¿Cuántas veces se te acabó justo lo que más se vende, justo el fin de semana? 😩\n\nNo es mala suerte: es que llevar el stock en la cabeza o en un cuaderno no alcanza cuando el negocio se mueve.\n\nEn ByM Solutions armamos un sistema simple que lleva la cuenta por ti y te avisa antes de que te quedes sin nada. Sin instalar apps raras, sin capacitaciones eternas.\n\n📍 Tarapacá\n\n#Iquique #AltoHospicio #Tarapacá #Almacén #Botillería #Minimarket #Inventario #NegocioLocal",
+    "id_publicacion": "18093088838306067"
   },
   {
     "id": "post-02",
@@ -31,9 +32,18 @@
     "kicker": "Cómo funciona",
     "titulo": "Así de simple es",
     "pasos": [
-      ["1", "Anotas lo que entra y sale por WhatsApp."],
-      ["2", "El sistema lleva la cuenta solo."],
-      ["3", "Te avisa cuando algo está por acabarse."]
+      [
+        "1",
+        "Anotas lo que entra y sale por WhatsApp."
+      ],
+      [
+        "2",
+        "El sistema lleva la cuenta solo."
+      ],
+      [
+        "3",
+        "Te avisa cuando algo está por acabarse."
+      ]
     ],
     "texto": "\"Suena complicado\" es lo primero que nos dicen. Y es justo al revés 👇\n\n1️⃣ Anotas lo que entra y sale por WhatsApp, como cualquier mensaje.\n2️⃣ El sistema lleva la cuenta solo.\n3️⃣ Te avisa cuando algo está por acabarse.\n\nEso es todo. No hay que aprender un programa nuevo ni comprar equipos. Si sabes mandar un WhatsApp, sabes usarlo.\n\n#Iquique #AltoHospicio #Tarapacá #Automatización #Almacén #Botillería"
   },
@@ -93,9 +103,18 @@
     "kicker": "La alerta",
     "titulo": "Qué pasa cuando algo se acaba",
     "pasos": [
-      ["1", "El sistema ve que bajaste del mínimo."],
-      ["2", "Te llega el aviso al teléfono."],
-      ["3", "Pides antes de quedarte sin stock."]
+      [
+        "1",
+        "El sistema ve que bajaste del mínimo."
+      ],
+      [
+        "2",
+        "Te llega el aviso al teléfono."
+      ],
+      [
+        "3",
+        "Pides antes de quedarte sin stock."
+      ]
     ],
     "texto": "El momento más útil de todo el sistema es este 👇\n\n1️⃣ El sistema nota que un producto bajó del mínimo que tú definiste.\n2️⃣ Te llega el aviso al teléfono, sin que preguntes nada.\n3️⃣ Haces el pedido antes de quedarte sin stock, no después.\n\nLa diferencia entre enterarse antes o después son ventas concretas.\n\n#Iquique #Tarapacá #Inventario #Almacén #Botillería #Automatización"
   },
@@ -131,9 +150,18 @@
     "kicker": "Cómo partimos",
     "titulo": "Cómo trabajamos contigo",
     "pasos": [
-      ["1", "Conversamos 15 minutos, sin costo."],
-      ["2", "Te armamos una propuesta clara."],
-      ["3", "Lo probamos juntos antes de largarlo."]
+      [
+        "1",
+        "Conversamos 15 minutos, sin costo."
+      ],
+      [
+        "2",
+        "Te armamos una propuesta clara."
+      ],
+      [
+        "3",
+        "Lo probamos juntos antes de largarlo."
+      ]
     ],
     "texto": "Por si te da curiosidad cómo es trabajar con nosotros 👇\n\n1️⃣ Conversamos 15 o 20 minutos para entender qué te complica hoy. Sin costo y sin compromiso.\n2️⃣ Te armamos una propuesta clara, con precio y plazo. Nada de letra chica.\n3️⃣ Lo implementamos y lo probamos contigo antes de darlo por listo.\n\nY después no te dejamos solo: queda con soporte.\n\n#Iquique #AltoHospicio #Tarapacá #ByMSolutions #PYME"
   },
