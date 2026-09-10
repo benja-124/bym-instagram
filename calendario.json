@@ -1,0 +1,40 @@
+[
+  {
+    "id": "post-01",
+    "fecha": "2026-09-14",
+    "publicado": false,
+    "plantilla": "declaracion",
+    "kicker": "Almacenes y botillerías",
+    "titulo": "¿Se te acabó justo el fin de semana?",
+    "bajada": "Te avisamos por WhatsApp antes de que se acabe lo que más vendes.",
+    "texto": "¿Cuántas veces se te acabó justo lo que más se vende, justo el fin de semana? 😩\n\nNo es mala suerte: es que llevar el stock en la cabeza o en un cuaderno no alcanza cuando el negocio se mueve.\n\nEn ByM Solutions armamos un sistema simple que lleva la cuenta por ti y te avisa por WhatsApp antes de que te quedes sin nada. Sin instalar apps raras, sin capacitaciones eternas.\n\n📍 Tarapacá\n\n#Iquique #AltoHospicio #Tarapacá #Almacén #Botillería #Minimarket #Inventario #NegocioLocal"
+  },
+  {
+    "id": "post-02",
+    "fecha": "2026-09-16",
+    "publicado": false,
+    "plantilla": "lista",
+    "kicker": "Plata que se va",
+    "titulo": "3 cosas que tu almacén pierde hoy",
+    "items": [
+      "Ventas que no hiciste porque no había stock.",
+      "Productos que se vencieron por pedir de más.",
+      "Horas contando a mano para hacer el pedido."
+    ],
+    "texto": "Tres formas silenciosas en que un almacén pierde plata todos los meses 👇\n\n1️⃣ Ventas que no hiciste porque no había stock. El cliente vino, no estaba, se fue a otro lado. Nadie las anota, pero se pierden igual.\n\n2️⃣ Productos vencidos por pedir de más. Comprar \"por si acaso\" sale caro.\n\n3️⃣ Horas contando a mano para armar el pedido. Ese tiempo también vale.\n\nLas tres se arreglan con lo mismo: que alguien lleve la cuenta por ti, automáticamente.\n\n#Iquique #Tarapacá #Almacén #Minimarket #ControlDeInventario #PYME"
+  },
+  {
+    "id": "post-03",
+    "fecha": "2026-09-18",
+    "publicado": false,
+    "plantilla": "pasos",
+    "kicker": "Cómo funciona",
+    "titulo": "Así de simple es",
+    "pasos": [
+      ["1", "Anotas lo que entra y sale por WhatsApp."],
+      ["2", "El sistema lleva la cuenta solo."],
+      ["3", "Te avisa cuando algo está por acabarse."]
+    ],
+    "texto": "\"Suena complicado\" es lo primero que nos dicen. Y es justo al revés 👇\n\n1️⃣ Anotas lo que entra y sale por WhatsApp, como cualquier mensaje.\n2️⃣ El sistema lleva la cuenta solo.\n3️⃣ Te avisa cuando algo está por acabarse.\n\nEso es todo. No hay que aprender un programa nuevo ni comprar equipos. Si sabes mandar un WhatsApp, sabes usarlo.\n\n¿Quieres verlo funcionando con los productos de tu negocio? Escríbenos.\n\n#Iquique #AltoHospicio #Tarapacá #Automatización #Almacén #Botillería"
+  }
+]
