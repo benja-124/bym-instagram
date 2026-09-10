@@ -13,7 +13,7 @@
   {
     "id": "post-02",
     "fecha": "2026-09-10",
-    "publicado": false,
+    "publicado": true,
     "plantilla": "lista",
     "kicker": "Plata que se va",
     "titulo": "3 cosas que tu almacén pierde hoy",
@@ -22,7 +22,8 @@
       "Productos que se vencieron por pedir de más.",
       "Horas contando a mano para hacer el pedido."
     ],
-    "texto": "Tres formas silenciosas en que un almacén pierde plata todos los meses 👇\n\n1️⃣ Ventas que no hiciste porque no había stock. El cliente vino, no estaba, se fue a otro lado. Nadie las anota, pero se pierden igual.\n\n2️⃣ Productos vencidos por pedir de más. Comprar \"por si acaso\" sale caro.\n\n3️⃣ Horas contando a mano para armar el pedido. Ese tiempo también vale.\n\nLas tres se arreglan con lo mismo: que alguien lleve la cuenta por ti, automáticamente.\n\n#Iquique #Tarapacá #Almacén #Minimarket #ControlDeInventario #PYME"
+    "texto": "Tres formas silenciosas en que un almacén pierde plata todos los meses 👇\n\n1️⃣ Ventas que no hiciste porque no había stock. El cliente vino, no estaba, se fue a otro lado. Nadie las anota, pero se pierden igual.\n\n2️⃣ Productos vencidos por pedir de más. Comprar \"por si acaso\" sale caro.\n\n3️⃣ Horas contando a mano para armar el pedido. Ese tiempo también vale.\n\nLas tres se arreglan con lo mismo: que alguien lleve la cuenta por ti, automáticamente.\n\n#Iquique #Tarapacá #Almacén #Minimarket #ControlDeInventario #PYME",
+    "id_publicacion": "18454723156191144"
   },
   {
     "id": "post-03",
