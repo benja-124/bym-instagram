@@ -15,7 +15,6 @@ Variables de entorno necesarias:
 import json
 import os
 import pathlib
-import sys
 import time
 import urllib.error
 import urllib.parse
@@ -32,13 +31,12 @@ BASE_URL = os.environ.get("BASE_URL", "").strip().rstrip("/")
 
 
 def faltan_variables():
-    faltan = [n for n, v in (("IG_TOKEN", TOKEN), ("IG_USER_ID", USER_ID),
-                             ("BASE_URL", BASE_URL)) if not v]
-    return faltan
+    return [n for n, v in (("IG_TOKEN", TOKEN), ("IG_USER_ID", USER_ID),
+                           ("BASE_URL", BASE_URL)) if not v]
 
 
 def llamar(metodo, ruta, params):
-    """Llama a la API. Nunca imprime el token en los errores."""
+    """Llama a la API. Nunca deja el token visible en los errores."""
     params = dict(params, access_token=TOKEN)
     url = f"{API}/{ruta}"
     datos = urllib.parse.urlencode(params).encode()
@@ -51,7 +49,6 @@ def llamar(metodo, ruta, params):
             return json.loads(r.read().decode())
     except urllib.error.HTTPError as e:
         cuerpo = e.read().decode(errors="replace")
-        # Por si la API devolviera el token en el eco del error.
         cuerpo = cuerpo.replace(TOKEN, "[TOKEN OCULTO]") if TOKEN else cuerpo
         raise SystemExit(f"Error {e.code} en {ruta}: {cuerpo}")
 
@@ -91,16 +88,23 @@ def main():
     calendario = json.loads(CALENDARIO.read_text(encoding="utf-8"))
     hoy = date.today().isoformat()
 
-    pendientes = [p for p in calendario
-                  if p.get("fecha") == hoy and not p.get("publicado")]
+    # El calendario funciona como una fila de espera: se toma el post mas
+    # antiguo que todavia no se publica y cuya fecha ya llego. Asi, si una
+    # ejecucion falla o si un dia tiene mas posts que ejecuciones, nada queda
+    # olvidado: se publica en la siguiente corrida disponible.
+    pendientes = sorted(
+        (p for p in calendario
+         if not p.get("publicado") and p.get("fecha", "9999") <= hoy),
+        key=lambda p: (p.get("fecha", ""), p.get("id", "")))
 
     if not pendientes:
-        print(f"No hay nada programado para hoy ({hoy}). Nada que hacer.")
+        print(f"No hay posts pendientes con fecha hasta hoy ({hoy}).")
         return
 
-    # Publica de a uno por ejecucion, aunque haya varios programados el mismo dia.
+    # Publica de a uno por ejecucion, para espaciar las publicaciones.
     post = pendientes[0]
-    print(f"Publicando {post['id']} ({hoy})")
+    atraso = "" if post["fecha"] == hoy else f" (atrasado desde {post['fecha']})"
+    print(f"Publicando {post['id']}{atraso}. Quedan {len(pendientes) - 1} en fila.")
 
     url_imagen = f"{BASE_URL}/imagenes/{post['id']}.png"
     contenedor = crear_contenedor(url_imagen, post["texto"])
