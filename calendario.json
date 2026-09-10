@@ -1,17 +1,17 @@
 [
   {
     "id": "post-01",
-    "fecha": "2026-09-14",
+    "fecha": "2026-09-10",
     "publicado": false,
     "plantilla": "declaracion",
     "kicker": "Almacenes y botillerías",
     "titulo": "¿Se te acabó justo el fin de semana?",
-    "bajada": "Te avisamos por WhatsApp antes de que se acabe lo que más vendes.",
-    "texto": "¿Cuántas veces se te acabó justo lo que más se vende, justo el fin de semana? 😩\n\nNo es mala suerte: es que llevar el stock en la cabeza o en un cuaderno no alcanza cuando el negocio se mueve.\n\nEn ByM Solutions armamos un sistema simple que lleva la cuenta por ti y te avisa por WhatsApp antes de que te quedes sin nada. Sin instalar apps raras, sin capacitaciones eternas.\n\n📍 Tarapacá\n\n#Iquique #AltoHospicio #Tarapacá #Almacén #Botillería #Minimarket #Inventario #NegocioLocal"
+    "bajada": "Te avisamos antes de que se acabe lo que más vendes.",
+    "texto": "¿Cuántas veces se te acabó justo lo que más se vende, justo el fin de semana? 😩\n\nNo es mala suerte: es que llevar el stock en la cabeza o en un cuaderno no alcanza cuando el negocio se mueve.\n\nEn ByM Solutions armamos un sistema simple que lleva la cuenta por ti y te avisa antes de que te quedes sin nada. Sin instalar apps raras, sin capacitaciones eternas.\n\n📍 Tarapacá\n\n#Iquique #AltoHospicio #Tarapacá #Almacén #Botillería #Minimarket #Inventario #NegocioLocal"
   },
   {
     "id": "post-02",
-    "fecha": "2026-09-16",
+    "fecha": "2026-09-10",
     "publicado": false,
     "plantilla": "lista",
     "kicker": "Plata que se va",
@@ -25,7 +25,7 @@
   },
   {
     "id": "post-03",
-    "fecha": "2026-09-18",
+    "fecha": "2026-09-11",
     "publicado": false,
     "plantilla": "pasos",
     "kicker": "Cómo funciona",
@@ -35,6 +35,266 @@
       ["2", "El sistema lleva la cuenta solo."],
       ["3", "Te avisa cuando algo está por acabarse."]
     ],
-    "texto": "\"Suena complicado\" es lo primero que nos dicen. Y es justo al revés 👇\n\n1️⃣ Anotas lo que entra y sale por WhatsApp, como cualquier mensaje.\n2️⃣ El sistema lleva la cuenta solo.\n3️⃣ Te avisa cuando algo está por acabarse.\n\nEso es todo. No hay que aprender un programa nuevo ni comprar equipos. Si sabes mandar un WhatsApp, sabes usarlo.\n\n¿Quieres verlo funcionando con los productos de tu negocio? Escríbenos.\n\n#Iquique #AltoHospicio #Tarapacá #Automatización #Almacén #Botillería"
+    "texto": "\"Suena complicado\" es lo primero que nos dicen. Y es justo al revés 👇\n\n1️⃣ Anotas lo que entra y sale por WhatsApp, como cualquier mensaje.\n2️⃣ El sistema lleva la cuenta solo.\n3️⃣ Te avisa cuando algo está por acabarse.\n\nEso es todo. No hay que aprender un programa nuevo ni comprar equipos. Si sabes mandar un WhatsApp, sabes usarlo.\n\n#Iquique #AltoHospicio #Tarapacá #Automatización #Almacén #Botillería"
+  },
+  {
+    "id": "post-04",
+    "fecha": "2026-09-11",
+    "publicado": false,
+    "plantilla": "declaracion",
+    "kicker": "El cuaderno",
+    "titulo": "El cuaderno solo lo entiendes tú",
+    "bajada": "Y el día que no estás, nadie sabe qué falta ni cuánto queda.",
+    "texto": "El cuaderno funciona… hasta que no 📓\n\nSe moja. Se pierde una hoja. La letra la entiendes solo tú. Y el día que no puedes ir al local, nadie sabe qué falta ni cuánto queda.\n\nNo es que el cuaderno esté mal. Es que tu negocio ya creció más que él.\n\n#Iquique #Tarapacá #Almacén #Minimarket #Botillería #NegocioLocal"
+  },
+  {
+    "id": "post-05",
+    "fecha": "2026-09-12",
+    "publicado": false,
+    "plantilla": "lista",
+    "kicker": "Pregúntate esto",
+    "titulo": "3 preguntas que quizás no puedes responder",
+    "items": [
+      "¿Cuál es el producto que más plata te deja?",
+      "¿Cuánto stock tienes ahora mismo, exacto?",
+      "¿Qué se vende más los fines de semana?"
+    ],
+    "texto": "Tres preguntas simples sobre tu propio negocio 👇\n\n¿Cuál es el producto que más plata te deja? (Ojo: no es el que más vendes, es el que deja mejor margen.)\n\n¿Cuánto stock tienes ahora mismo, exacto, sin ir a contar?\n\n¿Qué se vende más los fines de semana que entre semana?\n\nSi dudaste en alguna, no es porque no conozcas tu negocio. Es porque esa información existe, pero nadie la está juntando.\n\n#Iquique #Tarapacá #Almacén #Minimarket #GestiónDeNegocios"
+  },
+  {
+    "id": "post-06",
+    "fecha": "2026-09-12",
+    "publicado": false,
+    "plantilla": "declaracion",
+    "kicker": "Sin comprar nada",
+    "titulo": "No necesitas comprar ningún equipo",
+    "bajada": "Ni lector de códigos, ni computador, ni sistema caro. Solo WhatsApp.",
+    "texto": "Una duda que nos llega siempre: \"¿tengo que comprar un computador o una máquina?\" 🤔\n\nNo. Nada.\n\nNi lector de códigos de barra, ni caja registradora nueva, ni un sistema caro con licencia mensual. Todo funciona con el WhatsApp que ya tienes en el teléfono que ya usas.\n\nEsa es justamente la idea: que la solución sea más simple que el problema.\n\n#Iquique #AltoHospicio #Tarapacá #Automatización #PYME #Almacén"
+  },
+  {
+    "id": "post-07",
+    "fecha": "2026-09-13",
+    "publicado": false,
+    "plantilla": "lista",
+    "kicker": "Lo que escuchamos",
+    "titulo": "3 razones para no automatizar",
+    "items": [
+      "\"Es muy caro para un negocio como el mío.\"",
+      "\"Soy muy chico, esto es para empresas grandes.\"",
+      "\"No sé nada de computación.\""
+    ],
+    "texto": "Las tres razones que más escuchamos para no automatizar 👇\n\n💬 \"Es muy caro\" — Partimos con un solo proceso, con inversión acotada. Se paga con el tiempo y las ventas que dejas de perder.\n\n💬 \"Soy muy chico\" — Justamente al revés: mientras más chico, más te duele cada quiebre de stock y cada producto vencido.\n\n💬 \"No sé de computación\" — Si sabes mandar un WhatsApp, ya sabes todo lo que necesitas.\n\n#Iquique #Tarapacá #Almacén #Minimarket #PYME"
+  },
+  {
+    "id": "post-08",
+    "fecha": "2026-09-13",
+    "publicado": false,
+    "plantilla": "pasos",
+    "kicker": "La alerta",
+    "titulo": "Qué pasa cuando algo se acaba",
+    "pasos": [
+      ["1", "El sistema ve que bajaste del mínimo."],
+      ["2", "Te llega el aviso al teléfono."],
+      ["3", "Pides antes de quedarte sin stock."]
+    ],
+    "texto": "El momento más útil de todo el sistema es este 👇\n\n1️⃣ El sistema nota que un producto bajó del mínimo que tú definiste.\n2️⃣ Te llega el aviso al teléfono, sin que preguntes nada.\n3️⃣ Haces el pedido antes de quedarte sin stock, no después.\n\nLa diferencia entre enterarse antes o después son ventas concretas.\n\n#Iquique #Tarapacá #Inventario #Almacén #Botillería #Automatización"
+  },
+  {
+    "id": "post-09",
+    "fecha": "2026-09-14",
+    "publicado": false,
+    "plantilla": "declaracion",
+    "kicker": "Tu tiempo",
+    "titulo": "¿Cuánto vale una hora tuya?",
+    "bajada": "Contar stock a mano cada semana son horas que no vuelven.",
+    "texto": "Hagamos una cuenta rápida ⏱️\n\nSi cada semana pierdes dos horas contando stock y armando el pedido a mano, son ocho horas al mes. Un día completo de trabajo, todos los meses, haciendo algo que un sistema hace solo.\n\nY eso sin contar los errores de conteo, que se pagan aparte.\n\nTu tiempo también es plata del negocio.\n\n#Iquique #Tarapacá #Almacén #Minimarket #GestiónDeNegocios #PYME"
+  },
+  {
+    "id": "post-10",
+    "fecha": "2026-09-14",
+    "publicado": false,
+    "plantilla": "lista",
+    "kicker": "Fugas invisibles",
+    "titulo": "3 lugares donde se escapa la plata",
+    "items": [
+      "Mermas y vencimientos que nadie registra.",
+      "Pedidos duplicados por no saber qué había.",
+      "El fiado anotado en cualquier parte."
+    ],
+    "texto": "Hay pérdidas que no se ven en la caja, pero se sienten a fin de mes 👇\n\n📦 Mermas y vencimientos que nadie registra. Si no se anota, no existe… hasta que falta la plata.\n\n🔁 Pedidos duplicados. Compraste algo que ya tenías porque no sabías que estaba.\n\n📝 El fiado anotado en un papel, en el teléfono, o en la memoria. Y lo que no está anotado bien, muchas veces no se cobra.\n\n#Iquique #Tarapacá #Almacén #Botillería #Minimarket #ControlDeInventario"
+  },
+  {
+    "id": "post-11",
+    "fecha": "2026-09-15",
+    "publicado": false,
+    "plantilla": "pasos",
+    "kicker": "Cómo partimos",
+    "titulo": "Cómo trabajamos contigo",
+    "pasos": [
+      ["1", "Conversamos 15 minutos, sin costo."],
+      ["2", "Te armamos una propuesta clara."],
+      ["3", "Lo probamos juntos antes de largarlo."]
+    ],
+    "texto": "Por si te da curiosidad cómo es trabajar con nosotros 👇\n\n1️⃣ Conversamos 15 o 20 minutos para entender qué te complica hoy. Sin costo y sin compromiso.\n2️⃣ Te armamos una propuesta clara, con precio y plazo. Nada de letra chica.\n3️⃣ Lo implementamos y lo probamos contigo antes de darlo por listo.\n\nY después no te dejamos solo: queda con soporte.\n\n#Iquique #AltoHospicio #Tarapacá #ByMSolutions #PYME"
+  },
+  {
+    "id": "post-12",
+    "fecha": "2026-09-15",
+    "publicado": false,
+    "plantilla": "declaracion",
+    "kicker": "Hablemos",
+    "titulo": "Cuéntanos qué te complica hoy",
+    "bajada": "Mándanos un mensaje y te decimos si esto te sirve. Sin vueltas.",
+    "texto": "Si llegaste hasta acá viendo nuestro contenido, probablemente algo te hizo sentido 👀\n\nMándanos un mensaje directo y cuéntanos qué es lo que más te complica hoy en tu negocio. Te decimos derechamente si esto te sirve o no.\n\nSin vueltas, sin costo, y si no te sirve te lo decimos igual.\n\n📍 Tarapacá\n\n#Iquique #AltoHospicio #Tarapacá #Almacén #Botillería #Minimarket #NegocioLocal"
+  }
+]
+[
+  {
+    "id": "post-01",
+    "fecha": "2026-09-10",
+    "publicado": false,
+    "plantilla": "declaracion",
+    "kicker": "Almacenes y botillerías",
+    "titulo": "¿Se te acabó justo el fin de semana?",
+    "bajada": "Te avisamos antes de que se acabe lo que más vendes.",
+    "texto": "¿Cuántas veces se te acabó justo lo que más se vende, justo el fin de semana? 😩\n\nNo es mala suerte: es que llevar el stock en la cabeza o en un cuaderno no alcanza cuando el negocio se mueve.\n\nEn ByM Solutions armamos un sistema simple que lleva la cuenta por ti y te avisa antes de que te quedes sin nada. Sin instalar apps raras, sin capacitaciones eternas.\n\n📍 Tarapacá\n\n#Iquique #AltoHospicio #Tarapacá #Almacén #Botillería #Minimarket #Inventario #NegocioLocal"
+  },
+  {
+    "id": "post-02",
+    "fecha": "2026-09-10",
+    "publicado": false,
+    "plantilla": "lista",
+    "kicker": "Plata que se va",
+    "titulo": "3 cosas que tu almacén pierde hoy",
+    "items": [
+      "Ventas que no hiciste porque no había stock.",
+      "Productos que se vencieron por pedir de más.",
+      "Horas contando a mano para hacer el pedido."
+    ],
+    "texto": "Tres formas silenciosas en que un almacén pierde plata todos los meses 👇\n\n1️⃣ Ventas que no hiciste porque no había stock. El cliente vino, no estaba, se fue a otro lado. Nadie las anota, pero se pierden igual.\n\n2️⃣ Productos vencidos por pedir de más. Comprar \"por si acaso\" sale caro.\n\n3️⃣ Horas contando a mano para armar el pedido. Ese tiempo también vale.\n\nLas tres se arreglan con lo mismo: que alguien lleve la cuenta por ti, automáticamente.\n\n#Iquique #Tarapacá #Almacén #Minimarket #ControlDeInventario #PYME"
+  },
+  {
+    "id": "post-03",
+    "fecha": "2026-09-11",
+    "publicado": false,
+    "plantilla": "pasos",
+    "kicker": "Cómo funciona",
+    "titulo": "Así de simple es",
+    "pasos": [
+      ["1", "Anotas lo que entra y sale por WhatsApp."],
+      ["2", "El sistema lleva la cuenta solo."],
+      ["3", "Te avisa cuando algo está por acabarse."]
+    ],
+    "texto": "\"Suena complicado\" es lo primero que nos dicen. Y es justo al revés 👇\n\n1️⃣ Anotas lo que entra y sale por WhatsApp, como cualquier mensaje.\n2️⃣ El sistema lleva la cuenta solo.\n3️⃣ Te avisa cuando algo está por acabarse.\n\nEso es todo. No hay que aprender un programa nuevo ni comprar equipos. Si sabes mandar un WhatsApp, sabes usarlo.\n\n#Iquique #AltoHospicio #Tarapacá #Automatización #Almacén #Botillería"
+  },
+  {
+    "id": "post-04",
+    "fecha": "2026-09-11",
+    "publicado": false,
+    "plantilla": "declaracion",
+    "kicker": "El cuaderno",
+    "titulo": "El cuaderno solo lo entiendes tú",
+    "bajada": "Y el día que no estás, nadie sabe qué falta ni cuánto queda.",
+    "texto": "El cuaderno funciona… hasta que no 📓\n\nSe moja. Se pierde una hoja. La letra la entiendes solo tú. Y el día que no puedes ir al local, nadie sabe qué falta ni cuánto queda.\n\nNo es que el cuaderno esté mal. Es que tu negocio ya creció más que él.\n\n#Iquique #Tarapacá #Almacén #Minimarket #Botillería #NegocioLocal"
+  },
+  {
+    "id": "post-05",
+    "fecha": "2026-09-12",
+    "publicado": false,
+    "plantilla": "lista",
+    "kicker": "Pregúntate esto",
+    "titulo": "3 preguntas que quizás no puedes responder",
+    "items": [
+      "¿Cuál es el producto que más plata te deja?",
+      "¿Cuánto stock tienes ahora mismo, exacto?",
+      "¿Qué se vende más los fines de semana?"
+    ],
+    "texto": "Tres preguntas simples sobre tu propio negocio 👇\n\n¿Cuál es el producto que más plata te deja? (Ojo: no es el que más vendes, es el que deja mejor margen.)\n\n¿Cuánto stock tienes ahora mismo, exacto, sin ir a contar?\n\n¿Qué se vende más los fines de semana que entre semana?\n\nSi dudaste en alguna, no es porque no conozcas tu negocio. Es porque esa información existe, pero nadie la está juntando.\n\n#Iquique #Tarapacá #Almacén #Minimarket #GestiónDeNegocios"
+  },
+  {
+    "id": "post-06",
+    "fecha": "2026-09-12",
+    "publicado": false,
+    "plantilla": "declaracion",
+    "kicker": "Sin comprar nada",
+    "titulo": "No necesitas comprar ningún equipo",
+    "bajada": "Ni lector de códigos, ni computador, ni sistema caro. Solo WhatsApp.",
+    "texto": "Una duda que nos llega siempre: \"¿tengo que comprar un computador o una máquina?\" 🤔\n\nNo. Nada.\n\nNi lector de códigos de barra, ni caja registradora nueva, ni un sistema caro con licencia mensual. Todo funciona con el WhatsApp que ya tienes en el teléfono que ya usas.\n\nEsa es justamente la idea: que la solución sea más simple que el problema.\n\n#Iquique #AltoHospicio #Tarapacá #Automatización #PYME #Almacén"
+  },
+  {
+    "id": "post-07",
+    "fecha": "2026-09-13",
+    "publicado": false,
+    "plantilla": "lista",
+    "kicker": "Lo que escuchamos",
+    "titulo": "3 razones para no automatizar",
+    "items": [
+      "\"Es muy caro para un negocio como el mío.\"",
+      "\"Soy muy chico, esto es para empresas grandes.\"",
+      "\"No sé nada de computación.\""
+    ],
+    "texto": "Las tres razones que más escuchamos para no automatizar 👇\n\n💬 \"Es muy caro\" — Partimos con un solo proceso, con inversión acotada. Se paga con el tiempo y las ventas que dejas de perder.\n\n💬 \"Soy muy chico\" — Justamente al revés: mientras más chico, más te duele cada quiebre de stock y cada producto vencido.\n\n💬 \"No sé de computación\" — Si sabes mandar un WhatsApp, ya sabes todo lo que necesitas.\n\n#Iquique #Tarapacá #Almacén #Minimarket #PYME"
+  },
+  {
+    "id": "post-08",
+    "fecha": "2026-09-13",
+    "publicado": false,
+    "plantilla": "pasos",
+    "kicker": "La alerta",
+    "titulo": "Qué pasa cuando algo se acaba",
+    "pasos": [
+      ["1", "El sistema ve que bajaste del mínimo."],
+      ["2", "Te llega el aviso al teléfono."],
+      ["3", "Pides antes de quedarte sin stock."]
+    ],
+    "texto": "El momento más útil de todo el sistema es este 👇\n\n1️⃣ El sistema nota que un producto bajó del mínimo que tú definiste.\n2️⃣ Te llega el aviso al teléfono, sin que preguntes nada.\n3️⃣ Haces el pedido antes de quedarte sin stock, no después.\n\nLa diferencia entre enterarse antes o después son ventas concretas.\n\n#Iquique #Tarapacá #Inventario #Almacén #Botillería #Automatización"
+  },
+  {
+    "id": "post-09",
+    "fecha": "2026-09-14",
+    "publicado": false,
+    "plantilla": "declaracion",
+    "kicker": "Tu tiempo",
+    "titulo": "¿Cuánto vale una hora tuya?",
+    "bajada": "Contar stock a mano cada semana son horas que no vuelven.",
+    "texto": "Hagamos una cuenta rápida ⏱️\n\nSi cada semana pierdes dos horas contando stock y armando el pedido a mano, son ocho horas al mes. Un día completo de trabajo, todos los meses, haciendo algo que un sistema hace solo.\n\nY eso sin contar los errores de conteo, que se pagan aparte.\n\nTu tiempo también es plata del negocio.\n\n#Iquique #Tarapacá #Almacén #Minimarket #GestiónDeNegocios #PYME"
+  },
+  {
+    "id": "post-10",
+    "fecha": "2026-09-14",
+    "publicado": false,
+    "plantilla": "lista",
+    "kicker": "Fugas invisibles",
+    "titulo": "3 lugares donde se escapa la plata",
+    "items": [
+      "Mermas y vencimientos que nadie registra.",
+      "Pedidos duplicados por no saber qué había.",
+      "El fiado anotado en cualquier parte."
+    ],
+    "texto": "Hay pérdidas que no se ven en la caja, pero se sienten a fin de mes 👇\n\n📦 Mermas y vencimientos que nadie registra. Si no se anota, no existe… hasta que falta la plata.\n\n🔁 Pedidos duplicados. Compraste algo que ya tenías porque no sabías que estaba.\n\n📝 El fiado anotado en un papel, en el teléfono, o en la memoria. Y lo que no está anotado bien, muchas veces no se cobra.\n\n#Iquique #Tarapacá #Almacén #Botillería #Minimarket #ControlDeInventario"
+  },
+  {
+    "id": "post-11",
+    "fecha": "2026-09-15",
+    "publicado": false,
+    "plantilla": "pasos",
+    "kicker": "Cómo partimos",
+    "titulo": "Cómo trabajamos contigo",
+    "pasos": [
+      ["1", "Conversamos 15 minutos, sin costo."],
+      ["2", "Te armamos una propuesta clara."],
+      ["3", "Lo probamos juntos antes de largarlo."]
+    ],
+    "texto": "Por si te da curiosidad cómo es trabajar con nosotros 👇\n\n1️⃣ Conversamos 15 o 20 minutos para entender qué te complica hoy. Sin costo y sin compromiso.\n2️⃣ Te armamos una propuesta clara, con precio y plazo. Nada de letra chica.\n3️⃣ Lo implementamos y lo probamos contigo antes de darlo por listo.\n\nY después no te dejamos solo: queda con soporte.\n\n#Iquique #AltoHospicio #Tarapacá #ByMSolutions #PYME"
+  },
+  {
+    "id": "post-12",
+    "fecha": "2026-09-15",
+    "publicado": false,
+    "plantilla": "declaracion",
+    "kicker": "Hablemos",
+    "titulo": "Cuéntanos qué te complica hoy",
+    "bajada": "Mándanos un mensaje y te decimos si esto te sirve. Sin vueltas.",
+    "texto": "Si llegaste hasta acá viendo nuestro contenido, probablemente algo te hizo sentido 👀\n\nMándanos un mensaje directo y cuéntanos qué es lo que más te complica hoy en tu negocio. Te decimos derechamente si esto te sirve o no.\n\nSin vueltas, sin costo, y si no te sirve te lo decimos igual.\n\n📍 Tarapacá\n\n#Iquique #AltoHospicio #Tarapacá #Almacén #Botillería #Minimarket #NegocioLocal"
   }
 ]
