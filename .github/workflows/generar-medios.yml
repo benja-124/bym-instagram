@@ -1,0 +1,43 @@
+name: Generar reels
+
+on:
+  push:
+    paths:
+      - "medios.py"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  generar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Asegurar ffmpeg
+        run: which ffmpeg || (sudo apt-get update && sudo apt-get install -y ffmpeg)
+
+      - name: Instalar Playwright
+        run: |
+          pip install playwright
+          playwright install --with-deps chromium
+
+      - name: Generar los reels
+        run: python3 medios.py
+
+      - name: Guardar los videos
+        run: |
+          if [ -n "$(git status --porcelain medios/)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add medios/
+            git commit -m "Regenera los reels"
+            git push
+          else
+            echo "Los reels ya estaban al dia."
+          fi
