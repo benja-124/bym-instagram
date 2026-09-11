@@ -1,16 +1,19 @@
 #!/usr/bin/env python3
 """
-Publica en Instagram el post que corresponda a hoy, segun calendario.json.
+Publica en Instagram lo que corresponda segun calendario.json.
 
-Flujo de la API (Instagram API con inicio de sesion de Instagram):
-  1. Se crea un "contenedor" con la URL publica de la imagen y el texto.
-  2. Se espera a que Instagram procese ese contenedor.
-  3. Se publica el contenedor.
+Soporta tres tipos:
+  foto      una imagen de imagenes/
+  carrusel  2 a 10 imagenes en una sola publicacion
+  reel      un video vertical de medios/
 
-Variables de entorno necesarias:
+Flujo de la API (crear "contenedor" -> esperar proceso -> publicar).
+Los videos tardan bastante mas que las imagenes en procesarse.
+
+Variables de entorno:
   IG_TOKEN    token de acceso (secreto de GitHub)
   IG_USER_ID  identificador de la cuenta de Instagram
-  BASE_URL    URL publica donde viven las imagenes (GitHub Pages)
+  BASE_URL    URL publica donde viven los archivos (GitHub Pages)
 """
 import json
 import os
@@ -45,7 +48,7 @@ def llamar(metodo, ruta, params):
         datos = None
     peticion = urllib.request.Request(url, data=datos, method=metodo)
     try:
-        with urllib.request.urlopen(peticion, timeout=60) as r:
+        with urllib.request.urlopen(peticion, timeout=90) as r:
             return json.loads(r.read().decode())
     except urllib.error.HTTPError as e:
         cuerpo = e.read().decode(errors="replace")
@@ -53,31 +56,67 @@ def llamar(metodo, ruta, params):
         raise SystemExit(f"Error {e.code} en {ruta}: {cuerpo}")
 
 
-def crear_contenedor(url_imagen, texto):
-    print(f"  creando contenedor para {url_imagen}")
-    r = llamar("POST", f"{USER_ID}/media",
-               {"image_url": url_imagen, "caption": texto})
-    return r["id"]
-
-
-def esperar_procesado(id_contenedor, intentos=20, espera=5):
-    """Instagram tarda unos segundos en procesar la imagen."""
+def esperar(id_contenedor, intentos=40, espera=6):
+    """Espera a que Instagram termine de procesar. Los videos tardan mas."""
     for i in range(intentos):
         r = llamar("GET", id_contenedor, {"fields": "status_code,status"})
         estado = r.get("status_code")
         if estado == "FINISHED":
-            return True
+            return
         if estado == "ERROR":
-            raise SystemExit(f"  Instagram rechazo la imagen: {r.get('status')}")
+            raise SystemExit(f"  Instagram rechazo el archivo: {r.get('status')}")
         print(f"  procesando... ({estado}, intento {i + 1})")
         time.sleep(espera)
     raise SystemExit("  el contenedor no termino de procesarse a tiempo")
 
 
-def publicar(id_contenedor):
-    r = llamar("POST", f"{USER_ID}/media_publish",
-               {"creation_id": id_contenedor})
-    return r["id"]
+def extras(post):
+    """Parametros opcionales comunes a foto, carrusel y reel."""
+    d = {}
+    if post.get("ubicacion"):
+        d["location_id"] = post["ubicacion"]
+    return d
+
+
+def contenedor_foto(post):
+    url = f"{BASE_URL}/imagenes/{post['id']}.png"
+    print(f"  imagen: {url}")
+    p = {"image_url": url, "caption": post["texto"], **extras(post)}
+    if post.get("alt"):
+        p["alt_text"] = post["alt"]
+    return llamar("POST", f"{USER_ID}/media", p)["id"]
+
+
+def contenedor_carrusel(post):
+    hijos = []
+    for parte in post["partes"]:
+        url = f"{BASE_URL}/imagenes/{parte}.png"
+        print(f"  parte: {url}")
+        r = llamar("POST", f"{USER_ID}/media",
+                   {"image_url": url, "is_carousel_item": "true"})
+        hijos.append(r["id"])
+    for h in hijos:
+        esperar(h, intentos=15, espera=3)
+    p = {"media_type": "CAROUSEL", "children": ",".join(hijos),
+         "caption": post["texto"], **extras(post)}
+    return llamar("POST", f"{USER_ID}/media", p)["id"]
+
+
+def contenedor_reel(post):
+    url = f"{BASE_URL}/medios/{post['id']}.mp4"
+    print(f"  video: {url}")
+    p = {"media_type": "REELS", "video_url": url,
+         "caption": post["texto"], **extras(post)}
+    if post.get("portada"):
+        p["cover_url"] = f"{BASE_URL}/imagenes/{post['portada']}.png"
+    return llamar("POST", f"{USER_ID}/media", p)["id"]
+
+
+CONSTRUCTORES = {
+    "foto": contenedor_foto,
+    "carrusel": contenedor_carrusel,
+    "reel": contenedor_reel,
+}
 
 
 def main():
@@ -88,32 +127,32 @@ def main():
     calendario = json.loads(CALENDARIO.read_text(encoding="utf-8"))
     hoy = date.today().isoformat()
 
-    # El calendario funciona como una fila de espera: se toma el post mas
-    # antiguo que todavia no se publica y cuya fecha ya llego. Asi, si una
-    # ejecucion falla o si un dia tiene mas posts que ejecuciones, nada queda
-    # olvidado: se publica en la siguiente corrida disponible.
+    # El calendario es una fila de espera: se toma el mas antiguo sin publicar
+    # cuya fecha ya llego. Si una corrida falla, la siguiente se pone al dia.
     pendientes = sorted(
         (p for p in calendario
          if not p.get("publicado") and p.get("fecha", "9999") <= hoy),
         key=lambda p: (p.get("fecha", ""), p.get("id", "")))
 
     if not pendientes:
-        print(f"No hay posts pendientes con fecha hasta hoy ({hoy}).")
+        print(f"No hay pendientes con fecha hasta hoy ({hoy}).")
         return
 
-    # Publica de a uno por ejecucion, para espaciar las publicaciones.
     post = pendientes[0]
+    tipo = post.get("tipo", "foto")
+    if tipo not in CONSTRUCTORES:
+        raise SystemExit(f"Tipo desconocido en {post['id']}: {tipo}")
+
     atraso = "" if post["fecha"] == hoy else f" (atrasado desde {post['fecha']})"
-    print(f"Publicando {post['id']}{atraso}. Quedan {len(pendientes) - 1} en fila.")
+    print(f"Publicando {post['id']} [{tipo}]{atraso}. "
+          f"Quedan {len(pendientes) - 1} en fila.")
 
-    url_imagen = f"{BASE_URL}/imagenes/{post['id']}.png"
-    contenedor = crear_contenedor(url_imagen, post["texto"])
-    esperar_procesado(contenedor)
-    id_publicacion = publicar(contenedor)
-
+    contenedor = CONSTRUCTORES[tipo](post)
+    esperar(contenedor)
+    id_publicacion = llamar("POST", f"{USER_ID}/media_publish",
+                            {"creation_id": contenedor})["id"]
     print(f"  publicado. id: {id_publicacion}")
 
-    # Marca como publicado para que no se repita.
     for p in calendario:
         if p["id"] == post["id"]:
             p["publicado"] = True
