@@ -1,43 +1,86 @@
 name: Generar reels
 
+# Primero la locucion (voz.py), despues el video (medios.py).
+# La voz se guarda en el repositorio, asi que solo se vuelve a generar
+# la escena que haya cambiado de texto.
 on:
   push:
     paths:
       - "medios.py"
-  workflow_dispatch: {}
+      - "voz.py"
+      - "guion.json"
+  workflow_dispatch:
+    inputs:
+      rehacer_voz:
+        description: "Volver a generar toda la locucion"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
 
+env:
+  # Se cambia desde Settings > Secrets and variables > Actions > Variables.
+  VOZ_MOTOR: ${{ vars.VOZ_MOTOR || 'kokoro' }}
+  VOZ_KOKORO: ${{ vars.VOZ_KOKORO || 'ef_dora' }}
+  VOZ_PIPER: ${{ vars.VOZ_PIPER || 'es_MX-claude-high' }}
+  VOZ_GOOGLE: ${{ vars.VOZ_GOOGLE || 'es-US-Chirp3-HD-Aoede' }}
+  GOOGLE_TTS_KEY: ${{ secrets.GOOGLE_TTS_KEY }}
+
 jobs:
   generar:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
-      - name: Asegurar ffmpeg
-        run: which ffmpeg || (sudo apt-get update && sudo apt-get install -y ffmpeg)
-
-      - name: Instalar Playwright
+      - name: Dependencias del sistema
         run: |
-          pip install playwright
-          playwright install --with-deps chromium
+          sudo apt-get update
+          sudo apt-get install -y espeak-ng ffmpeg
 
-      - name: Generar los reels
+      - name: Cache de los modelos de voz
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/huggingface
+            _modelos
+          key: voz-${{ env.VOZ_MOTOR }}-v1
+
+      - name: Instalar lo necesario
+        run: |
+          python -m pip install --upgrade pip
+          pip install playwright soundfile numpy
+          playwright install --with-deps chromium
+          case "$VOZ_MOTOR" in
+            kokoro) pip install "kokoro>=0.9.2" ;;
+            piper)  pip install piper-tts ;;
+            google) pip install google-cloud-texttospeech ;;
+          esac
+
+      - name: Generar la locucion
+        run: |
+          if [ "${{ inputs.rehacer_voz }}" = "true" ]; then
+            python3 voz.py --todo
+          else
+            python3 voz.py
+          fi
+
+      - name: Armar los videos
         run: python3 medios.py
 
-      - name: Guardar los videos
+      - name: Guardar la voz y los videos
         run: |
-          if [ -n "$(git status --porcelain medios/)" ]; then
+          if [ -n "$(git status --porcelain voz/ medios/)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add medios/
-            git commit -m "Regenera los reels"
+            git add voz/ medios/
+            git commit -m "Regenera la locucion y los reels"
             git push
           else
-            echo "Los reels ya estaban al dia."
+            echo "Ya estaba todo al dia."
           fi
