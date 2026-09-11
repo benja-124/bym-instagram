@@ -1,0 +1,60 @@
+name: Muestras de voz
+
+# Genera las muestras para comparar motores de voz. Se corre a mano,
+# solo cuando haga falta volver a elegir la voz.
+on:
+  workflow_dispatch: {}
+  push:
+    paths:
+      - "muestras.py"
+
+permissions:
+  contents: write
+
+jobs:
+  muestras:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Dependencias del sistema
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y espeak-ng ffmpeg
+
+      - name: Cache de modelos
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/huggingface
+            _voz
+          key: voz-modelos-v1
+
+      - name: Instalar los motores
+        run: |
+          python -m pip install --upgrade pip
+          pip install soundfile numpy
+          pip install "kokoro>=0.9.2" || echo "kokoro no se pudo instalar"
+          pip install piper-tts || echo "piper no se pudo instalar"
+          pip install torch torchaudio --index-url https://download.pytorch.org/whl/cpu
+          pip install chatterbox-tts || echo "chatterbox no se pudo instalar"
+
+      - name: Generar las muestras
+        run: python3 muestras.py
+
+      - name: Guardar las muestras
+        run: |
+          if [ -n "$(git status --porcelain muestras/)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add muestras/
+            git commit -m "Muestras de voz para comparar"
+            git push
+          else
+            echo "Sin cambios en las muestras."
+          fi
