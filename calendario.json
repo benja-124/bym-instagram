@@ -28,7 +28,7 @@
   {
     "id": "post-03",
     "fecha": "2026-09-11",
-    "publicado": false,
+    "publicado": true,
     "plantilla": "pasos",
     "kicker": "Cómo funciona",
     "titulo": "Así de simple es",
@@ -46,7 +46,8 @@
         "Te avisa cuando algo está por acabarse."
       ]
     ],
-    "texto": "\"Suena complicado\" es lo primero que nos dicen. Y es justo al revés 👇\n\n1️⃣ Anotas lo que entra y sale por WhatsApp, como cualquier mensaje.\n2️⃣ El sistema lleva la cuenta solo.\n3️⃣ Te avisa cuando algo está por acabarse.\n\nEso es todo. No hay que aprender un programa nuevo ni comprar equipos. Si sabes mandar un WhatsApp, sabes usarlo.\n\n#Iquique #AltoHospicio #Tarapacá #Automatización #Almacén #Botillería"
+    "texto": "\"Suena complicado\" es lo primero que nos dicen. Y es justo al revés 👇\n\n1️⃣ Anotas lo que entra y sale por WhatsApp, como cualquier mensaje.\n2️⃣ El sistema lleva la cuenta solo.\n3️⃣ Te avisa cuando algo está por acabarse.\n\nEso es todo. No hay que aprender un programa nuevo ni comprar equipos. Si sabes mandar un WhatsApp, sabes usarlo.\n\n#Iquique #AltoHospicio #Tarapacá #Automatización #Almacén #Botillería",
+    "id_publicacion": "17994850704034028"
   },
   {
     "id": "post-04",
