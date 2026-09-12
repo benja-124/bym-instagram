@@ -160,7 +160,7 @@ function pintar(t){
   }
   var h = '<div class="blob" style="width:820px;height:820px;top:-300px;right:-280px;"></div>';
   h += PLANTILLAS[esc.plantilla](esc.datos, u, esc.fin - esc.inicio);
-  if(u > 0.12 && u < esc.durvoz + 0.30 && esc.sub){
+  if(u > 0.12 && esc.sub){
     h += '<div class="sub">'+esc.sub+'</div>';
   }
   h += '<div class="marca">ByM Solutions</div>';
