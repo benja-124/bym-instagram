@@ -1,5 +1,12 @@
 [
   {
+    "id": "reel-como-funciona",
+    "tipo": "reel",
+    "fecha": "2026-09-11",
+    "publicado": false,
+    "texto": "Inventario automático para almacenes y minimarkets. Le avisas por WhatsApp lo que llega y lo que vendes, y el stock se descuenta solo. Cuando algo está por acabarse, te avisa antes de que te quedes sin.\n\nSin apps nuevas, sin comprar equipos y sin planillas que llenar a mano.\n\nSomos de Iquique y trabajamos con negocios de Tarapacá. Escríbenos por mensaje directo y te mostramos cómo quedaría en el tuyo.\n\n#Iquique #Tarapaca #Almacen #Minimarket"
+  },
+  {
     "id": "post-01",
     "fecha": "2026-09-10",
     "publicado": true,
