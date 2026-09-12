@@ -1,17 +1,28 @@
 #!/usr/bin/env python3
 """
-Genera los reels de ByM Solutions: cuadro por cuadro con Playwright,
-armado con ffmpeg, y musica de fondo sintetizada aca mismo (sin licencias
-de terceros). Salida: medios/<id>.mp4
+Arma los reels de ByM Solutions.
+
+La duracion de cada escena sale del audio: voz.py deja un wav por escena
+y un tiempos.json con lo que dura cada una, y aca se dibuja exactamente
+ese tiempo. Asi la imagen, el subtitulo y la voz nunca se desfasan.
+
+Cuadro por cuadro con Playwright, armado con ffmpeg. La musica de fondo
+se sintetiza aca mismo, sin licencias de terceros.
+
+Uso:  python3 medios.py                     arma todos los reels
+      python3 medios.py reel-como-funciona  arma solo uno
 """
 import asyncio
+import json
 import pathlib
 import subprocess
+import sys
 
 from playwright.async_api import async_playwright
 
 BASE = pathlib.Path(__file__).parent
 FONTS = BASE / "fonts"
+VOZ = BASE / "voz"
 OUT = BASE / "medios"
 TMP = BASE / "_cuadros"
 OUT.mkdir(exist_ok=True)
@@ -34,7 +45,7 @@ body{{width:{W}px;height:{H}px;background:{AZUL};font-family:'P',sans-serif;
 .blob{{position:absolute;border-radius:50%;background:{AMBAR};opacity:.14;}}
 .kick{{font-size:40px;font-weight:800;letter-spacing:4px;text-transform:uppercase;
   color:{AMBAR};margin-bottom:36px;}}
-.tit{{font-size:118px;font-weight:800;line-height:1.03;color:#fff;letter-spacing:-3px;}}
+.tit{{font-size:112px;font-weight:800;line-height:1.04;color:#fff;letter-spacing:-3px;}}
 .burb{{max-width:660px;padding:38px 46px;border-radius:40px;font-size:46px;
   font-weight:500;line-height:1.3;margin-bottom:30px;}}
 .ent{{background:#fff;color:{AZUL};border-bottom-left-radius:12px;align-self:flex-start;}}
@@ -51,89 +62,168 @@ body{{width:{W}px;height:{H}px;background:{AZUL};font-family:'P',sans-serif;
 .barra i{{display:block;height:100%;border-radius:16px;}}
 .pnom{{font-size:38px;font-weight:600;color:#fff;width:270px;}}
 .pval{{font-size:38px;font-weight:800;color:{AMBAR};width:90px;text-align:right;}}
+.nro{{font-size:150px;font-weight:800;color:{AMBAR};line-height:.9;
+  letter-spacing:-6px;margin-bottom:20px;}}
+.cap{{font-size:88px;font-weight:800;color:#fff;line-height:1.08;letter-spacing:-2px;}}
+.det{{font-size:48px;font-weight:500;color:rgba(255,255,255,.78);
+  line-height:1.35;margin-top:34px;}}
+.pill{{display:inline-block;background:{AMBAR};color:{AZUL};border-radius:100px;
+  padding:20px 42px;font-size:40px;font-weight:800;letter-spacing:2px;
+  text-transform:uppercase;}}
 .marca{{position:absolute;bottom:110px;left:96px;font-size:40px;font-weight:800;
   color:{AMBAR};letter-spacing:1px;}}
 .sub{{position:absolute;bottom:230px;left:96px;right:96px;text-align:center;
-  font-size:44px;font-weight:600;color:#fff;text-shadow:0 3px 18px rgba(0,0,0,.6);}}
+  font-size:44px;font-weight:700;color:#fff;line-height:1.25;
+  text-shadow:0 3px 18px rgba(0,0,0,.65);}}
 """
 
-# Guion del reel. El gancho arranca con movimiento inmediato: segun los datos
-# hay que mover algo en el primer segundo y medio o la gente se va.
+# Las escenas se inyectan como JSON en __ESCENAS__.
 JS = """
-function ease(t){return t<0?0:t>1?1:1-Math.pow(1-t,3);}
-function seg(t,a,b){return ease((t-a)/(b-a));}
-function sub(txt,t,a,b){return (t>=a&&t<b)?'<div class="sub">'+txt+'</div>':'';}
-function pintar(t){
-  var E=document.getElementById('e');
-  var h='<div class="blob" style="width:820px;height:820px;top:-300px;right:-280px;"></div>';
-  if(t<2.2){
-    var o=seg(t,0.0,0.45), s=seg(t,0.0,0.7);
-    h+='<div style="opacity:'+o+';transform:translateY('+((1-s)*60)+'px) scale('+(0.94+0.06*s)+')">'
-      +'<div class="kick">Así funciona</div>'
-      +'<div class="tit">Tu stock se<br>descuenta solo</div></div>';
-    h+=sub('Tu stock se descuenta solo',t,0.5,2.2);
-  }
-  else if(t<5.6){
-    var a=seg(t,2.3,2.8), b=seg(t,3.3,3.8), c=seg(t,4.4,4.9);
-    h+='<div style="display:flex;flex-direction:column;">'
-      +'<div class="burb ent" style="opacity:'+a+';transform:translateY('+((1-a)*30)+'px)">Llegaron 24 cervezas</div>'
-      +'<div class="burb sal" style="opacity:'+b+';transform:translateY('+((1-b)*30)+'px)">Anotado. Quedan 48 en total.</div>'
-      +'<div class="burb ent" style="opacity:'+c+';transform:translateY('+((1-c)*30)+'px)">Vendí 40 hoy</div></div>';
-    h+=sub('Avisas por mensaje, como siempre',t,2.4,5.6);
-  }
-  else if(t<8.2){
-    var p=seg(t,5.9,7.3), o2=seg(t,5.8,6.2);
-    var n=Math.round(48-(48-8)*p);
-    h+='<div class="tarj" style="opacity:'+o2+'">'
-      +'<div class="lab">Cerveza 350 ml</div>'
-      +'<div class="num">'+n+'</div>'
-      +'<div class="lab">unidades en bodega</div></div>';
-    h+=sub('El sistema lleva la cuenta',t,5.9,8.2);
-  }
-  else if(t<10.6){
-    var o3=seg(t,8.3,8.7), k=1+0.03*Math.sin(t*9);
-    h+='<div class="alerta" style="opacity:'+o3+';transform:scale('+(o3*k)+')">'
-      +'<div style="font-size:40px;font-weight:800;letter-spacing:3px;text-transform:uppercase;margin-bottom:22px;">Alerta</div>'
-      +'<div style="font-size:62px;font-weight:800;line-height:1.15;">Quedan 8 cervezas.<br>Hora de pedir.</div></div>';
-    h+=sub('Te avisa antes de que se acabe',t,8.4,10.6);
-  }
-  else{
-    var o4=seg(t,10.7,11.1);
-    var prods=[['Cerveza',8,16,'#F2994A'],['Bebidas',34,70,'#7FB7E8'],
-               ['Snacks',52,100,'#7FE8B0'],['Cigarros',21,45,'#F2994A']];
-    var f='';
-    for(var i=0;i<prods.length;i++){
-      var pr=prods[i];
-      var g=seg(t,10.9+i*0.10,11.6+i*0.10);
-      f+='<div class="fila" style="opacity:'+seg(t,10.8+i*0.10,11.2+i*0.10)+'">'
-        +'<div class="pnom">'+pr[0]+'</div>'
-        +'<div class="barra"><i style="width:'+((pr[1]/pr[2])*100*g)+'%;background:'+pr[3]+'"></i></div>'
-        +'<div class="pval">'+pr[1]+'</div></div>';
+var ESC = __ESCENAS__;
+
+function ease(t){ return t<0?0 : t>1?1 : 1-Math.pow(1-t,3); }
+function seg(t,a,b){ return ease((t-a)/(b-a)); }
+
+var PLANTILLAS = {
+
+  gancho: function(d,u){
+    var o=seg(u,0,0.45), s=seg(u,0,0.7);
+    return '<div style="opacity:'+o+';transform:translateY('+((1-s)*60)+'px) scale('+(0.94+0.06*s)+')">'
+      + '<div class="kick">'+d.kicker+'</div>'
+      + '<div class="tit">'+d.titulo+'</div></div>';
+  },
+
+  chat: function(d,u,dur){
+    var paso = Math.max(0.55, (dur-0.5)/d.mensajes.length);
+    var h = '<div style="display:flex;flex-direction:column;">';
+    for(var i=0;i<d.mensajes.length;i++){
+      var a = seg(u, i*paso, i*paso+0.45);
+      h += '<div class="burb '+d.mensajes[i][0]+'" style="opacity:'+a
+         + ';transform:translateY('+((1-a)*30)+'px)">'+d.mensajes[i][1]+'</div>';
     }
-    h+='<div style="opacity:'+o4+'"><div class="kick">Tu bodega, siempre al día</div>'+f+'</div>';
-    h+=sub('Todo tu inventario, en un vistazo',t,10.9,13.0);
+    return h+'</div>';
+  },
+
+  contador: function(d,u,dur){
+    var o = seg(u,0,0.35);
+    var p = seg(u, 0.3, Math.max(0.9, dur-0.5));
+    var n = Math.round(d.desde - (d.desde-d.hasta)*p);
+    return '<div class="tarj" style="opacity:'+o+'">'
+      + '<div class="lab">'+d.arriba+'</div>'
+      + '<div class="num">'+n+'</div>'
+      + '<div class="lab">'+d.abajo+'</div></div>';
+  },
+
+  alerta: function(d,u){
+    var o = seg(u,0,0.35), k = 1+0.03*Math.sin(u*9);
+    return '<div class="alerta" style="opacity:'+o+';transform:scale('+(o*k)+')">'
+      + '<div style="font-size:40px;font-weight:800;letter-spacing:3px;'
+      + 'text-transform:uppercase;margin-bottom:22px;">'+d.etiqueta+'</div>'
+      + '<div style="font-size:62px;font-weight:800;line-height:1.15;">'+d.texto+'</div></div>';
+  },
+
+  tablero: function(d,u){
+    var o = seg(u,0,0.35), f = '';
+    for(var i=0;i<d.filas.length;i++){
+      var r = d.filas[i];
+      var g = seg(u, 0.2+i*0.10, 0.9+i*0.10);
+      f += '<div class="fila" style="opacity:'+seg(u,0.15+i*0.10,0.5+i*0.10)+'">'
+         + '<div class="pnom">'+r[0]+'</div>'
+         + '<div class="barra"><i style="width:'+((r[1]/r[2])*100*g)+'%;background:'+r[3]+'"></i></div>'
+         + '<div class="pval">'+r[1]+'</div></div>';
+    }
+    return '<div style="opacity:'+o+'"><div class="kick">'+d.kicker+'</div>'+f+'</div>';
+  },
+
+  capacidad: function(d,u){
+    var o = seg(u,0,0.45), s = seg(u,0,0.75);
+    return '<div style="opacity:'+o+';transform:translateY('+((1-s)*50)+'px)">'
+      + '<div class="nro">'+d.n+'</div>'
+      + '<div class="cap">'+d.titulo+'</div>'
+      + '<div class="det">'+d.detalle+'</div></div>';
+  },
+
+  cierre: function(d,u){
+    var o = seg(u,0,0.45);
+    return '<div style="opacity:'+o+'">'
+      + '<div class="pill">'+d.pill+'</div>'
+      + '<div class="tit" style="margin-top:46px;">'+d.titulo+'</div>'
+      + '<div class="det">'+d.detalle+'</div></div>';
   }
-  h+='<div class="marca">ByM Solutions</div>';
-  E.innerHTML=h;
+};
+
+function pintar(t){
+  var E = document.getElementById('e');
+  var esc = ESC[ESC.length-1], u = esc.fin - esc.inicio;
+  for(var i=0;i<ESC.length;i++){
+    if(t >= ESC[i].inicio && t < ESC[i].fin){ esc = ESC[i]; u = t - ESC[i].inicio; break; }
+  }
+  var h = '<div class="blob" style="width:820px;height:820px;top:-300px;right:-280px;"></div>';
+  h += PLANTILLAS[esc.plantilla](esc.datos, u, esc.fin - esc.inicio);
+  if(u > 0.12 && u < esc.durvoz + 0.30 && esc.sub){
+    h += '<div class="sub">'+esc.sub+'</div>';
+  }
+  h += '<div class="marca">ByM Solutions</div>';
+  E.innerHTML = h;
 }
 """
 
 
-async def cuadros(dur):
-    TMP.mkdir(exist_ok=True)
+def linea_de_tiempo(tiempos):
+    """Convierte las duraciones del audio en escenas con inicio y fin."""
+    escenas, reloj = [], 0.0
+    for e in tiempos["escenas"]:
+        largo = e["dur"] + e["pausa"]
+        escenas.append({"plantilla": e["plantilla"], "datos": e["datos"],
+                        "sub": e["sub"], "durvoz": e["dur"],
+                        "inicio": round(reloj, 3),
+                        "fin": round(reloj + largo, 3)})
+        reloj += largo
+    return escenas, round(reloj, 3)
+
+
+async def cuadros(escenas, dur, tmp):
+    tmp.mkdir(exist_ok=True, parents=True)
     total = int(dur * FPS)
+    js = JS.replace("__ESCENAS__", json.dumps(escenas, ensure_ascii=False))
     async with async_playwright() as p:
         b = await p.chromium.launch(args=["--font-render-hinting=none"])
         pg = await b.new_page(viewport={"width": W, "height": H})
         await pg.set_content(
-            f"<html><head><style>{CSS}</style></head><body><div id='e'></div>"
-            f"<script>{JS}</script></body></html>")
-        await pg.wait_for_timeout(400)
+            f"<html><head><meta charset='utf-8'><style>{CSS}</style></head>"
+            f"<body><div id='e'></div><script>{js}</script></body></html>")
+        await pg.wait_for_timeout(500)
         for i in range(total):
             await pg.evaluate(f"pintar({i / FPS})")
-            await pg.screenshot(path=str(TMP / f"f{i:04d}.png"))
+            await pg.screenshot(path=str(tmp / f"f{i:04d}.png"))
         await b.close()
     print(f"  {total} cuadros")
+    return total
+
+
+def locucion(carpeta, tiempos, destino):
+    """Pega las escenas habladas con su pausa detras de cada una."""
+    lista = carpeta / "_lista.txt"
+    partes = []
+    for e in tiempos["escenas"]:
+        origen = carpeta / f"{e['id']}.wav"
+        pieza = carpeta / f"_p_{e['id']}.wav"
+        subprocess.run([
+            "ffmpeg", "-y", "-hide_banner", "-loglevel", "error",
+            "-i", str(origen), "-af", f"apad=pad_dur={e['pausa']}",
+            "-t", str(e["dur"] + e["pausa"]), "-ar", "44100", "-ac", "1",
+            str(pieza)], check=True)
+        partes.append(pieza)
+    lista.write_text("".join(f"file '{p.name}'\n" for p in partes),
+                     encoding="utf-8")
+    subprocess.run([
+        "ffmpeg", "-y", "-hide_banner", "-loglevel", "error",
+        "-f", "concat", "-safe", "0", "-i", str(lista),
+        "-c:a", "pcm_s16le", "-ar", "44100", "-ac", "1", str(destino)],
+        check=True, cwd=str(carpeta))
+    for p in partes:
+        p.unlink()
+    lista.unlink()
 
 
 def musica(dur, ruta):
@@ -150,31 +240,77 @@ def musica(dur, ruta):
         "[a][b][c]amix=inputs=3:normalize=0,aecho=0.8:0.9:120:0.25,"
         "highpass=f=90,lowpass=f=2600,"
         f"afade=t=in:st=0:d=1.5,afade=t=out:st={dur-1.5}:d=1.5,volume=0.7[o]",
-        "-map", "[o]", "-c:a", "aac", "-b:a", "128k", str(ruta)], check=True)
+        "-map", "[o]", "-c:a", "pcm_s16le", "-ar", "44100", str(ruta)],
+        check=True)
 
 
-def armar(ident, dur):
-    aud = TMP / "pad.m4a"
-    musica(dur, aud)
+def mezclar(voz_wav, mus_wav, destino):
+    """La musica queda de fondo y baja sola cuando hay voz."""
+    entradas = ["-i", str(mus_wav)]
+    if voz_wav is not None:
+        entradas = ["-i", str(voz_wav), "-i", str(mus_wav)]
+        filtro = ("[1]volume=0.30[m];"
+                  "[m][0]sidechaincompress=threshold=0.04:ratio=9:"
+                  "attack=15:release=320[md];"
+                  "[0][md]amix=inputs=2:normalize=0,"
+                  "loudnorm=I=-14:TP=-1.5:LRA=11[o]")
+    else:
+        filtro = "[0]volume=0.8,loudnorm=I=-16:TP=-1.5:LRA=11[o]"
+    subprocess.run(["ffmpeg", "-y", "-hide_banner", "-loglevel", "error",
+                    *entradas, "-filter_complex", filtro, "-map", "[o]",
+                    "-c:a", "aac", "-b:a", "160k", str(destino)], check=True)
+
+
+def armar(ident, dur, tmp, audio):
     salida = OUT / f"{ident}.mp4"
     subprocess.run([
         "ffmpeg", "-y", "-hide_banner", "-loglevel", "error",
-        "-framerate", str(FPS), "-i", str(TMP / "f%04d.png"),
-        "-i", str(aud), "-map", "0:v", "-map", "1:a", "-shortest",
+        "-framerate", str(FPS), "-i", str(tmp / "f%04d.png"),
+        "-i", str(audio), "-map", "0:v", "-map", "1:a", "-shortest",
         "-c:v", "libx264", "-preset", "medium", "-crf", "21",
         "-pix_fmt", "yuv420p", "-r", "30",
-        "-c:a", "aac", "-b:a", "128k",
+        "-c:a", "aac", "-b:a", "160k",
         "-movflags", "+faststart", str(salida)], check=True)
-    print(f"  {salida.name} listo")
+    print(f"  {salida.name} listo ({dur:.1f}s)")
+
+
+async def hacer(reel):
+    carpeta = VOZ / reel
+    archivo = carpeta / "tiempos.json"
+    if not archivo.exists():
+        print(f"{reel}: falta la locucion. Corre voz.py primero.")
+        return
+    tiempos = json.loads(archivo.read_text(encoding="utf-8"))
+    escenas, dur = linea_de_tiempo(tiempos)
+    print(f"{reel} ({dur:.1f}s, voz: {tiempos.get('motor', '?')})")
+
+    tmp = TMP / reel
+    await cuadros(escenas, dur, tmp)
+
+    voz_wav = carpeta / "_locucion.wav"
+    locucion(carpeta, tiempos, voz_wav)
+    mus_wav = carpeta / "_musica.wav"
+    musica(dur, mus_wav)
+    audio = carpeta / "_audio.m4a"
+    mezclar(voz_wav, mus_wav, audio)
+
+    armar(reel, dur, tmp, audio)
+
+    for f in tmp.glob("*.png"):
+        f.unlink()
+    for f in (voz_wav, mus_wav, audio):
+        f.unlink(missing_ok=True)
 
 
 async def main():
-    ident, dur = "reel-como-funciona", 13.0
-    print(f"Generando {ident} ({dur}s)")
-    await cuadros(dur)
-    armar(ident, dur)
-    for f in TMP.glob("*.png"):
-        f.unlink()
+    pedidos = [a for a in sys.argv[1:] if not a.startswith("-")]
+    if not pedidos:
+        if not VOZ.exists():
+            print("No hay locucion todavia. Corre voz.py primero.")
+            return
+        pedidos = sorted(d.name for d in VOZ.iterdir() if d.is_dir())
+    for reel in pedidos:
+        await hacer(reel)
 
 
 if __name__ == "__main__":
