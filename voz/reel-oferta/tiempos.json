@@ -1,0 +1,76 @@
+{
+  "motor": "kokoro",
+  "escenas": [
+    {
+      "id": "s1",
+      "dur": 2.225,
+      "pausa": 0.45,
+      "plantilla": "gancho",
+      "datos": {
+        "kicker": "Para tu negocio",
+        "titulo": "Esto es lo que<br>puedes tener"
+      },
+      "sub": "Esto es lo que tu negocio puede tener"
+    },
+    {
+      "id": "s2",
+      "dur": 4.917,
+      "pausa": 0.4,
+      "plantilla": "capacidad",
+      "datos": {
+        "n": "01",
+        "titulo": "Inventario que<br>se lleva solo",
+        "detalle": "Cada venta se descuenta sola. Sin contar a mano."
+      },
+      "sub": "Tu inventario se descuenta solo"
+    },
+    {
+      "id": "s3",
+      "dur": 2.704,
+      "pausa": 0.4,
+      "plantilla": "capacidad",
+      "datos": {
+        "n": "02",
+        "titulo": "Alertas antes<br>de quedarte sin",
+        "detalle": "Te avisamos cuando algo está por acabarse."
+      },
+      "sub": "Te avisa antes de que se acabe"
+    },
+    {
+      "id": "s4",
+      "dur": 4.565,
+      "pausa": 0.4,
+      "plantilla": "capacidad",
+      "datos": {
+        "n": "03",
+        "titulo": "Pedidos que<br>salen solos",
+        "detalle": "La orden al proveedor se arma automáticamente."
+      },
+      "sub": "Los pedidos salen automáticamente"
+    },
+    {
+      "id": "s5",
+      "dur": 4.172,
+      "pausa": 0.4,
+      "plantilla": "capacidad",
+      "datos": {
+        "n": "04",
+        "titulo": "Un asistente<br>que responde",
+        "detalle": "Contesta a tus clientes las 24 horas del día."
+      },
+      "sub": "Un asistente responde 24 horas"
+    },
+    {
+      "id": "s6",
+      "dur": 3.291,
+      "pausa": 0.8,
+      "plantilla": "cierre",
+      "datos": {
+        "pill": "Todo por WhatsApp",
+        "titulo": "Sin apps nuevas.<br>Sin equipos.",
+        "detalle": "ByM Solutions &middot; Tarapacá"
+      },
+      "sub": "Todo por WhatsApp, sin apps nuevas"
+    }
+  ]
+}

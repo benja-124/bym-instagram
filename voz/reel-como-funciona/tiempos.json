@@ -1,0 +1,111 @@
+{
+  "motor": "kokoro",
+  "escenas": [
+    {
+      "id": "s1",
+      "dur": 1.73,
+      "pausa": 0.45,
+      "plantilla": "gancho",
+      "datos": {
+        "kicker": "Así funciona",
+        "titulo": "Tu stock se<br>descuenta solo"
+      },
+      "sub": "Tu stock se descuenta solo"
+    },
+    {
+      "id": "s2",
+      "dur": 4.222,
+      "pausa": 0.4,
+      "plantilla": "chat",
+      "datos": {
+        "mensajes": [
+          [
+            "ent",
+            "Llegaron 24 cervezas"
+          ],
+          [
+            "sal",
+            "Anotado. Quedan 48 en total."
+          ],
+          [
+            "ent",
+            "Vendí 40 hoy"
+          ]
+        ]
+      },
+      "sub": "Avisas por mensaje, como siempre"
+    },
+    {
+      "id": "s3",
+      "dur": 2.379,
+      "pausa": 0.4,
+      "plantilla": "contador",
+      "datos": {
+        "arriba": "Cerveza 350 ml",
+        "desde": 48,
+        "hasta": 8,
+        "abajo": "unidades en bodega"
+      },
+      "sub": "El sistema lleva la cuenta"
+    },
+    {
+      "id": "s4",
+      "dur": 1.892,
+      "pausa": 0.4,
+      "plantilla": "alerta",
+      "datos": {
+        "etiqueta": "Alerta",
+        "texto": "Quedan 8 cervezas.<br>Hora de pedir."
+      },
+      "sub": "Te avisa antes de que se acabe"
+    },
+    {
+      "id": "s5",
+      "dur": 2.052,
+      "pausa": 0.4,
+      "plantilla": "tablero",
+      "datos": {
+        "kicker": "Tu bodega, siempre al día",
+        "filas": [
+          [
+            "Cerveza",
+            8,
+            16,
+            "#F2994A"
+          ],
+          [
+            "Bebidas",
+            34,
+            70,
+            "#7FB7E8"
+          ],
+          [
+            "Snacks",
+            52,
+            100,
+            "#7FE8B0"
+          ],
+          [
+            "Cigarros",
+            21,
+            45,
+            "#F2994A"
+          ]
+        ]
+      },
+      "sub": "Todo tu inventario, en un vistazo"
+    },
+    {
+      "id": "s6",
+      "dur": 3.504,
+      "pausa": 0.8,
+      "plantilla": "cierre",
+      "datos": {
+        "pill": "Todo por WhatsApp",
+        "titulo": "Sin apps nuevas.<br>Sin equipos.",
+        "detalle": "ByM Solutions &middot; Tarapacá"
+      },
+      "sub": "Escríbenos por mensaje directo"
+    }
+  ]
+}
