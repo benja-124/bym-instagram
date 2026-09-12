@@ -52,12 +52,13 @@
   {
     "id": "post-04",
     "fecha": "2026-09-11",
-    "publicado": false,
+    "publicado": true,
     "plantilla": "declaracion",
     "kicker": "El cuaderno",
     "titulo": "El cuaderno solo lo entiendes tú",
     "bajada": "Y el día que no estás, nadie sabe qué falta ni cuánto queda.",
-    "texto": "El cuaderno funciona… hasta que no 📓\n\nSe moja. Se pierde una hoja. La letra la entiendes solo tú. Y el día que no puedes ir al local, nadie sabe qué falta ni cuánto queda.\n\nNo es que el cuaderno esté mal. Es que tu negocio ya creció más que él.\n\n#Iquique #Tarapacá #Almacén #Minimarket #Botillería #NegocioLocal"
+    "texto": "El cuaderno funciona… hasta que no 📓\n\nSe moja. Se pierde una hoja. La letra la entiendes solo tú. Y el día que no puedes ir al local, nadie sabe qué falta ni cuánto queda.\n\nNo es que el cuaderno esté mal. Es que tu negocio ya creció más que él.\n\n#Iquique #Tarapacá #Almacén #Minimarket #Botillería #NegocioLocal",
+    "id_publicacion": "17966194638179196"
   },
   {
     "id": "post-05",
