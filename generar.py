@@ -145,6 +145,9 @@ async def render(posts):
 
 if __name__ == "__main__":
     posts = json.loads((BASE / "calendario.json").read_text(encoding="utf-8"))
-    print(f"Generando {len(posts)} graficas...")
-    asyncio.run(render(posts))
+    # Los reels no llevan grafica: los arma medios.py. Aca solo van las
+    # entradas que tienen plantilla de imagen.
+    graficas = [p for p in posts if p.get("plantilla")]
+    print(f"Generando {len(graficas)} graficas...")
+    asyncio.run(render(graficas))
     print(f"Listo. Carpeta: {OUT}")
