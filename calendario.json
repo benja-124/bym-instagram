@@ -86,12 +86,13 @@
   {
     "id": "post-06",
     "fecha": "2026-09-12",
-    "publicado": false,
+    "publicado": true,
     "plantilla": "declaracion",
     "kicker": "Sin comprar nada",
     "titulo": "No necesitas comprar ningún equipo",
     "bajada": "Ni lector de códigos, ni computador, ni sistema caro. Solo WhatsApp.",
-    "texto": "Una duda que nos llega siempre: \"¿tengo que comprar un computador o una máquina?\" 🤔\n\nNo. Nada.\n\nNi lector de códigos de barra, ni caja registradora nueva, ni un sistema caro con licencia mensual. Todo funciona con el WhatsApp que ya tienes en el teléfono que ya usas.\n\nEsa es justamente la idea: que la solución sea más simple que el problema.\n\n#Iquique #AltoHospicio #Tarapacá #Automatización #PYME #Almacén"
+    "texto": "Una duda que nos llega siempre: \"¿tengo que comprar un computador o una máquina?\" 🤔\n\nNo. Nada.\n\nNi lector de códigos de barra, ni caja registradora nueva, ni un sistema caro con licencia mensual. Todo funciona con el WhatsApp que ya tienes en el teléfono que ya usas.\n\nEsa es justamente la idea: que la solución sea más simple que el problema.\n\n#Iquique #AltoHospicio #Tarapacá #Automatización #PYME #Almacén",
+    "id_publicacion": "18020500967875596"
   },
   {
     "id": "post-07",
