@@ -63,7 +63,7 @@
   {
     "id": "post-05",
     "fecha": "2026-09-12",
-    "publicado": false,
+    "publicado": true,
     "plantilla": "lista",
     "kicker": "Pregúntate esto",
     "titulo": "3 preguntas que quizás no puedes responder",
@@ -72,7 +72,8 @@
       "¿Cuánto stock tienes ahora mismo, exacto?",
       "¿Qué se vende más los fines de semana?"
     ],
-    "texto": "Tres preguntas simples sobre tu propio negocio 👇\n\n¿Cuál es el producto que más plata te deja? (Ojo: no es el que más vendes, es el que deja mejor margen.)\n\n¿Cuánto stock tienes ahora mismo, exacto, sin ir a contar?\n\n¿Qué se vende más los fines de semana que entre semana?\n\nSi dudaste en alguna, no es porque no conozcas tu negocio. Es porque esa información existe, pero nadie la está juntando.\n\n#Iquique #Tarapacá #Almacén #Minimarket #GestiónDeNegocios"
+    "texto": "Tres preguntas simples sobre tu propio negocio 👇\n\n¿Cuál es el producto que más plata te deja? (Ojo: no es el que más vendes, es el que deja mejor margen.)\n\n¿Cuánto stock tienes ahora mismo, exacto, sin ir a contar?\n\n¿Qué se vende más los fines de semana que entre semana?\n\nSi dudaste en alguna, no es porque no conozcas tu negocio. Es porque esa información existe, pero nadie la está juntando.\n\n#Iquique #Tarapacá #Almacén #Minimarket #GestiónDeNegocios",
+    "id_publicacion": "17906410785490806"
   },
   {
     "id": "post-06",
