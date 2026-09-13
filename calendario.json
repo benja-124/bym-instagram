@@ -207,7 +207,7 @@
     "id": "car-01",
     "tipo": "carrusel",
     "fecha": "2026-09-13",
-    "publicado": false,
+    "publicado": true,
     "texto": "5 errores de control de inventario que cometen los almacenes y minimarkets de Iquique, y qué hacer con cada uno.\n\nNinguno es por desordenado. Son errores que aparecen solos cuando el stock se lleva a mano y el día no da para más.\n\nGuárdalo y cuéntame en los comentarios cuántos de los cinco reconociste. El tercero es el más común de lejos.\n\nComenta STOCK y te mando por privado cómo se vería resuelto en tu negocio.\n\n#Iquique #AltoHospicio #Almacen",
     "laminas": [
       {
@@ -326,7 +326,8 @@
         "bajada": "Te muestro cómo se vería en tu negocio."
       }
     ],
-    "hora": "19:00"
+    "hora": "19:00",
+    "id_publicacion": "18078846971358961"
   },
   {
     "id": "car-02",
@@ -464,10 +465,11 @@
     "id": "reel-errores",
     "tipo": "reel",
     "fecha": "2026-09-13",
-    "publicado": false,
+    "publicado": true,
     "portada": "reel-errores-portada",
     "texto": "3 errores de control de inventario que cometen casi todos los almacenes y minimarkets de Iquique.\n\nNinguno es por desordenado: aparecen solos cuando el stock se lleva de memoria y el día no da para más.\n\nComenta STOCK y te cuento cómo se arreglan los tres a la vez.\n\n#Iquique #AltoHospicio #Almacen",
-    "hora": "13:00"
+    "hora": "13:00",
+    "id_publicacion": "18251011846307849"
   },
   {
     "id": "reel-domingo",
