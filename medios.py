@@ -34,14 +34,14 @@ AZUL, AMBAR = "#0B3B5C", "#F2994A"
 W, H, FPS = 1080, 1920, 20
 
 CSS = f"""
-@font-face{{font-family:'P';font-weight:800;
+@font-face{{font-family:'Poppins';font-weight:800;
   src:url('file://{FONTS}/Poppins-ExtraBold.ttf') format('truetype');}}
-@font-face{{font-family:'P';font-weight:600;
+@font-face{{font-family:'Poppins';font-weight:600;
   src:url('file://{FONTS}/Poppins-SemiBold.ttf') format('truetype');}}
-@font-face{{font-family:'P';font-weight:500;
+@font-face{{font-family:'Poppins';font-weight:500;
   src:url('file://{FONTS}/Poppins-Medium.ttf') format('truetype');}}
 *{{margin:0;padding:0;box-sizing:border-box;}}
-body{{width:{W}px;height:{H}px;background:{AZUL};font-family:'P',sans-serif;
+body{{width:{W}px;height:{H}px;background:{AZUL};font-family:'Poppins',sans-serif;
   -webkit-font-smoothing:antialiased;overflow:hidden;}}
 #e{{width:{W}px;height:{H}px;position:relative;overflow:hidden;padding:0 96px;
   display:flex;flex-direction:column;justify-content:center;}}
