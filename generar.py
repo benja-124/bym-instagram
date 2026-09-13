@@ -96,12 +96,16 @@ def tpl_lista(d):
 def tpl_pasos(d):
     """Bloque ambar arriba, pasos en tarjetas abajo. Para explicar como funciona algo."""
     filas = ""
-    for i, (ic, t) in enumerate(d['pasos'], 1):
+    for paso in d['pasos']:
+        # Cada paso es [icono, texto] o [icono, texto, color]. Sin color va
+        # ambar, que es como quedaron los posts anteriores.
+        ic, t = paso[0], paso[1]
+        fondo = paso[2] if len(paso) > 2 else AMBAR
         filas += f"""
         <div style="display:flex;gap:28px;align-items:center;
           background:rgba(255,255,255,.09);border:2px solid rgba(255,255,255,.20);
           border-radius:30px;padding:42px 38px;margin-bottom:30px;">
-          <div style="width:92px;height:92px;border-radius:24px;background:{AMBAR};
+          <div style="width:92px;height:92px;border-radius:24px;background:{fondo};
             display:flex;align-items:center;justify-content:center;flex-shrink:0;
             font-size:48px;font-weight:800;color:{AZUL};">{ic}</div>
           <div style="font-size:40px;font-weight:600;line-height:1.3;

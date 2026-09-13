@@ -1,160 +1,328 @@
 {
-  "reel-como-funciona": {
-    "titulo": "Como funciona el inventario automatico",
-    "escenas": [
-      {
-        "id": "s1",
-        "plantilla": "gancho",
-        "voz": "Tu stock se descuenta solo.",
-        "sub": "Tu stock se descuenta solo",
-        "pausa": 0.45,
-        "datos": {
-          "kicker": "Así funciona",
-          "titulo": "Tu stock se<br>descuenta solo"
-        }
-      },
-      {
-        "id": "s2",
-        "plantilla": "chat",
-        "voz": "Avisas por mensaje, igual que siempre. Llegaron veinticuatro cervezas.",
-        "sub": "Avisas por mensaje, como siempre",
-        "pausa": 0.4,
-        "datos": {
-          "mensajes": [
-            ["ent", "Llegaron 24 cervezas"],
-            ["sal", "Anotado. Quedan 48 en total."],
-            ["ent", "Vendí 40 hoy"]
-          ]
-        }
-      },
-      {
-        "id": "s3",
-        "plantilla": "contador",
-        "voz": "Y el sistema lleva la cuenta al instante.",
-        "sub": "El sistema lleva la cuenta",
-        "pausa": 0.4,
-        "datos": {
-          "arriba": "Cerveza 350 ml",
-          "desde": 48,
-          "hasta": 8,
-          "abajo": "unidades en bodega"
-        }
-      },
-      {
-        "id": "s4",
-        "plantilla": "alerta",
-        "voz": "Te avisa antes de que se acabe.",
-        "sub": "Te avisa antes de que se acabe",
-        "pausa": 0.4,
-        "datos": {
-          "etiqueta": "Alerta",
-          "texto": "Quedan 8 cervezas.<br>Hora de pedir."
-        }
-      },
-      {
-        "id": "s5",
-        "plantilla": "tablero",
-        "voz": "Todo tu inventario, en un vistazo.",
-        "sub": "Todo tu inventario, en un vistazo",
-        "pausa": 0.4,
-        "datos": {
-          "kicker": "Tu bodega, siempre al día",
-          "filas": [
-            ["Cerveza", 8, 16, "#F2994A"],
-            ["Bebidas", 34, 70, "#7FB7E8"],
-            ["Snacks", 52, 100, "#7FE8B0"],
-            ["Cigarros", 21, 45, "#F2994A"]
-          ]
-        }
-      },
-      {
-        "id": "s6",
-        "plantilla": "cierre",
-        "voz": "ByM Solutions. Automatización para negocios de Tarapacá.",
-        "sub": "Escríbenos por mensaje directo",
-        "pausa": 0.8,
-        "datos": {
-          "pill": "Todo por WhatsApp",
-          "titulo": "Sin apps nuevas.<br>Sin equipos.",
-          "detalle": "ByM Solutions &middot; Tarapacá"
-        }
-      }
-    ]
-  },
-  "reel-oferta": {
-    "titulo": "Lo que puede tener tu negocio",
-    "escenas": [
-      {
-        "id": "s1",
-        "plantilla": "gancho",
-        "voz": "Esto es lo que tu negocio puede tener.",
-        "sub": "Esto es lo que tu negocio puede tener",
-        "pausa": 0.45,
-        "datos": {
-          "kicker": "Para tu negocio",
-          "titulo": "Esto es lo que<br>puedes tener"
-        }
-      },
-      {
-        "id": "s2",
-        "plantilla": "capacidad",
-        "voz": "Uno. Inventario que se lleva solo. Cada venta se descuenta sola, sin contar a mano.",
-        "sub": "Tu inventario se descuenta solo",
-        "pausa": 0.4,
-        "datos": {
-          "n": "01",
-          "titulo": "Inventario que<br>se lleva solo",
-          "detalle": "Cada venta se descuenta sola. Sin contar a mano."
-        }
-      },
-      {
-        "id": "s3",
-        "plantilla": "capacidad",
-        "voz": "Dos. Alertas antes de que te quedes sin producto.",
-        "sub": "Te avisa antes de que se acabe",
-        "pausa": 0.4,
-        "datos": {
-          "n": "02",
-          "titulo": "Alertas antes<br>de quedarte sin",
-          "detalle": "Te avisamos cuando algo está por acabarse."
-        }
-      },
-      {
-        "id": "s4",
-        "plantilla": "capacidad",
-        "voz": "Tres. Pedidos que salen solos. La orden al proveedor se arma automáticamente.",
-        "sub": "Los pedidos salen automáticamente",
-        "pausa": 0.4,
-        "datos": {
-          "n": "03",
-          "titulo": "Pedidos que<br>salen solos",
-          "detalle": "La orden al proveedor se arma automáticamente."
-        }
-      },
-      {
-        "id": "s5",
-        "plantilla": "capacidad",
-        "voz": "Y cuatro. Un asistente que contesta a tus clientes las veinticuatro horas.",
-        "sub": "Un asistente responde 24 horas",
-        "pausa": 0.4,
-        "datos": {
-          "n": "04",
-          "titulo": "Un asistente<br>que responde",
-          "detalle": "Contesta a tus clientes las 24 horas del día."
-        }
-      },
-      {
-        "id": "s6",
-        "plantilla": "cierre",
-        "voz": "Todo por WhatsApp. Sin apps nuevas y sin comprar equipos.",
-        "sub": "Todo por WhatsApp, sin apps nuevas",
-        "pausa": 0.8,
-        "datos": {
-          "pill": "Todo por WhatsApp",
-          "titulo": "Sin apps nuevas.<br>Sin equipos.",
-          "detalle": "ByM Solutions &middot; Tarapacá"
-        }
-      }
-    ]
-  }
+ "reel-como-funciona": {
+  "titulo": "Como funciona el inventario automatico",
+  "escenas": [
+   {
+    "id": "s1",
+    "plantilla": "gancho",
+    "voz": "Tu stock se descuenta solo.",
+    "sub": "Tu stock se descuenta solo",
+    "pausa": 0.45,
+    "datos": {
+     "kicker": "Así funciona",
+     "titulo": "Tu stock se<br>descuenta solo"
+    }
+   },
+   {
+    "id": "s2",
+    "plantilla": "chat",
+    "voz": "Avisas por mensaje, igual que siempre. Llegaron veinticuatro cervezas.",
+    "sub": "Avisas por mensaje, como siempre",
+    "pausa": 0.4,
+    "datos": {
+     "mensajes": [
+      [
+       "ent",
+       "Llegaron 24 cervezas"
+      ],
+      [
+       "sal",
+       "Anotado. Quedan 48 en total."
+      ],
+      [
+       "ent",
+       "Vendí 40 hoy"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "s3",
+    "plantilla": "contador",
+    "voz": "Y el sistema lleva la cuenta al instante.",
+    "sub": "El sistema lleva la cuenta",
+    "pausa": 0.4,
+    "datos": {
+     "arriba": "Cerveza 350 ml",
+     "desde": 48,
+     "hasta": 8,
+     "abajo": "unidades en bodega"
+    }
+   },
+   {
+    "id": "s4",
+    "plantilla": "alerta",
+    "voz": "Te avisa antes de que se acabe.",
+    "sub": "Te avisa antes de que se acabe",
+    "pausa": 0.4,
+    "datos": {
+     "etiqueta": "Alerta",
+     "texto": "Quedan 8 cervezas.<br>Hora de pedir."
+    }
+   },
+   {
+    "id": "s5",
+    "plantilla": "tablero",
+    "voz": "Todo tu inventario, en un vistazo.",
+    "sub": "Todo tu inventario, en un vistazo",
+    "pausa": 0.4,
+    "datos": {
+     "kicker": "Tu bodega, siempre al día",
+     "filas": [
+      [
+       "Cerveza",
+       8,
+       16,
+       "#F2994A"
+      ],
+      [
+       "Bebidas",
+       34,
+       70,
+       "#7FB7E8"
+      ],
+      [
+       "Snacks",
+       52,
+       100,
+       "#7FE8B0"
+      ],
+      [
+       "Cigarros",
+       21,
+       45,
+       "#F2994A"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "s6",
+    "plantilla": "cierre",
+    "voz": "ByM Solutions. Automatización para negocios de Tarapacá.",
+    "sub": "Escríbenos por mensaje directo",
+    "pausa": 0.8,
+    "datos": {
+     "pill": "Todo por WhatsApp",
+     "titulo": "Sin apps nuevas.<br>Sin equipos.",
+     "detalle": "ByM Solutions &middot; Tarapacá"
+    }
+   }
+  ]
+ },
+ "reel-oferta": {
+  "titulo": "Lo que puede tener tu negocio",
+  "escenas": [
+   {
+    "id": "s1",
+    "plantilla": "gancho",
+    "voz": "Esto es lo que tu negocio puede tener.",
+    "sub": "Esto es lo que tu negocio puede tener",
+    "pausa": 0.45,
+    "datos": {
+     "kicker": "Para tu negocio",
+     "titulo": "Esto es lo que<br>puedes tener"
+    }
+   },
+   {
+    "id": "s2",
+    "plantilla": "capacidad",
+    "voz": "Uno. Inventario que se lleva solo. Cada venta se descuenta sola, sin contar a mano.",
+    "sub": "Tu inventario se descuenta solo",
+    "pausa": 0.4,
+    "datos": {
+     "n": "01",
+     "titulo": "Inventario que<br>se lleva solo",
+     "detalle": "Cada venta se descuenta sola. Sin contar a mano."
+    }
+   },
+   {
+    "id": "s3",
+    "plantilla": "capacidad",
+    "voz": "Dos. Alertas antes de que te quedes sin producto.",
+    "sub": "Te avisa antes de que se acabe",
+    "pausa": 0.4,
+    "datos": {
+     "n": "02",
+     "titulo": "Alertas antes<br>de quedarte sin",
+     "detalle": "Te avisamos cuando algo está por acabarse."
+    }
+   },
+   {
+    "id": "s4",
+    "plantilla": "capacidad",
+    "voz": "Tres. Pedidos que salen solos. La orden al proveedor se arma automáticamente.",
+    "sub": "Los pedidos salen automáticamente",
+    "pausa": 0.4,
+    "datos": {
+     "n": "03",
+     "titulo": "Pedidos que<br>salen solos",
+     "detalle": "La orden al proveedor se arma automáticamente."
+    }
+   },
+   {
+    "id": "s5",
+    "plantilla": "capacidad",
+    "voz": "Y cuatro. Un asistente que contesta a tus clientes las veinticuatro horas.",
+    "sub": "Un asistente responde 24 horas",
+    "pausa": 0.4,
+    "datos": {
+     "n": "04",
+     "titulo": "Un asistente<br>que responde",
+     "detalle": "Contesta a tus clientes las 24 horas del día."
+    }
+   },
+   {
+    "id": "s6",
+    "plantilla": "cierre",
+    "voz": "Todo por WhatsApp. Sin apps nuevas y sin comprar equipos.",
+    "sub": "Todo por WhatsApp, sin apps nuevas",
+    "pausa": 0.8,
+    "datos": {
+     "pill": "Todo por WhatsApp",
+     "titulo": "Sin apps nuevas.<br>Sin equipos.",
+     "detalle": "ByM Solutions &middot; Tarapacá"
+    }
+   }
+  ]
+ },
+ "reel-errores": {
+  "titulo": "Tres errores con el stock",
+  "escenas": [
+   {
+    "id": "s1",
+    "plantilla": "gancho",
+    "pausa": 0.45,
+    "voz": "Tres errores con el stock que te están costando plata.",
+    "sub": "3 errores que te cuestan plata",
+    "datos": {
+     "kicker": "Almacenes y minimarkets",
+     "titulo": "3 errores que te<br>cuestan plata"
+    }
+   },
+   {
+    "id": "s2",
+    "plantilla": "capacidad",
+    "pausa": 0.4,
+    "voz": "Uno. Comprar de memoria. Pides lo que crees que falta.",
+    "sub": "Comprar de memoria",
+    "datos": {
+     "n": "1",
+     "titulo": "Comprar de memoria",
+     "detalle": "Pides lo que crees que falta, no lo que se vendió."
+    }
+   },
+   {
+    "id": "s3",
+    "plantilla": "capacidad",
+    "pausa": 0.4,
+    "voz": "Dos. Enterarte tarde. Revisas la bodega cuando el cliente ya preguntó.",
+    "sub": "Enterarte cuando ya se acabó",
+    "datos": {
+     "n": "2",
+     "titulo": "Enterarte muy tarde",
+     "detalle": "Revisas la bodega cuando el cliente ya preguntó."
+    }
+   },
+   {
+    "id": "s4",
+    "plantilla": "capacidad",
+    "pausa": 0.4,
+    "voz": "Y tres. El cuaderno que solo entiendes tú. Si no estás, nadie sabe qué hay.",
+    "sub": "El cuaderno que entiendes tú",
+    "datos": {
+     "n": "3",
+     "titulo": "El cuaderno de siempre",
+     "detalle": "Si no estás tú, nadie sabe qué hay en bodega."
+    }
+   },
+   {
+    "id": "s5",
+    "plantilla": "cierre",
+    "pausa": 0.8,
+    "voz": "Los tres se arreglan igual. Comenta stock y te cuento.",
+    "sub": "Comenta STOCK y te cuento",
+    "datos": {
+     "pill": "Los tres se arreglan igual",
+     "titulo": "Comenta STOCK<br>y te cuento",
+     "detalle": "ByM Solutions &middot; Tarapacá"
+    }
+   }
+  ]
+ },
+ "reel-domingo": {
+  "titulo": "El domingo en la noche",
+  "escenas": [
+   {
+    "id": "s1",
+    "plantilla": "gancho",
+    "pausa": 0.45,
+    "voz": "Domingo, once de la noche, contando el stock otra vez.",
+    "sub": "Domingo, 11 de la noche",
+    "datos": {
+     "kicker": "Te suena",
+     "titulo": "¿Contando el stock<br>otra vez?"
+    }
+   },
+   {
+    "id": "s2",
+    "plantilla": "chat",
+    "pausa": 0.4,
+    "voz": "Puede ser así de simple: avisas por mensaje cuando entra o sale algo.",
+    "sub": "Avisas por mensaje, nada más",
+    "datos": {
+     "mensajes": [
+      [
+       "ent",
+       "Llegaron 24 cervezas"
+      ],
+      [
+       "sal",
+       "Anotado. Quedan 48 en total."
+      ],
+      [
+       "ent",
+       "Vendí 40 hoy"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "s3",
+    "plantilla": "contador",
+    "pausa": 0.4,
+    "voz": "Y la cuenta se lleva sola, venta por venta.",
+    "sub": "La cuenta se lleva sola",
+    "datos": {
+     "arriba": "Cerveza 350 ml",
+     "desde": 48,
+     "hasta": 8,
+     "abajo": "unidades en bodega"
+    }
+   },
+   {
+    "id": "s4",
+    "plantilla": "alerta",
+    "pausa": 0.4,
+    "voz": "Y el domingo en la noche ya no cuentas nada: el aviso llegó el jueves.",
+    "sub": "El aviso llegó el jueves",
+    "datos": {
+     "etiqueta": "Jueves 18:40",
+     "texto": "Quedan 8 cervezas.<br>Hora de pedir."
+    }
+   },
+   {
+    "id": "s5",
+    "plantilla": "cierre",
+    "pausa": 0.8,
+    "voz": "Recupera tu domingo. Comenta stock y te muestro cómo.",
+    "sub": "Comenta STOCK y te muestro",
+    "datos": {
+     "pill": "Recupera tu domingo",
+     "titulo": "Comenta STOCK<br>y te muestro",
+     "detalle": "ByM Solutions &middot; Tarapacá"
+    }
+   }
+  ]
+ }
 }

@@ -110,7 +110,7 @@
   },
   {
     "id": "post-08",
-    "fecha": "2026-09-13",
+    "fecha": "2026-09-14",
     "publicado": false,
     "plantilla": "pasos",
     "kicker": "La alerta",
@@ -133,7 +133,7 @@
   },
   {
     "id": "post-09",
-    "fecha": "2026-09-14",
+    "fecha": "2026-09-15",
     "publicado": false,
     "plantilla": "declaracion",
     "kicker": "Tu tiempo",
@@ -143,7 +143,7 @@
   },
   {
     "id": "post-10",
-    "fecha": "2026-09-14",
+    "fecha": "2026-09-16",
     "publicado": false,
     "plantilla": "lista",
     "kicker": "Fugas invisibles",
@@ -157,7 +157,7 @@
   },
   {
     "id": "post-11",
-    "fecha": "2026-09-15",
+    "fecha": "2026-09-17",
     "publicado": false,
     "plantilla": "pasos",
     "kicker": "Cómo partimos",
@@ -180,7 +180,7 @@
   },
   {
     "id": "post-12",
-    "fecha": "2026-09-15",
+    "fecha": "2026-09-18",
     "publicado": false,
     "plantilla": "declaracion",
     "kicker": "Hablemos",
@@ -191,7 +191,7 @@
   {
     "id": "reel-oferta",
     "tipo": "reel",
-    "fecha": "2026-09-16",
+    "fecha": "2026-09-15",
     "publicado": false,
     "portada": "reel-oferta-portada",
     "texto": "Control de inventario por WhatsApp para almacenes y minimarkets de Iquique: esto es lo que puede tener tu negocio sin comprar ningún equipo ni instalar ninguna aplicación nueva.\n\nRegistras con un mensaje. El stock se descuenta solo. Cuando algo baja del mínimo, te avisa al teléfono antes de que te quedes sin producto.\n\nComenta STOCK y te mando por privado cómo se vería en tu negocio.\n\n#Iquique #AltoHospicio #Almacén"
@@ -199,66 +199,271 @@
   {
     "id": "car-01",
     "tipo": "carrusel",
-    "fecha": "2026-09-17",
+    "fecha": "2026-09-14",
     "publicado": false,
-    "texto": "Control de inventario para almacenes de Iquique: el mismo martes, con y sin sistema.\n\nDeslízalo y dime en cuál de los dos te reconoces. La mayoría de los negocios que vemos están en el primero, y no es por desordenados: es porque contar a mano es un trabajo que no termina nunca.\n\nGuárdalo si te sirve para mostrárselo a quien lleva el stock contigo.\n\nComenta STOCK y te mando por privado un video corto de cómo funcionaría en tu negocio.\n\n#Iquique #AltoHospicio #Almacén",
+    "texto": "5 errores de control de inventario que cometen los almacenes y minimarkets de Iquique, y qué hacer con cada uno.\n\nNinguno es por desordenado. Son errores que aparecen solos cuando el stock se lleva a mano y el día no da para más.\n\nGuárdalo y cuéntame en los comentarios cuántos de los cinco reconociste. El tercero es el más común de lejos.\n\nComenta STOCK y te mando por privado cómo se vería resuelto en tu negocio.\n\n#Iquique #AltoHospicio #Almacen",
     "laminas": [
       {
         "id": "car-01-1",
         "plantilla": "declaracion",
-        "kicker": "Antes y después",
-        "titulo": "Un martes cualquiera en tu negocio",
-        "bajada": "El mismo día, con y sin sistema. Desliza."
+        "kicker": "Almacenes y minimarkets",
+        "titulo": "5 errores que te cuestan plata",
+        "bajada": "El tercero lo comete casi todo el mundo."
       },
       {
         "id": "car-01-2",
-        "plantilla": "lista",
-        "kicker": "Hoy",
-        "titulo": "Así se vive sin sistema",
-        "items": [
-          "Vas a la bodega a mirar si queda.",
-          "Anotas la venta… o se te pasa.",
-          "Te enteras que se acabó tarde."
+        "plantilla": "pasos",
+        "kicker": "Error 1",
+        "titulo": "Comprar de memoria",
+        "pasos": [
+          [
+            "✕",
+            "Pides lo que crees que falta.",
+            "#E8877F"
+          ],
+          [
+            "✓",
+            "Mira qué se vendió de verdad.",
+            "#7FE8B0"
+          ]
         ]
       },
       {
         "id": "car-01-3",
         "plantilla": "pasos",
-        "kicker": "Con sistema",
-        "titulo": "Los mismos pasos, sin ti",
+        "kicker": "Error 2",
+        "titulo": "Enterarte cuando ya se acabó",
         "pasos": [
           [
-            "1",
-            "Registras con un mensaje de WhatsApp."
+            "✕",
+            "Vas a la bodega cuando preguntan.",
+            "#E8877F"
           ],
           [
-            "2",
-            "El stock se descuenta solo."
-          ],
-          [
-            "3",
-            "Te avisa antes de que se acabe."
+            "✓",
+            "Que el aviso llegue antes, solo.",
+            "#7FE8B0"
           ]
         ]
       },
       {
         "id": "car-01-4",
-        "plantilla": "lista",
-        "kicker": "Lo que cambia",
-        "titulo": "No es tecnología, es tiempo",
-        "items": [
-          "No cuentas a mano el domingo.",
-          "No compras lo que ya tenías.",
-          "No pierdes la venta por no saber."
+        "plantilla": "pasos",
+        "kicker": "Error 3",
+        "titulo": "El cuaderno que entiendes tú",
+        "pasos": [
+          [
+            "✕",
+            "Si no estás tú, nadie sabe nada.",
+            "#E8877F"
+          ],
+          [
+            "✓",
+            "Que el dato lo vea cualquiera.",
+            "#7FE8B0"
+          ]
         ]
       },
       {
         "id": "car-01-5",
+        "plantilla": "pasos",
+        "kicker": "Error 4",
+        "titulo": "Mirar solo lo que se vende",
+        "pasos": [
+          [
+            "✕",
+            "Lo que sale rápido se nota.",
+            "#E8877F"
+          ],
+          [
+            "✓",
+            "La plata quieta es lo parado.",
+            "#7FE8B0"
+          ]
+        ]
+      },
+      {
+        "id": "car-01-6",
+        "plantilla": "pasos",
+        "kicker": "Error 5",
+        "titulo": "Contar todo el domingo",
+        "pasos": [
+          [
+            "✕",
+            "Inventario completo cada semana.",
+            "#E8877F"
+          ],
+          [
+            "✓",
+            "Que el saldo se actualice solo.",
+            "#7FE8B0"
+          ]
+        ]
+      },
+      {
+        "id": "car-01-7",
+        "plantilla": "lista",
+        "kicker": "En resumen",
+        "titulo": "Todo se reduce a esto",
+        "items": [
+          "No confíes en la memoria.",
+          "Que el aviso llegue antes.",
+          "Que el dato lo vea cualquiera."
+        ]
+      },
+      {
+        "id": "car-01-8",
         "plantilla": "declaracion",
-        "kicker": "¿Hablamos?",
-        "titulo": "Comenta STOCK y te escribo",
-        "bajada": "Te muestro cómo se vería en tu negocio, sin costo."
+        "kicker": "¿Cuántos cometes?",
+        "titulo": "Comenta STOCK y lo vemos",
+        "bajada": "Te muestro cómo se vería en tu negocio."
       }
     ]
+  },
+  {
+    "id": "car-02",
+    "tipo": "carrusel",
+    "fecha": "2026-09-16",
+    "publicado": false,
+    "texto": "Qué se puede automatizar en un almacén o minimarket de Iquique, en concreto: cuatro cosas que hoy haces a mano y que el sistema puede hacer solo.\n\nNo hay que comprar equipos ni instalar aplicaciones nuevas. Todo funciona sobre el WhatsApp que ya usas todos los días.\n\nGuárdalo para cuando estés pensando en ordenar el negocio.\n\nComenta STOCK y te cuento cuál de las cuatro te conviene partir.\n\n#Iquique #AltoHospicio #Almacen",
+    "laminas": [
+      {
+        "id": "car-02-1",
+        "plantilla": "declaracion",
+        "kicker": "Para tu negocio",
+        "titulo": "Lo haces a mano y no deberías",
+        "bajada": "Cuatro cosas. La cuarta casi nadie la usa."
+      },
+      {
+        "id": "car-02-2",
+        "plantilla": "pasos",
+        "kicker": "Uno",
+        "titulo": "El control de stock",
+        "pasos": [
+          [
+            "1",
+            "Registras la entrada con un mensaje."
+          ],
+          [
+            "2",
+            "Registras la venta igual de simple."
+          ],
+          [
+            "3",
+            "El saldo queda al día solo."
+          ]
+        ]
+      },
+      {
+        "id": "car-02-3",
+        "plantilla": "pasos",
+        "kicker": "Dos y tres",
+        "titulo": "Avisos y pedidos",
+        "pasos": [
+          [
+            "1",
+            "Te avisa antes de que se acabe."
+          ],
+          [
+            "2",
+            "Arma el pedido con lo que falta."
+          ],
+          [
+            "3",
+            "Lo manda al proveedor por ti."
+          ]
+        ]
+      },
+      {
+        "id": "car-02-4",
+        "plantilla": "lista",
+        "kicker": "Cuatro",
+        "titulo": "El resumen semanal",
+        "items": [
+          "Qué se vendió de verdad.",
+          "Qué quedó parado en bodega.",
+          "Todo en un mensaje, sin entrar a nada."
+        ]
+      },
+      {
+        "id": "car-02-5",
+        "plantilla": "declaracion",
+        "kicker": "¿Por cuál partir?",
+        "titulo": "Comenta STOCK y te digo",
+        "bajada": "Casi siempre conviene partir por una sola."
+      }
+    ]
+  },
+  {
+    "id": "car-03",
+    "tipo": "carrusel",
+    "fecha": "2026-09-18",
+    "publicado": false,
+    "texto": "Control de inventario para negocios chicos: las tres excusas que más escuchamos para no ordenar el stock, y por qué ninguna se sostiene.\n\nNo es que la gente sea desordenada. Es que contar a mano es un trabajo que no termina nunca, y nadie tiene tiempo de sobra.\n\nSi alguna te suena conocida, no eres tú solo: nos pasa con casi todos.\n\nComenta STOCK y te muestro cómo se vería en tu negocio.\n\n#Iquique #AltoHospicio #Almacen",
+    "laminas": [
+      {
+        "id": "car-03-1",
+        "plantilla": "declaracion",
+        "kicker": "Seamos honestos",
+        "titulo": "“Después lo ordeno”",
+        "bajada": "Las 3 excusas que más escuchamos."
+      },
+      {
+        "id": "car-03-2",
+        "plantilla": "lista",
+        "kicker": "Excusa 1",
+        "titulo": "“Yo me lo sé de memoria”",
+        "items": [
+          "Te sabes lo que se vende siempre.",
+          "No lo que lleva meses parado.",
+          "Ahí es donde está la plata quieta."
+        ]
+      },
+      {
+        "id": "car-03-3",
+        "plantilla": "lista",
+        "kicker": "Excusa 2",
+        "titulo": "“Es caro y complicado”",
+        "items": [
+          "Se parte con un proceso, no diez.",
+          "Se usa el WhatsApp que ya tienes.",
+          "Se paga con el tiempo que recuperas."
+        ]
+      },
+      {
+        "id": "car-03-4",
+        "plantilla": "lista",
+        "kicker": "Excusa 3",
+        "titulo": "“Mi negocio es muy chico”",
+        "items": [
+          "Mientras más chico, más duele.",
+          "Un pedido malo te come la semana.",
+          "No hay colchón para el error."
+        ]
+      },
+      {
+        "id": "car-03-5",
+        "plantilla": "declaracion",
+        "kicker": "¿Y si no?",
+        "titulo": "Comenta STOCK y lo vemos",
+        "bajada": "Si no te sirve, te lo digo de frente."
+      }
+    ]
+  },
+  {
+    "id": "reel-errores",
+    "tipo": "reel",
+    "fecha": "2026-09-13",
+    "publicado": false,
+    "portada": "reel-errores-portada",
+    "texto": "3 errores de control de inventario que cometen casi todos los almacenes y minimarkets de Iquique.\n\nNinguno es por desordenado: aparecen solos cuando el stock se lleva de memoria y el día no da para más.\n\nComenta STOCK y te cuento cómo se arreglan los tres a la vez.\n\n#Iquique #AltoHospicio #Almacen"
+  },
+  {
+    "id": "reel-domingo",
+    "tipo": "reel",
+    "fecha": "2026-09-17",
+    "publicado": false,
+    "portada": "reel-domingo-portada",
+    "texto": "Control de inventario para almacenes de Iquique: si cuentas el stock el domingo en la noche, esto es para ti.\n\nRegistras con un mensaje, el saldo se descuenta solo, y el aviso te llega el jueves — no cuando ya te quedaste sin producto.\n\nComenta STOCK y te muestro cómo se vería en tu negocio.\n\n#Iquique #AltoHospicio #Almacen"
   }
 ]
