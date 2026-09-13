@@ -73,13 +73,13 @@ jobs:
       - name: Armar los videos
         run: python3 medios.py
 
-      - name: Guardar la voz y los videos
+      - name: Guardar la voz, los videos y las portadas
         run: |
-          if [ -n "$(git status --porcelain voz/ medios/)" ]; then
+          if [ -n "$(git status --porcelain voz/ medios/ imagenes/)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add voz/ medios/
-            git commit -m "Regenera la locucion y los reels"
+            git add voz/ medios/ imagenes/
+            git commit -m "Regenera la locucion, los reels y sus portadas"
             git push
           else
             echo "Ya estaba todo al dia."
