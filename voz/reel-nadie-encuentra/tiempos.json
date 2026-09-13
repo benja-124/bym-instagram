@@ -1,0 +1,75 @@
+{
+  "motor": "kokoro",
+  "escenas": [
+    {
+      "id": "s1",
+      "dur": 4.19,
+      "pausa": 0.45,
+      "plantilla": "gancho",
+      "datos": {
+        "kicker": "Peluquerías de Iquique",
+        "titulo": "Te buscan y<br>no te encuentran"
+      },
+      "sub": "Te buscan y no te encuentran"
+    },
+    {
+      "id": "s2",
+      "dur": 4.372,
+      "pausa": 0.4,
+      "plantilla": "chat",
+      "datos": {
+        "mensajes": [
+          [
+            "ent",
+            "¿Conocen una peluquería buena por acá?"
+          ],
+          [
+            "sal",
+            "Yo voy a una… no me acuerdo cómo se llama"
+          ],
+          [
+            "ent",
+            "¿La buscaste en Instagram?"
+          ]
+        ]
+      },
+      "sub": "Instagram hoy busca por texto"
+    },
+    {
+      "id": "s3",
+      "dur": 4.459,
+      "pausa": 0.4,
+      "plantilla": "capacidad",
+      "datos": {
+        "n": "1",
+        "titulo": "Palabras, no hashtags",
+        "detalle": "Las primeras líneas del texto son lo que se busca."
+      },
+      "sub": "Palabras clave al principio"
+    },
+    {
+      "id": "s4",
+      "dur": 3.097,
+      "pausa": 0.4,
+      "plantilla": "capacidad",
+      "datos": {
+        "n": "2",
+        "titulo": "Publicar seguido",
+        "detalle": "Una cuenta dormida no aparece. Una activa sí."
+      },
+      "sub": "Publicar seguido"
+    },
+    {
+      "id": "s5",
+      "dur": 3.632,
+      "pausa": 0.8,
+      "plantilla": "cierre",
+      "datos": {
+        "pill": "Las dos se automatizan",
+        "titulo": "Comenta REDES<br>y te cuento",
+        "detalle": "ByM Solutions &middot; Tarapacá"
+      },
+      "sub": "Comenta REDES"
+    }
+  ]
+}

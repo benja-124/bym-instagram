@@ -1,0 +1,75 @@
+{
+  "motor": "kokoro",
+  "escenas": [
+    {
+      "id": "s1",
+      "dur": 3.741,
+      "pausa": 0.45,
+      "plantilla": "gancho",
+      "datos": {
+        "kicker": "Peluquerías",
+        "titulo": "Te escriben y<br>contestas tarde"
+      },
+      "sub": "Contestas al otro día"
+    },
+    {
+      "id": "s2",
+      "dur": 3.849,
+      "pausa": 0.4,
+      "plantilla": "chat",
+      "datos": {
+        "mensajes": [
+          [
+            "ent",
+            "¿A qué hora abren?"
+          ],
+          [
+            "ent",
+            "¿Cuánto sale el corte?"
+          ],
+          [
+            "ent",
+            "¿Atienden sin hora?"
+          ]
+        ]
+      },
+      "sub": "Siempre las mismas preguntas"
+    },
+    {
+      "id": "s3",
+      "dur": 3.379,
+      "pausa": 0.4,
+      "plantilla": "capacidad",
+      "datos": {
+        "n": "1",
+        "titulo": "Respuesta inmediata",
+        "detalle": "Las preguntas repetidas se contestan al segundo."
+      },
+      "sub": "Esas se contestan solas"
+    },
+    {
+      "id": "s4",
+      "dur": 2.751,
+      "pausa": 0.4,
+      "plantilla": "capacidad",
+      "datos": {
+        "n": "2",
+        "titulo": "Tú ves lo que importa",
+        "detalle": "Si la consulta es seria, te la derivan a ti."
+      },
+      "sub": "Lo importante llega a ti"
+    },
+    {
+      "id": "s5",
+      "dur": 2.44,
+      "pausa": 0.8,
+      "plantilla": "cierre",
+      "datos": {
+        "pill": "A cualquier hora",
+        "titulo": "Comenta REDES<br>y te cuento",
+        "detalle": "ByM Solutions &middot; Tarapacá"
+      },
+      "sub": "Comenta REDES"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "motor": "kokoro",
+  "escenas": [
+    {
+      "id": "s1",
+      "dur": 3.449,
+      "pausa": 0.45,
+      "plantilla": "gancho",
+      "datos": {
+        "kicker": "Almacenes",
+        "titulo": "Tus hashtags<br>ya no sirven"
+      },
+      "sub": "Tus hashtags no traen a nadie"
+    },
+    {
+      "id": "s2",
+      "dur": 3.625,
+      "pausa": 0.4,
+      "plantilla": "capacidad",
+      "datos": {
+        "n": "1",
+        "titulo": "Cambió en 2024",
+        "detalle": "Se dejaron de seguir hashtags. Perdieron su función."
+      },
+      "sub": "Dejaron de repartir en 2024"
+    },
+    {
+      "id": "s3",
+      "dur": 3.698,
+      "pausa": 0.4,
+      "plantilla": "capacidad",
+      "datos": {
+        "n": "2",
+        "titulo": "Ahora es un buscador",
+        "detalle": "Lee lo que escribes, no lo que etiquetas."
+      },
+      "sub": "Ahora lee tu texto"
+    },
+    {
+      "id": "s4",
+      "dur": 3.771,
+      "pausa": 0.4,
+      "plantilla": "alerta",
+      "datos": {
+        "etiqueta": "Lo que sí funciona",
+        "texto": "\"Almacén en Iquique\"<br>en la primera línea."
+      },
+      "sub": "Palabras al principio, 3 hashtags"
+    },
+    {
+      "id": "s5",
+      "dur": 3.255,
+      "pausa": 0.8,
+      "plantilla": "cierre",
+      "datos": {
+        "pill": "Te lo reviso gratis",
+        "titulo": "Comenta REDES<br>y lo vemos",
+        "detalle": "ByM Solutions &middot; Tarapacá"
+      },
+      "sub": "Comenta REDES"
+    }
+  ]
+}

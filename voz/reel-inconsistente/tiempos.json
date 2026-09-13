@@ -1,0 +1,64 @@
+{
+  "motor": "kokoro",
+  "escenas": [
+    {
+      "id": "s1",
+      "dur": 3.145,
+      "pausa": 0.45,
+      "plantilla": "gancho",
+      "datos": {
+        "kicker": "Ferreterías de Iquique",
+        "titulo": "¿Publicas cuando<br>te acuerdas?"
+      },
+      "sub": "¿Publicas cuando te acuerdas?"
+    },
+    {
+      "id": "s2",
+      "dur": 3.759,
+      "pausa": 0.4,
+      "plantilla": "contador",
+      "datos": {
+        "arriba": "Tu última publicación",
+        "desde": 3,
+        "hasta": 62,
+        "abajo": "días sin publicar"
+      },
+      "sub": "Y los días pasan"
+    },
+    {
+      "id": "s3",
+      "dur": 4.572,
+      "pausa": 0.4,
+      "plantilla": "capacidad",
+      "datos": {
+        "n": "1",
+        "titulo": "No es falta de ganas",
+        "detalle": "Armar una publicación toma media hora que no tienes."
+      },
+      "sub": "No es falta de ganas"
+    },
+    {
+      "id": "s4",
+      "dur": 4.991,
+      "pausa": 0.4,
+      "plantilla": "alerta",
+      "datos": {
+        "etiqueta": "Lunes 13:00",
+        "texto": "Publicación lista.<br>Sale sola."
+      },
+      "sub": "Tú escribes. El resto sale solo"
+    },
+    {
+      "id": "s5",
+      "dur": 4.397,
+      "pausa": 0.8,
+      "plantilla": "cierre",
+      "datos": {
+        "pill": "Este reel salió así",
+        "titulo": "Comenta REDES<br>y te muestro",
+        "detalle": "ByM Solutions &middot; Tarapacá"
+      },
+      "sub": "Comenta REDES"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "motor": "kokoro",
+  "escenas": [
+    {
+      "id": "s1",
+      "dur": 3.191,
+      "pausa": 0.45,
+      "plantilla": "gancho",
+      "datos": {
+        "kicker": "Botillerías",
+        "titulo": "¿Y qué<br>publico?"
+      },
+      "sub": "¿Y qué publico?"
+    },
+    {
+      "id": "s2",
+      "dur": 3.629,
+      "pausa": 0.4,
+      "plantilla": "capacidad",
+      "datos": {
+        "n": "1",
+        "titulo": "No inventes nada",
+        "detalle": "Lo que ya sabes de tu rubro le sirve a alguien."
+      },
+      "sub": "No tienes que inventar nada"
+    },
+    {
+      "id": "s3",
+      "dur": 3.606,
+      "pausa": 0.4,
+      "plantilla": "chat",
+      "datos": {
+        "mensajes": [
+          [
+            "ent",
+            "Llegó el vino nuevo"
+          ],
+          [
+            "sal",
+            "Eso es una publicación"
+          ],
+          [
+            "ent",
+            "¿En serio? Si es lo de siempre"
+          ]
+        ]
+      },
+      "sub": "Lo de todos los días sirve"
+    },
+    {
+      "id": "s4",
+      "dur": 3.341,
+      "pausa": 0.4,
+      "plantilla": "alerta",
+      "datos": {
+        "etiqueta": "Domingo, 10 minutos",
+        "texto": "Tres publicaciones<br>listas para la semana."
+      },
+      "sub": "Lo escribes una vez"
+    },
+    {
+      "id": "s5",
+      "dur": 2.33,
+      "pausa": 0.8,
+      "plantilla": "cierre",
+      "datos": {
+        "pill": "Diez minutos a la semana",
+        "titulo": "Comenta REDES<br>y te muestro",
+        "detalle": "ByM Solutions &middot; Tarapacá"
+      },
+      "sub": "Comenta REDES"
+    }
+  ]
+}

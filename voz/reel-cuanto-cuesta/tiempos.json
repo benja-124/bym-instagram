@@ -1,0 +1,64 @@
+{
+  "motor": "kokoro",
+  "escenas": [
+    {
+      "id": "s1",
+      "dur": 2.689,
+      "pausa": 0.45,
+      "plantilla": "gancho",
+      "datos": {
+        "kicker": "Sin vueltas",
+        "titulo": "¿Cuánto<br>cuesta esto?"
+      },
+      "sub": "¿Cuánto cuesta esto?"
+    },
+    {
+      "id": "s2",
+      "dur": 3.487,
+      "pausa": 0.4,
+      "plantilla": "capacidad",
+      "datos": {
+        "n": "1",
+        "titulo": "Dos cosas, nada más",
+        "detalle": "Un pago al armarlo y una mensualidad."
+      },
+      "sub": "Implementación y mensualidad"
+    },
+    {
+      "id": "s3",
+      "dur": 4.635,
+      "pausa": 0.4,
+      "plantilla": "capacidad",
+      "datos": {
+        "n": "2",
+        "titulo": "Desde $150.000",
+        "detalle": "Más $25.000 al mes. El número final sale del diagnóstico."
+      },
+      "sub": "Desde $150.000 y $25.000 al mes"
+    },
+    {
+      "id": "s4",
+      "dur": 3.362,
+      "pausa": 0.4,
+      "plantilla": "capacidad",
+      "datos": {
+        "n": "3",
+        "titulo": "Nada más que pagar",
+        "detalle": "Sin equipos, sin apps nuevas, sin sorpresas."
+      },
+      "sub": "Sin comprar equipos"
+    },
+    {
+      "id": "s5",
+      "dur": 2.548,
+      "pausa": 0.8,
+      "plantilla": "cierre",
+      "datos": {
+        "pill": "El número exacto sale del diagnóstico",
+        "titulo": "Comenta y<br>lo calculamos",
+        "detalle": "ByM Solutions &middot; Tarapacá"
+      },
+      "sub": "Comenta REDES o STOCK"
+    }
+  ]
+}

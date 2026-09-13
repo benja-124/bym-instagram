@@ -1,0 +1,64 @@
+{
+  "motor": "kokoro",
+  "escenas": [
+    {
+      "id": "s1",
+      "dur": 4.109,
+      "pausa": 0.45,
+      "plantilla": "gancho",
+      "datos": {
+        "kicker": "Ferreterías",
+        "titulo": "El de al lado<br>publica todo el día"
+      },
+      "sub": "El de al lado publica todos los días"
+    },
+    {
+      "id": "s2",
+      "dur": 3.793,
+      "pausa": 0.4,
+      "plantilla": "contador",
+      "datos": {
+        "arriba": "Tu día en la ferretería",
+        "desde": 0,
+        "hasta": 12,
+        "abajo": "horas atendiendo"
+      },
+      "sub": "No te sobra media hora"
+    },
+    {
+      "id": "s3",
+      "dur": 3.669,
+      "pausa": 0.4,
+      "plantilla": "capacidad",
+      "datos": {
+        "n": "1",
+        "titulo": "No es tiempo",
+        "detalle": "Es que alguien o algo lo hace por él."
+      },
+      "sub": "No es tiempo. Es el sistema"
+    },
+    {
+      "id": "s4",
+      "dur": 3.046,
+      "pausa": 0.4,
+      "plantilla": "alerta",
+      "datos": {
+        "etiqueta": "Toda la semana",
+        "texto": "Publicado solo,<br>sin que estés."
+      },
+      "sub": "Escribes una vez por semana"
+    },
+    {
+      "id": "s5",
+      "dur": 2.27,
+      "pausa": 0.8,
+      "plantilla": "cierre",
+      "datos": {
+        "pill": "Sin contratar a nadie",
+        "titulo": "Comenta REDES<br>y lo vemos",
+        "detalle": "ByM Solutions &middot; Tarapacá"
+      },
+      "sub": "Comenta REDES"
+    }
+  ]
+}

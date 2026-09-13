@@ -1,0 +1,63 @@
+{
+  "motor": "kokoro",
+  "escenas": [
+    {
+      "id": "s1",
+      "dur": 3.661,
+      "pausa": 0.45,
+      "plantilla": "gancho",
+      "datos": {
+        "kicker": "Esto es una demostración",
+        "titulo": "Nadie publicó<br>este reel"
+      },
+      "sub": "Nadie publicó este reel"
+    },
+    {
+      "id": "s2",
+      "dur": 3.982,
+      "pausa": 0.4,
+      "plantilla": "capacidad",
+      "datos": {
+        "n": "1",
+        "titulo": "Se escribe una vez",
+        "detalle": "El texto queda en una planilla. Nada más."
+      },
+      "sub": "Se escribe una vez"
+    },
+    {
+      "id": "s3",
+      "dur": 2.962,
+      "pausa": 0.4,
+      "plantilla": "capacidad",
+      "datos": {
+        "n": "2",
+        "titulo": "La voz es generada",
+        "detalle": "La que estás escuchando en este momento."
+      },
+      "sub": "La voz es generada"
+    },
+    {
+      "id": "s4",
+      "dur": 3.238,
+      "pausa": 0.4,
+      "plantilla": "alerta",
+      "datos": {
+        "etiqueta": "Hoy 19:00",
+        "texto": "Publicado solo.<br>Sin nadie mirando."
+      },
+      "sub": "Se publica solo"
+    },
+    {
+      "id": "s5",
+      "dur": 3.348,
+      "pausa": 0.8,
+      "plantilla": "cierre",
+      "datos": {
+        "pill": "Si funciona acá, funciona allá",
+        "titulo": "Comenta REDES<br>y te muestro",
+        "detalle": "ByM Solutions &middot; Tarapacá"
+      },
+      "sub": "Comenta REDES"
+    }
+  ]
+}

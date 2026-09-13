@@ -1,0 +1,66 @@
+{
+  "motor": "kokoro",
+  "escenas": [
+    {
+      "id": "s1",
+      "dur": 2.453,
+      "pausa": 0.45,
+      "plantilla": "gancho",
+      "datos": {
+        "kicker": "Almacenes y minimarkets",
+        "titulo": "¿Cuánto vale<br>una hora tuya?"
+      },
+      "sub": "¿Cuánto vale una hora tuya?"
+    },
+    {
+      "id": "s2",
+      "dur": 2.921,
+      "pausa": 0.4,
+      "plantilla": "contador",
+      "datos": {
+        "arriba": "Contando stock a mano",
+        "desde": 0,
+        "hasta": 6,
+        "abajo": "horas al mes"
+      },
+      "sub": "6 horas al mes, como mínimo"
+    },
+    {
+      "id": "s3",
+      "dur": 3.684,
+      "pausa": 0.4,
+      "plantilla": "contador",
+      "datos": {
+        "arriba": "Al año",
+        "desde": 0,
+        "hasta": 72,
+        "abajo": "horas de tu vida"
+      },
+      "sub": "72 horas al año"
+    },
+    {
+      "id": "s4",
+      "dur": 3.62,
+      "pausa": 0.4,
+      "plantilla": "capacidad",
+      "datos": {
+        "n": "1",
+        "titulo": "Y eso sin contar",
+        "detalle": "Lo que pierdes por pedir de más o quedarte sin."
+      },
+      "sub": "Sin contar lo que pierdes"
+    },
+    {
+      "id": "s5",
+      "dur": 3.119,
+      "pausa": 0.8,
+      "plantilla": "cierre",
+      "datos": {
+        "pill": "Se recupera casi todo",
+        "titulo": "Comenta STOCK<br>y lo vemos",
+        "detalle": "ByM Solutions &middot; Tarapacá"
+      },
+      "sub": "Comenta STOCK"
+    }
+  ]
+}

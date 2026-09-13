@@ -1,0 +1,87 @@
+{
+  "motor": "kokoro",
+  "escenas": [
+    {
+      "id": "s1",
+      "dur": 3.279,
+      "pausa": 0.45,
+      "plantilla": "gancho",
+      "datos": {
+        "kicker": "Botillerías",
+        "titulo": "¿Se te acabó<br>un viernes?"
+      },
+      "sub": "¿Se te acabó un viernes?"
+    },
+    {
+      "id": "s2",
+      "dur": 3.322,
+      "pausa": 0.4,
+      "plantilla": "tablero",
+      "datos": {
+        "kicker": "Tu bodega, en vivo",
+        "filas": [
+          [
+            "Cerveza",
+            6,
+            60,
+            "#F2994A"
+          ],
+          [
+            "Bebidas",
+            41,
+            70,
+            "#7FB7E8"
+          ],
+          [
+            "Vino",
+            28,
+            40,
+            "#7FE8B0"
+          ],
+          [
+            "Hielo",
+            3,
+            30,
+            "#F2994A"
+          ]
+        ]
+      },
+      "sub": "Mira tu bodega solo"
+    },
+    {
+      "id": "s3",
+      "dur": 3.488,
+      "pausa": 0.4,
+      "plantilla": "alerta",
+      "datos": {
+        "etiqueta": "Jueves 11:20",
+        "texto": "Quedan 6 cervezas.<br>El viernes no alcanzas."
+      },
+      "sub": "Te avisa antes, no después"
+    },
+    {
+      "id": "s4",
+      "dur": 3.297,
+      "pausa": 0.4,
+      "plantilla": "capacidad",
+      "datos": {
+        "n": "1",
+        "titulo": "El pedido ya armado",
+        "detalle": "Con lo que falta y las cantidades. Solo lo mandas."
+      },
+      "sub": "El pedido llega armado"
+    },
+    {
+      "id": "s5",
+      "dur": 2.654,
+      "pausa": 0.8,
+      "plantilla": "cierre",
+      "datos": {
+        "pill": "Sin apps nuevas",
+        "titulo": "Comenta STOCK<br>y te muestro",
+        "detalle": "ByM Solutions &middot; Tarapacá"
+      },
+      "sub": "Comenta STOCK"
+    }
+  ]
+}
