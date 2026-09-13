@@ -187,5 +187,78 @@
     "titulo": "Cuéntanos qué te complica hoy",
     "bajada": "Mándanos un mensaje y te decimos si esto te sirve. Sin vueltas.",
     "texto": "Si llegaste hasta acá viendo nuestro contenido, probablemente algo te hizo sentido 👀\n\nMándanos un mensaje directo y cuéntanos qué es lo que más te complica hoy en tu negocio. Te decimos derechamente si esto te sirve o no.\n\nSin vueltas, sin costo, y si no te sirve te lo decimos igual.\n\n📍 Tarapacá\n\n#Iquique #AltoHospicio #Tarapacá #Almacén #Botillería #Minimarket #NegocioLocal"
+  },
+  {
+    "id": "reel-oferta",
+    "tipo": "reel",
+    "fecha": "2026-09-16",
+    "publicado": false,
+    "portada": "reel-oferta-portada",
+    "texto": "Control de inventario por WhatsApp para almacenes y minimarkets de Iquique: esto es lo que puede tener tu negocio sin comprar ningún equipo ni instalar ninguna aplicación nueva.\n\nRegistras con un mensaje. El stock se descuenta solo. Cuando algo baja del mínimo, te avisa al teléfono antes de que te quedes sin producto.\n\nComenta STOCK y te mando por privado cómo se vería en tu negocio.\n\n#Iquique #AltoHospicio #Almacén"
+  },
+  {
+    "id": "car-01",
+    "tipo": "carrusel",
+    "fecha": "2026-09-17",
+    "publicado": false,
+    "texto": "Control de inventario para almacenes de Iquique: el mismo martes, con y sin sistema.\n\nDeslízalo y dime en cuál de los dos te reconoces. La mayoría de los negocios que vemos están en el primero, y no es por desordenados: es porque contar a mano es un trabajo que no termina nunca.\n\nGuárdalo si te sirve para mostrárselo a quien lleva el stock contigo.\n\nComenta STOCK y te mando por privado un video corto de cómo funcionaría en tu negocio.\n\n#Iquique #AltoHospicio #Almacén",
+    "laminas": [
+      {
+        "id": "car-01-1",
+        "plantilla": "declaracion",
+        "kicker": "Antes y después",
+        "titulo": "Un martes cualquiera en tu negocio",
+        "bajada": "El mismo día, con y sin sistema. Desliza."
+      },
+      {
+        "id": "car-01-2",
+        "plantilla": "lista",
+        "kicker": "Hoy",
+        "titulo": "Así se vive sin sistema",
+        "items": [
+          "Vas a la bodega a mirar si queda.",
+          "Anotas la venta… o se te pasa.",
+          "Te enteras que se acabó tarde."
+        ]
+      },
+      {
+        "id": "car-01-3",
+        "plantilla": "pasos",
+        "kicker": "Con sistema",
+        "titulo": "Los mismos pasos, sin ti",
+        "pasos": [
+          [
+            "1",
+            "Registras con un mensaje de WhatsApp."
+          ],
+          [
+            "2",
+            "El stock se descuenta solo."
+          ],
+          [
+            "3",
+            "Te avisa antes de que se acabe."
+          ]
+        ]
+      },
+      {
+        "id": "car-01-4",
+        "plantilla": "lista",
+        "kicker": "Lo que cambia",
+        "titulo": "No es tecnología, es tiempo",
+        "items": [
+          "No cuentas a mano el domingo.",
+          "No compras lo que ya tenías.",
+          "No pierdes la venta por no saber."
+        ]
+      },
+      {
+        "id": "car-01-5",
+        "plantilla": "declaracion",
+        "kicker": "¿Hablamos?",
+        "titulo": "Comenta STOCK y te escribo",
+        "bajada": "Te muestro cómo se vería en tu negocio, sin costo."
+      }
+    ]
   }
 ]

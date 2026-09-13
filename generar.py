@@ -145,9 +145,13 @@ async def render(posts):
 
 if __name__ == "__main__":
     posts = json.loads((BASE / "calendario.json").read_text(encoding="utf-8"))
-    # Los reels no llevan grafica: los arma medios.py. Aca solo van las
-    # entradas que tienen plantilla de imagen.
-    graficas = [p for p in posts if p.get("plantilla")]
+    # Los reels no llevan grafica: los arma medios.py. Aca van las entradas
+    # con plantilla propia (fotos) y las laminas de cada carrusel.
+    graficas = []
+    for p in posts:
+        if p.get("plantilla"):
+            graficas.append(p)
+        graficas.extend(p.get("laminas", []))
     print(f"Generando {len(graficas)} graficas...")
     asyncio.run(render(graficas))
     print(f"Listo. Carpeta: {OUT}")

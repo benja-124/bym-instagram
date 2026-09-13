@@ -88,8 +88,14 @@ def contenedor_foto(post):
 
 
 def contenedor_carrusel(post):
+    # "partes" manda si esta; si no, se deducen de las laminas escritas
+    # en el calendario, para no tener la lista de ids dos veces.
+    partes = post.get("partes") or [l["id"] for l in post.get("laminas", [])]
+    if not 2 <= len(partes) <= 10:
+        raise SystemExit(
+            f"Un carrusel lleva de 2 a 10 laminas ({post['id']}: {len(partes)})")
     hijos = []
-    for parte in post["partes"]:
+    for parte in partes:
         url = f"{BASE_URL}/imagenes/{parte}.png"
         print(f"  parte: {url}")
         r = llamar("POST", f"{USER_ID}/media",
