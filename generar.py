@@ -4,7 +4,7 @@ Generador de graficas para Instagram - ByM Solutions.
 Convierte texto en imagenes PNG de marca, sin abrir Canva.
 Uso: python3 generar.py
 """
-import json, pathlib, asyncio
+import base64, json, pathlib, asyncio
 from playwright.async_api import async_playwright
 
 BASE = pathlib.Path(__file__).parent
@@ -22,8 +22,13 @@ W, H = 1080, 1350  # formato 4:5, el que mas pantalla ocupa en el feed
 
 
 def font_face(name, weight, fname):
+    # La fuente va incrustada en el propio CSS. Con url('file://...') Chromium
+    # se niega a cargarla cuando la pagina se arma con set_content, porque el
+    # origen es about:blank y el archivo es local. En GitHub Actions eso hacia
+    # que todo saliera en la tipografia por defecto sin avisar de nada.
+    datos = base64.b64encode((FONTS / fname).read_bytes()).decode()
     return f"""@font-face{{font-family:'{name}';font-weight:{weight};
-    src:url('file://{FONTS}/{fname}') format('truetype');}}"""
+    src:url(data:font/ttf;base64,{datos}) format('truetype');}}"""
 
 
 CSS_BASE = f"""

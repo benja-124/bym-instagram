@@ -13,6 +13,7 @@ Uso:  python3 medios.py                     arma todos los reels
       python3 medios.py reel-como-funciona  arma solo uno
 """
 import asyncio
+import base64
 import json
 import pathlib
 import shutil
@@ -23,6 +24,17 @@ from playwright.async_api import async_playwright
 
 BASE = pathlib.Path(__file__).parent
 FONTS = BASE / "fonts"
+
+
+def fuente(nombre):
+    """Devuelve el .ttf en base64 para incrustarlo en el CSS.
+
+    Con url('file://...') Chromium no la carga: la pagina se arma con
+    set_content, su origen es about:blank, y cargar un archivo local
+    desde ahi esta bloqueado. En GitHub Actions eso dejaba todos los
+    reels con la tipografia por defecto, en silencio.
+    """
+    return base64.b64encode((FONTS / nombre).read_bytes()).decode()
 VOZ = BASE / "voz"
 OUT = BASE / "medios"
 IMAGENES = BASE / "imagenes"
@@ -35,11 +47,11 @@ W, H, FPS = 1080, 1920, 20
 
 CSS = f"""
 @font-face{{font-family:'Poppins';font-weight:800;
-  src:url('file://{FONTS}/Poppins-ExtraBold.ttf') format('truetype');}}
+  src:url(data:font/ttf;base64,{fuente('Poppins-ExtraBold.ttf')}) format('truetype');}}
 @font-face{{font-family:'Poppins';font-weight:600;
-  src:url('file://{FONTS}/Poppins-SemiBold.ttf') format('truetype');}}
+  src:url(data:font/ttf;base64,{fuente('Poppins-SemiBold.ttf')}) format('truetype');}}
 @font-face{{font-family:'Poppins';font-weight:500;
-  src:url('file://{FONTS}/Poppins-Medium.ttf') format('truetype');}}
+  src:url(data:font/ttf;base64,{fuente('Poppins-Medium.ttf')}) format('truetype');}}
 *{{margin:0;padding:0;box-sizing:border-box;}}
 body{{width:{W}px;height:{H}px;background:{AZUL};font-family:'Poppins',sans-serif;
   -webkit-font-smoothing:antialiased;overflow:hidden;}}
