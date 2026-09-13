@@ -464,10 +464,11 @@
     "id": "reel-errores",
     "tipo": "reel",
     "fecha": "2026-09-13",
-    "publicado": false,
+    "publicado": true,
     "portada": "reel-errores-portada",
     "texto": "3 errores de control de inventario que cometen casi todos los almacenes y minimarkets de Iquique.\n\nNinguno es por desordenado: aparecen solos cuando el stock se lleva de memoria y el día no da para más.\n\nComenta STOCK y te cuento cómo se arreglan los tres a la vez.\n\n#Iquique #AltoHospicio #Almacen",
-    "hora": "13:00"
+    "hora": "13:00",
+    "id_publicacion": "18367770586212382"
   },
   {
     "id": "reel-domingo",
