@@ -15,6 +15,7 @@ Uso:  python3 medios.py                     arma todos los reels
 import asyncio
 import json
 import pathlib
+import shutil
 import subprocess
 import sys
 
@@ -24,8 +25,10 @@ BASE = pathlib.Path(__file__).parent
 FONTS = BASE / "fonts"
 VOZ = BASE / "voz"
 OUT = BASE / "medios"
+IMAGENES = BASE / "imagenes"
 TMP = BASE / "_cuadros"
 OUT.mkdir(exist_ok=True)
+IMAGENES.mkdir(exist_ok=True)
 
 AZUL, AMBAR = "#0B3B5C", "#F2994A"
 W, H, FPS = 1080, 1920, 20
@@ -201,6 +204,27 @@ async def cuadros(escenas, dur, tmp):
     return total
 
 
+def portada(reel, escenas, tmp):
+    """Guarda un cuadro de la primera escena como miniatura del reel.
+
+    Sin cover_url, Instagram toma el primer cuadro del video, que cae a
+    mitad del fundido de entrada y deja la cuadricula casi vacia. Aca se
+    elige un cuadro avanzado dentro de la primera escena: la animacion ya
+    termino y todavia no empieza la siguiente.
+    """
+    primera = escenas[0]
+    largo = primera["fin"] - primera["inicio"]
+    # 75% de la escena, nunca antes de 0.9s (ahi ya cerro el fundido).
+    t = primera["inicio"] + min(max(0.9, largo * 0.75), largo - 1 / FPS)
+    cuadro = tmp / f"f{int(t * FPS):04d}.png"
+    if not cuadro.exists():
+        print(f"  aviso: no existe el cuadro de portada ({cuadro.name})")
+        return
+    destino = IMAGENES / f"{reel}-portada.png"
+    shutil.copyfile(cuadro, destino)
+    print(f"  portada: {destino.name} (t={t:.2f}s)")
+
+
 def locucion(carpeta, tiempos, destino):
     """Pega las escenas habladas con su pausa detras de cada una."""
     lista = carpeta / "_lista.txt"
@@ -286,6 +310,7 @@ async def hacer(reel):
 
     tmp = TMP / reel
     await cuadros(escenas, dur, tmp)
+    portada(reel, escenas, tmp)
 
     voz_wav = carpeta / "_locucion.wav"
     locucion(carpeta, tiempos, voz_wav)
