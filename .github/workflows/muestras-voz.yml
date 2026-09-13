@@ -54,7 +54,14 @@ jobs:
             git config user.email "github-actions[bot]@users.noreply.github.com"
             git add muestras/
             git commit -m "Muestras de voz para comparar"
-            git push
+            subido=0
+            for i in 1 2 3 4 5; do
+              if git push; then subido=1; break; fi
+              echo "Rechazado: otro proceso empujo mientras corriamos. Rebaso y reintento ($i)."
+              git pull --rebase origin "$GITHUB_REF_NAME" || exit 1
+              sleep $((i * 5))
+            done
+            [ "$subido" = 1 ] || { echo "No se pudo subir despues de 5 intentos."; exit 1; }
           else
             echo "Sin cambios en las muestras."
           fi
