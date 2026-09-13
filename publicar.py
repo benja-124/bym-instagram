@@ -22,11 +22,29 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
-from datetime import date
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
 API = "https://graph.instagram.com/v23.0"
 BASE = pathlib.Path(__file__).parent
 CALENDARIO = BASE / "calendario.json"
+CHILE = ZoneInfo("America/Santiago")
+
+# Cuantas piezas puede publicar una sola corrida. Es 2 para que, si se salta
+# una corrida (GitHub atrasa o descarta los procesos programados cuando esta
+# cargado), la siguiente se ponga al dia en vez de arrastrar el atraso para
+# siempre. El tope evita que un fin de semana caido vacie la fila de golpe.
+MAX_POR_CORRIDA = 2
+
+
+def momento(post):
+    """Fecha y hora programadas de una pieza, en hora de Chile.
+
+    Sin 'hora' se asume medianoche, que es como se comportaba antes: la pieza
+    queda disponible apenas llega su fecha.
+    """
+    hora = post.get("hora") or "00:00"
+    return datetime.fromisoformat(f"{post['fecha']}T{hora}").replace(tzinfo=CHILE)
 
 TOKEN = os.environ.get("IG_TOKEN", "").strip()
 USER_ID = os.environ.get("IG_USER_ID", "").strip()
@@ -131,42 +149,53 @@ def main():
         raise SystemExit(f"Faltan variables de entorno: {', '.join(faltan)}")
 
     calendario = json.loads(CALENDARIO.read_text(encoding="utf-8"))
-    hoy = date.today().isoformat()
+    ahora = datetime.now(CHILE)
 
-    # El calendario es una fila de espera: se toma el mas antiguo sin publicar
-    # cuya fecha ya llego. Si una corrida falla, la siguiente se pone al dia.
+    # El calendario es una fila de espera: se toman las piezas sin publicar
+    # cuya fecha y hora ya pasaron, de la mas antigua a la mas nueva.
     pendientes = sorted(
-        (p for p in calendario
-         if not p.get("publicado") and p.get("fecha", "9999") <= hoy),
-        key=lambda p: (p.get("fecha", ""), p.get("id", "")))
+        (p for p in calendario if not p.get("publicado") and momento(p) <= ahora),
+        key=momento)
 
     if not pendientes:
-        print(f"No hay pendientes con fecha hasta hoy ({hoy}).")
+        print(f"No hay pendientes para {ahora:%Y-%m-%d %H:%M} (hora de Chile).")
         return
 
-    post = pendientes[0]
-    tipo = post.get("tipo", "foto")
-    if tipo not in CONSTRUCTORES:
-        raise SystemExit(f"Tipo desconocido en {post['id']}: {tipo}")
+    toca = pendientes[:MAX_POR_CORRIDA]
+    if len(pendientes) > len(toca):
+        print(f"Hay {len(pendientes)} pendientes; publico {len(toca)} y el resto "
+              f"queda para la proxima corrida.")
 
-    atraso = "" if post["fecha"] == hoy else f" (atrasado desde {post['fecha']})"
-    print(f"Publicando {post['id']} [{tipo}]{atraso}. "
-          f"Quedan {len(pendientes) - 1} en fila.")
+    publicados = 0
+    for post in toca:
+        tipo = post.get("tipo", "foto")
+        if tipo not in CONSTRUCTORES:
+            raise SystemExit(f"Tipo desconocido en {post['id']}: {tipo}")
 
-    contenedor = CONSTRUCTORES[tipo](post)
-    esperar(contenedor)
-    id_publicacion = llamar("POST", f"{USER_ID}/media_publish",
-                            {"creation_id": contenedor})["id"]
-    print(f"  publicado. id: {id_publicacion}")
+        programado = momento(post)
+        atraso = "" if programado.date() == ahora.date() else \
+            f" (atrasado desde {programado:%d-%m %H:%M})"
+        print(f"Publicando {post['id']} [{tipo}]{atraso}.")
 
-    for p in calendario:
-        if p["id"] == post["id"]:
-            p["publicado"] = True
-            p["id_publicacion"] = id_publicacion
-    CALENDARIO.write_text(
-        json.dumps(calendario, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8")
-    print("  calendario.json actualizado")
+        contenedor = CONSTRUCTORES[tipo](post)
+        esperar(contenedor)
+        id_publicacion = llamar("POST", f"{USER_ID}/media_publish",
+                                {"creation_id": contenedor})["id"]
+        print(f"  publicado. id: {id_publicacion}")
+
+        for p in calendario:
+            if p["id"] == post["id"]:
+                p["publicado"] = True
+                p["id_publicacion"] = id_publicacion
+
+        # Se guarda despues de cada pieza: si la segunda falla, la primera no
+        # se vuelve a publicar en la corrida siguiente.
+        CALENDARIO.write_text(
+            json.dumps(calendario, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8")
+        publicados += 1
+
+    print(f"calendario.json actualizado ({publicados} publicada(s)).")
 
 
 if __name__ == "__main__":

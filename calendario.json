@@ -96,7 +96,7 @@
   },
   {
     "id": "post-07",
-    "fecha": "2026-09-13",
+    "fecha": "2026-09-14",
     "publicado": false,
     "plantilla": "lista",
     "kicker": "Lo que escuchamos",
@@ -106,11 +106,12 @@
       "\"Soy muy chico, esto es para empresas grandes.\"",
       "\"No sé nada de computación.\""
     ],
-    "texto": "Las tres razones que más escuchamos para no automatizar 👇\n\n💬 \"Es muy caro\" — Partimos con un solo proceso, con inversión acotada. Se paga con el tiempo y las ventas que dejas de perder.\n\n💬 \"Soy muy chico\" — Justamente al revés: mientras más chico, más te duele cada quiebre de stock y cada producto vencido.\n\n💬 \"No sé de computación\" — Si sabes mandar un WhatsApp, ya sabes todo lo que necesitas.\n\n#Iquique #Tarapacá #Almacén #Minimarket #PYME"
+    "texto": "Las tres razones que más escuchamos para no automatizar 👇\n\n💬 \"Es muy caro\" — Partimos con un solo proceso, con inversión acotada. Se paga con el tiempo y las ventas que dejas de perder.\n\n💬 \"Soy muy chico\" — Justamente al revés: mientras más chico, más te duele cada quiebre de stock y cada producto vencido.\n\n💬 \"No sé de computación\" — Si sabes mandar un WhatsApp, ya sabes todo lo que necesitas.\n\n#Iquique #Tarapacá #Almacén #Minimarket #PYME",
+    "hora": "13:00"
   },
   {
     "id": "post-08",
-    "fecha": "2026-09-14",
+    "fecha": "2026-09-15",
     "publicado": false,
     "plantilla": "pasos",
     "kicker": "La alerta",
@@ -129,21 +130,23 @@
         "Pides antes de quedarte sin stock."
       ]
     ],
-    "texto": "El momento más útil de todo el sistema es este 👇\n\n1️⃣ El sistema nota que un producto bajó del mínimo que tú definiste.\n2️⃣ Te llega el aviso al teléfono, sin que preguntes nada.\n3️⃣ Haces el pedido antes de quedarte sin stock, no después.\n\nLa diferencia entre enterarse antes o después son ventas concretas.\n\n#Iquique #Tarapacá #Inventario #Almacén #Botillería #Automatización"
+    "texto": "El momento más útil de todo el sistema es este 👇\n\n1️⃣ El sistema nota que un producto bajó del mínimo que tú definiste.\n2️⃣ Te llega el aviso al teléfono, sin que preguntes nada.\n3️⃣ Haces el pedido antes de quedarte sin stock, no después.\n\nLa diferencia entre enterarse antes o después son ventas concretas.\n\n#Iquique #Tarapacá #Inventario #Almacén #Botillería #Automatización",
+    "hora": "13:00"
   },
   {
     "id": "post-09",
-    "fecha": "2026-09-15",
+    "fecha": "2026-09-16",
     "publicado": false,
     "plantilla": "declaracion",
     "kicker": "Tu tiempo",
     "titulo": "¿Cuánto vale una hora tuya?",
     "bajada": "Contar stock a mano cada semana son horas que no vuelven.",
-    "texto": "Hagamos una cuenta rápida ⏱️\n\nSi cada semana pierdes dos horas contando stock y armando el pedido a mano, son ocho horas al mes. Un día completo de trabajo, todos los meses, haciendo algo que un sistema hace solo.\n\nY eso sin contar los errores de conteo, que se pagan aparte.\n\nTu tiempo también es plata del negocio.\n\n#Iquique #Tarapacá #Almacén #Minimarket #GestiónDeNegocios #PYME"
+    "texto": "Hagamos una cuenta rápida ⏱️\n\nSi cada semana pierdes dos horas contando stock y armando el pedido a mano, son ocho horas al mes. Un día completo de trabajo, todos los meses, haciendo algo que un sistema hace solo.\n\nY eso sin contar los errores de conteo, que se pagan aparte.\n\nTu tiempo también es plata del negocio.\n\n#Iquique #Tarapacá #Almacén #Minimarket #GestiónDeNegocios #PYME",
+    "hora": "13:00"
   },
   {
     "id": "post-10",
-    "fecha": "2026-09-16",
+    "fecha": "2026-09-17",
     "publicado": false,
     "plantilla": "lista",
     "kicker": "Fugas invisibles",
@@ -153,11 +156,12 @@
       "Pedidos duplicados por no saber qué había.",
       "El fiado anotado en cualquier parte."
     ],
-    "texto": "Hay pérdidas que no se ven en la caja, pero se sienten a fin de mes 👇\n\n📦 Mermas y vencimientos que nadie registra. Si no se anota, no existe… hasta que falta la plata.\n\n🔁 Pedidos duplicados. Compraste algo que ya tenías porque no sabías que estaba.\n\n📝 El fiado anotado en un papel, en el teléfono, o en la memoria. Y lo que no está anotado bien, muchas veces no se cobra.\n\n#Iquique #Tarapacá #Almacén #Botillería #Minimarket #ControlDeInventario"
+    "texto": "Hay pérdidas que no se ven en la caja, pero se sienten a fin de mes 👇\n\n📦 Mermas y vencimientos que nadie registra. Si no se anota, no existe… hasta que falta la plata.\n\n🔁 Pedidos duplicados. Compraste algo que ya tenías porque no sabías que estaba.\n\n📝 El fiado anotado en un papel, en el teléfono, o en la memoria. Y lo que no está anotado bien, muchas veces no se cobra.\n\n#Iquique #Tarapacá #Almacén #Botillería #Minimarket #ControlDeInventario",
+    "hora": "13:00"
   },
   {
     "id": "post-11",
-    "fecha": "2026-09-17",
+    "fecha": "2026-09-18",
     "publicado": false,
     "plantilla": "pasos",
     "kicker": "Cómo partimos",
@@ -176,7 +180,8 @@
         "Lo probamos juntos antes de largarlo."
       ]
     ],
-    "texto": "Por si te da curiosidad cómo es trabajar con nosotros 👇\n\n1️⃣ Conversamos 15 o 20 minutos para entender qué te complica hoy. Sin costo y sin compromiso.\n2️⃣ Te armamos una propuesta clara, con precio y plazo. Nada de letra chica.\n3️⃣ Lo implementamos y lo probamos contigo antes de darlo por listo.\n\nY después no te dejamos solo: queda con soporte.\n\n#Iquique #AltoHospicio #Tarapacá #ByMSolutions #PYME"
+    "texto": "Por si te da curiosidad cómo es trabajar con nosotros 👇\n\n1️⃣ Conversamos 15 o 20 minutos para entender qué te complica hoy. Sin costo y sin compromiso.\n2️⃣ Te armamos una propuesta clara, con precio y plazo. Nada de letra chica.\n3️⃣ Lo implementamos y lo probamos contigo antes de darlo por listo.\n\nY después no te dejamos solo: queda con soporte.\n\n#Iquique #AltoHospicio #Tarapacá #ByMSolutions #PYME",
+    "hora": "13:00"
   },
   {
     "id": "post-12",
@@ -186,20 +191,22 @@
     "kicker": "Hablemos",
     "titulo": "Cuéntanos qué te complica hoy",
     "bajada": "Mándanos un mensaje y te decimos si esto te sirve. Sin vueltas.",
-    "texto": "Si llegaste hasta acá viendo nuestro contenido, probablemente algo te hizo sentido 👀\n\nMándanos un mensaje directo y cuéntanos qué es lo que más te complica hoy en tu negocio. Te decimos derechamente si esto te sirve o no.\n\nSin vueltas, sin costo, y si no te sirve te lo decimos igual.\n\n📍 Tarapacá\n\n#Iquique #AltoHospicio #Tarapacá #Almacén #Botillería #Minimarket #NegocioLocal"
+    "texto": "Si llegaste hasta acá viendo nuestro contenido, probablemente algo te hizo sentido 👀\n\nMándanos un mensaje directo y cuéntanos qué es lo que más te complica hoy en tu negocio. Te decimos derechamente si esto te sirve o no.\n\nSin vueltas, sin costo, y si no te sirve te lo decimos igual.\n\n📍 Tarapacá\n\n#Iquique #AltoHospicio #Tarapacá #Almacén #Botillería #Minimarket #NegocioLocal",
+    "hora": "19:00"
   },
   {
     "id": "reel-oferta",
     "tipo": "reel",
-    "fecha": "2026-09-15",
+    "fecha": "2026-09-14",
     "publicado": false,
     "portada": "reel-oferta-portada",
-    "texto": "Control de inventario por WhatsApp para almacenes y minimarkets de Iquique: esto es lo que puede tener tu negocio sin comprar ningún equipo ni instalar ninguna aplicación nueva.\n\nRegistras con un mensaje. El stock se descuenta solo. Cuando algo baja del mínimo, te avisa al teléfono antes de que te quedes sin producto.\n\nComenta STOCK y te mando por privado cómo se vería en tu negocio.\n\n#Iquique #AltoHospicio #Almacén"
+    "texto": "Control de inventario por WhatsApp para almacenes y minimarkets de Iquique: esto es lo que puede tener tu negocio sin comprar ningún equipo ni instalar ninguna aplicación nueva.\n\nRegistras con un mensaje. El stock se descuenta solo. Cuando algo baja del mínimo, te avisa al teléfono antes de que te quedes sin producto.\n\nComenta STOCK y te mando por privado cómo se vería en tu negocio.\n\n#Iquique #AltoHospicio #Almacén",
+    "hora": "19:00"
   },
   {
     "id": "car-01",
     "tipo": "carrusel",
-    "fecha": "2026-09-14",
+    "fecha": "2026-09-13",
     "publicado": false,
     "texto": "5 errores de control de inventario que cometen los almacenes y minimarkets de Iquique, y qué hacer con cada uno.\n\nNinguno es por desordenado. Son errores que aparecen solos cuando el stock se lleva a mano y el día no da para más.\n\nGuárdalo y cuéntame en los comentarios cuántos de los cinco reconociste. El tercero es el más común de lejos.\n\nComenta STOCK y te mando por privado cómo se vería resuelto en tu negocio.\n\n#Iquique #AltoHospicio #Almacen",
     "laminas": [
@@ -318,12 +325,13 @@
         "titulo": "Comenta STOCK y lo vemos",
         "bajada": "Te muestro cómo se vería en tu negocio."
       }
-    ]
+    ],
+    "hora": "19:00"
   },
   {
     "id": "car-02",
     "tipo": "carrusel",
-    "fecha": "2026-09-16",
+    "fecha": "2026-09-15",
     "publicado": false,
     "texto": "Qué se puede automatizar en un almacén o minimarket de Iquique, en concreto: cuatro cosas que hoy haces a mano y que el sistema puede hacer solo.\n\nNo hay que comprar equipos ni instalar aplicaciones nuevas. Todo funciona sobre el WhatsApp que ya usas todos los días.\n\nGuárdalo para cuando estés pensando en ordenar el negocio.\n\nComenta STOCK y te cuento cuál de las cuatro te conviene partir.\n\n#Iquique #AltoHospicio #Almacen",
     "laminas": [
@@ -392,12 +400,13 @@
         "titulo": "Comenta STOCK y te digo",
         "bajada": "Casi siempre conviene partir por una sola."
       }
-    ]
+    ],
+    "hora": "19:00"
   },
   {
     "id": "car-03",
     "tipo": "carrusel",
-    "fecha": "2026-09-18",
+    "fecha": "2026-09-17",
     "publicado": false,
     "texto": "Control de inventario para negocios chicos: las tres excusas que más escuchamos para no ordenar el stock, y por qué ninguna se sostiene.\n\nNo es que la gente sea desordenada. Es que contar a mano es un trabajo que no termina nunca, y nadie tiene tiempo de sobra.\n\nSi alguna te suena conocida, no eres tú solo: nos pasa con casi todos.\n\nComenta STOCK y te muestro cómo se vería en tu negocio.\n\n#Iquique #AltoHospicio #Almacen",
     "laminas": [
@@ -448,7 +457,8 @@
         "titulo": "Comenta STOCK y lo vemos",
         "bajada": "Si no te sirve, te lo digo de frente."
       }
-    ]
+    ],
+    "hora": "19:00"
   },
   {
     "id": "reel-errores",
@@ -456,14 +466,16 @@
     "fecha": "2026-09-13",
     "publicado": false,
     "portada": "reel-errores-portada",
-    "texto": "3 errores de control de inventario que cometen casi todos los almacenes y minimarkets de Iquique.\n\nNinguno es por desordenado: aparecen solos cuando el stock se lleva de memoria y el día no da para más.\n\nComenta STOCK y te cuento cómo se arreglan los tres a la vez.\n\n#Iquique #AltoHospicio #Almacen"
+    "texto": "3 errores de control de inventario que cometen casi todos los almacenes y minimarkets de Iquique.\n\nNinguno es por desordenado: aparecen solos cuando el stock se lleva de memoria y el día no da para más.\n\nComenta STOCK y te cuento cómo se arreglan los tres a la vez.\n\n#Iquique #AltoHospicio #Almacen",
+    "hora": "13:00"
   },
   {
     "id": "reel-domingo",
     "tipo": "reel",
-    "fecha": "2026-09-17",
+    "fecha": "2026-09-16",
     "publicado": false,
     "portada": "reel-domingo-portada",
-    "texto": "Control de inventario para almacenes de Iquique: si cuentas el stock el domingo en la noche, esto es para ti.\n\nRegistras con un mensaje, el saldo se descuenta solo, y el aviso te llega el jueves — no cuando ya te quedaste sin producto.\n\nComenta STOCK y te muestro cómo se vería en tu negocio.\n\n#Iquique #AltoHospicio #Almacen"
+    "texto": "Control de inventario para almacenes de Iquique: si cuentas el stock el domingo en la noche, esto es para ti.\n\nRegistras con un mensaje, el saldo se descuenta solo, y el aviso te llega el jueves — no cuando ya te quedaste sin producto.\n\nComenta STOCK y te muestro cómo se vería en tu negocio.\n\n#Iquique #AltoHospicio #Almacen",
+    "hora": "19:00"
   }
 ]
