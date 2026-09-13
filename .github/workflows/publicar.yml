@@ -2,9 +2,10 @@ name: Publicar en Instagram
 
 on:
   schedule:
-    # 13:00 y 19:00 hora de Chile (UTC-3) = 16:00 y 22:00 UTC.
-    # Dos publicaciones al dia, separadas, en vez de las dos juntas.
-    - cron: "0 16,22 * * *"
+    # 13:00, 16:00 y 19:00 hora de Chile (UTC-3) = 16:00, 19:00 y 22:00 UTC.
+    # El turno de las 16:00 es para los reels de redes, dia por medio; los
+    # dias sin pieza asignada la corrida no publica nada y no pasa nada.
+    - cron: "0 16,19,22 * * *"
   workflow_dispatch: {}
 
 permissions:
