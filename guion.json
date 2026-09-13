@@ -324,5 +324,700 @@
     }
    }
   ]
+ },
+ "reel-inconsistente": {
+  "titulo": "Publicas cuando te acuerdas",
+  "escenas": [
+   {
+    "id": "s1",
+    "plantilla": "gancho",
+    "voz": "¿Publicas cuando te acuerdas? A tu negocio le pasa esto.",
+    "sub": "¿Publicas cuando te acuerdas?",
+    "pausa": 0.45,
+    "datos": {
+     "kicker": "Ferreterías de Iquique",
+     "titulo": "¿Publicas cuando<br>te acuerdas?"
+    }
+   },
+   {
+    "id": "s2",
+    "plantilla": "contador",
+    "voz": "Pasan los días y tu negocio desaparece del teléfono de la gente.",
+    "sub": "Y los días pasan",
+    "pausa": 0.4,
+    "datos": {
+     "arriba": "Tu última publicación",
+     "desde": 3,
+     "hasta": 62,
+     "abajo": "días sin publicar"
+    }
+   },
+   {
+    "id": "s3",
+    "plantilla": "capacidad",
+    "voz": "No es falta de ganas. Es que armar una publicación toma media hora que no tienes.",
+    "sub": "No es falta de ganas",
+    "pausa": 0.4,
+    "datos": {
+     "n": "1",
+     "titulo": "No es falta de ganas",
+     "detalle": "Armar una publicación toma media hora que no tienes."
+    }
+   },
+   {
+    "id": "s4",
+    "plantilla": "alerta",
+    "voz": "Acá tú escribes el texto una vez. La imagen, la voz y la publicación salen solas.",
+    "sub": "Tú escribes. El resto sale solo",
+    "pausa": 0.4,
+    "datos": {
+     "etiqueta": "Lunes 13:00",
+     "texto": "Publicación lista.<br>Sale sola."
+    }
+   },
+   {
+    "id": "s5",
+    "plantilla": "cierre",
+    "voz": "Este reel salió así, sin que nadie lo publicara. Comenta redes y te muestro.",
+    "sub": "Comenta REDES",
+    "pausa": 0.8,
+    "datos": {
+     "pill": "Este reel salió así",
+     "titulo": "Comenta REDES<br>y te muestro",
+     "detalle": "ByM Solutions &middot; Tarapacá"
+    }
+   }
+  ]
+ },
+ "reel-nadie-encuentra": {
+  "titulo": "Te buscan y no te encuentran",
+  "escenas": [
+   {
+    "id": "s1",
+    "plantilla": "gancho",
+    "voz": "Alguien está buscando peluquería en Iquique ahora mismo. Y no te encuentra.",
+    "sub": "Te buscan y no te encuentran",
+    "pausa": 0.45,
+    "datos": {
+     "kicker": "Peluquerías de Iquique",
+     "titulo": "Te buscan y<br>no te encuentran"
+    }
+   },
+   {
+    "id": "s2",
+    "plantilla": "chat",
+    "voz": "Instagram hoy funciona como buscador: lee el texto de tus publicaciones.",
+    "sub": "Instagram hoy busca por texto",
+    "pausa": 0.4,
+    "datos": {
+     "mensajes": [
+      [
+       "ent",
+       "¿Conocen una peluquería buena por acá?"
+      ],
+      [
+       "sal",
+       "Yo voy a una… no me acuerdo cómo se llama"
+      ],
+      [
+       "ent",
+       "¿La buscaste en Instagram?"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "s3",
+    "plantilla": "capacidad",
+    "voz": "Poner peluquería en Iquique al principio del texto vale más que treinta hashtags.",
+    "sub": "Palabras clave al principio",
+    "pausa": 0.4,
+    "datos": {
+     "n": "1",
+     "titulo": "Palabras, no hashtags",
+     "detalle": "Las primeras líneas del texto son lo que se busca."
+    }
+   },
+   {
+    "id": "s4",
+    "plantilla": "capacidad",
+    "voz": "Y publicar seguido. Una cuenta dormida no aparece.",
+    "sub": "Publicar seguido",
+    "pausa": 0.4,
+    "datos": {
+     "n": "2",
+     "titulo": "Publicar seguido",
+     "detalle": "Una cuenta dormida no aparece. Una activa sí."
+    }
+   },
+   {
+    "id": "s5",
+    "plantilla": "cierre",
+    "voz": "Las dos cosas se automatizan. Comenta redes y te cuento cómo.",
+    "sub": "Comenta REDES",
+    "pausa": 0.8,
+    "datos": {
+     "pill": "Las dos se automatizan",
+     "titulo": "Comenta REDES<br>y te cuento",
+     "detalle": "ByM Solutions &middot; Tarapacá"
+    }
+   }
+  ]
+ },
+ "reel-viernes": {
+  "titulo": "Se te acabó un viernes",
+  "escenas": [
+   {
+    "id": "s1",
+    "plantilla": "gancho",
+    "voz": "¿Alguna vez se te acabó la cerveza un viernes en la noche?",
+    "sub": "¿Se te acabó un viernes?",
+    "pausa": 0.45,
+    "datos": {
+     "kicker": "Botillerías",
+     "titulo": "¿Se te acabó<br>un viernes?"
+    }
+   },
+   {
+    "id": "s2",
+    "plantilla": "tablero",
+    "voz": "El sistema mira tu bodega solo, producto por producto.",
+    "sub": "Mira tu bodega solo",
+    "pausa": 0.4,
+    "datos": {
+     "kicker": "Tu bodega, en vivo",
+     "filas": [
+      [
+       "Cerveza",
+       6,
+       60,
+       "#F2994A"
+      ],
+      [
+       "Bebidas",
+       41,
+       70,
+       "#7FB7E8"
+      ],
+      [
+       "Vino",
+       28,
+       40,
+       "#7FE8B0"
+      ],
+      [
+       "Hielo",
+       3,
+       30,
+       "#F2994A"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "s3",
+    "plantilla": "alerta",
+    "voz": "Y te avisa el jueves, no el sábado cuando ya perdiste la venta.",
+    "sub": "Te avisa antes, no después",
+    "pausa": 0.4,
+    "datos": {
+     "etiqueta": "Jueves 11:20",
+     "texto": "Quedan 6 cervezas.<br>El viernes no alcanzas."
+    }
+   },
+   {
+    "id": "s4",
+    "plantilla": "capacidad",
+    "voz": "El pedido al proveedor llega armado. Tú solo lo revisas.",
+    "sub": "El pedido llega armado",
+    "pausa": 0.4,
+    "datos": {
+     "n": "1",
+     "titulo": "El pedido ya armado",
+     "detalle": "Con lo que falta y las cantidades. Solo lo mandas."
+    }
+   },
+   {
+    "id": "s5",
+    "plantilla": "cierre",
+    "voz": "Todo por WhatsApp. Comenta stock y te muestro.",
+    "sub": "Comenta STOCK",
+    "pausa": 0.8,
+    "datos": {
+     "pill": "Sin apps nuevas",
+     "titulo": "Comenta STOCK<br>y te muestro",
+     "detalle": "ByM Solutions &middot; Tarapacá"
+    }
+   }
+  ]
+ },
+ "reel-publica-sola": {
+  "titulo": "Nadie publicó este reel",
+  "escenas": [
+   {
+    "id": "s1",
+    "plantilla": "gancho",
+    "voz": "Nadie publicó este reel. Ni armó el video, ni apretó publicar.",
+    "sub": "Nadie publicó este reel",
+    "pausa": 0.45,
+    "datos": {
+     "kicker": "Esto es una demostración",
+     "titulo": "Nadie publicó<br>este reel"
+    }
+   },
+   {
+    "id": "s2",
+    "plantilla": "capacidad",
+    "voz": "El texto se escribe una vez, en una planilla. Eso es lo único humano.",
+    "sub": "Se escribe una vez",
+    "pausa": 0.4,
+    "datos": {
+     "n": "1",
+     "titulo": "Se escribe una vez",
+     "detalle": "El texto queda en una planilla. Nada más."
+    }
+   },
+   {
+    "id": "s3",
+    "plantilla": "capacidad",
+    "voz": "La voz que estás escuchando ahora mismo es generada.",
+    "sub": "La voz es generada",
+    "pausa": 0.4,
+    "datos": {
+     "n": "2",
+     "titulo": "La voz es generada",
+     "detalle": "La que estás escuchando en este momento."
+    }
+   },
+   {
+    "id": "s4",
+    "plantilla": "alerta",
+    "voz": "Y a la hora programada se publica solo, sin nadie mirando.",
+    "sub": "Se publica solo",
+    "pausa": 0.4,
+    "datos": {
+     "etiqueta": "Hoy 19:00",
+     "texto": "Publicado solo.<br>Sin nadie mirando."
+    }
+   },
+   {
+    "id": "s5",
+    "plantilla": "cierre",
+    "voz": "Si funciona en mi cuenta, funciona en la tuya. Comenta redes.",
+    "sub": "Comenta REDES",
+    "pausa": 0.8,
+    "datos": {
+     "pill": "Si funciona acá, funciona allá",
+     "titulo": "Comenta REDES<br>y te muestro",
+     "detalle": "ByM Solutions &middot; Tarapacá"
+    }
+   }
+  ]
+ },
+ "reel-hora": {
+  "titulo": "Cuánto vale una hora tuya",
+  "escenas": [
+   {
+    "id": "s1",
+    "plantilla": "gancho",
+    "voz": "¿Cuánto vale una hora tuya? Hagamos la cuenta.",
+    "sub": "¿Cuánto vale una hora tuya?",
+    "pausa": 0.45,
+    "datos": {
+     "kicker": "Almacenes y minimarkets",
+     "titulo": "¿Cuánto vale<br>una hora tuya?"
+    }
+   },
+   {
+    "id": "s2",
+    "plantilla": "contador",
+    "voz": "Seis horas al mes contando stock a mano. Como mínimo.",
+    "sub": "6 horas al mes, como mínimo",
+    "pausa": 0.4,
+    "datos": {
+     "arriba": "Contando stock a mano",
+     "desde": 0,
+     "hasta": 6,
+     "abajo": "horas al mes"
+    }
+   },
+   {
+    "id": "s3",
+    "plantilla": "contador",
+    "voz": "Al año son setenta y dos horas. Casi dos semanas de trabajo.",
+    "sub": "72 horas al año",
+    "pausa": 0.4,
+    "datos": {
+     "arriba": "Al año",
+     "desde": 0,
+     "hasta": 72,
+     "abajo": "horas de tu vida"
+    }
+   },
+   {
+    "id": "s4",
+    "plantilla": "capacidad",
+    "voz": "Y eso sin contar lo que pierdes por pedir de más o quedarte sin.",
+    "sub": "Sin contar lo que pierdes",
+    "pausa": 0.4,
+    "datos": {
+     "n": "1",
+     "titulo": "Y eso sin contar",
+     "detalle": "Lo que pierdes por pedir de más o quedarte sin."
+    }
+   },
+   {
+    "id": "s5",
+    "plantilla": "cierre",
+    "voz": "Casi todo eso se recupera. Comenta stock y lo vemos.",
+    "sub": "Comenta STOCK",
+    "pausa": 0.8,
+    "datos": {
+     "pill": "Se recupera casi todo",
+     "titulo": "Comenta STOCK<br>y lo vemos",
+     "detalle": "ByM Solutions &middot; Tarapacá"
+    }
+   }
+  ]
+ },
+ "reel-que-publico": {
+  "titulo": "Y qué publico",
+  "escenas": [
+   {
+    "id": "s1",
+    "plantilla": "gancho",
+    "voz": "¿Y qué publico? Esa es la pregunta que frena a todo el mundo.",
+    "sub": "¿Y qué publico?",
+    "pausa": 0.45,
+    "datos": {
+     "kicker": "Botillerías",
+     "titulo": "¿Y qué<br>publico?"
+    }
+   },
+   {
+    "id": "s2",
+    "plantilla": "capacidad",
+    "voz": "No tienes que inventar nada. Lo que ya sabes le sirve a alguien.",
+    "sub": "No tienes que inventar nada",
+    "pausa": 0.4,
+    "datos": {
+     "n": "1",
+     "titulo": "No inventes nada",
+     "detalle": "Lo que ya sabes de tu rubro le sirve a alguien."
+    }
+   },
+   {
+    "id": "s3",
+    "plantilla": "chat",
+    "voz": "Qué llegó, qué se acabó, qué conviene para el asado del fin de semana.",
+    "sub": "Lo de todos los días sirve",
+    "pausa": 0.4,
+    "datos": {
+     "mensajes": [
+      [
+       "ent",
+       "Llegó el vino nuevo"
+      ],
+      [
+       "sal",
+       "Eso es una publicación"
+      ],
+      [
+       "ent",
+       "¿En serio? Si es lo de siempre"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "s4",
+    "plantilla": "alerta",
+    "voz": "Lo escribes una vez en la semana y sale repartido solo.",
+    "sub": "Lo escribes una vez",
+    "pausa": 0.4,
+    "datos": {
+     "etiqueta": "Domingo, 10 minutos",
+     "texto": "Tres publicaciones<br>listas para la semana."
+    }
+   },
+   {
+    "id": "s5",
+    "plantilla": "cierre",
+    "voz": "Comenta redes y te muestro cómo queda.",
+    "sub": "Comenta REDES",
+    "pausa": 0.8,
+    "datos": {
+     "pill": "Diez minutos a la semana",
+     "titulo": "Comenta REDES<br>y te muestro",
+     "detalle": "ByM Solutions &middot; Tarapacá"
+    }
+   }
+  ]
+ },
+ "reel-hashtags": {
+  "titulo": "Los hashtags ya no sirven",
+  "escenas": [
+   {
+    "id": "s1",
+    "plantilla": "gancho",
+    "voz": "Tus treinta hashtags no te están trayendo a nadie. Te explico.",
+    "sub": "Tus hashtags no traen a nadie",
+    "pausa": 0.45,
+    "datos": {
+     "kicker": "Almacenes",
+     "titulo": "Tus hashtags<br>ya no sirven"
+    }
+   },
+   {
+    "id": "s2",
+    "plantilla": "capacidad",
+    "voz": "Instagram sacó la opción de seguir hashtags. Dejaron de repartir.",
+    "sub": "Dejaron de repartir en 2024",
+    "pausa": 0.4,
+    "datos": {
+     "n": "1",
+     "titulo": "Cambió en 2024",
+     "detalle": "Se dejaron de seguir hashtags. Perdieron su función."
+    }
+   },
+   {
+    "id": "s3",
+    "plantilla": "capacidad",
+    "voz": "Ahora funciona como buscador: lee el texto de tu publicación.",
+    "sub": "Ahora lee tu texto",
+    "pausa": 0.4,
+    "datos": {
+     "n": "2",
+     "titulo": "Ahora es un buscador",
+     "detalle": "Lee lo que escribes, no lo que etiquetas."
+    }
+   },
+   {
+    "id": "s4",
+    "plantilla": "alerta",
+    "voz": "Así que pon almacén en Iquique al principio, y deja tres hashtags.",
+    "sub": "Palabras al principio, 3 hashtags",
+    "pausa": 0.4,
+    "datos": {
+     "etiqueta": "Lo que sí funciona",
+     "texto": "\"Almacén en Iquique\"<br>en la primera línea."
+    }
+   },
+   {
+    "id": "s5",
+    "plantilla": "cierre",
+    "voz": "Comenta redes y te reviso cómo estás publicando hoy.",
+    "sub": "Comenta REDES",
+    "pausa": 0.8,
+    "datos": {
+     "pill": "Te lo reviso gratis",
+     "titulo": "Comenta REDES<br>y lo vemos",
+     "detalle": "ByM Solutions &middot; Tarapacá"
+    }
+   }
+  ]
+ },
+ "reel-responder": {
+  "titulo": "Te escriben y contestas tarde",
+  "escenas": [
+   {
+    "id": "s1",
+    "plantilla": "gancho",
+    "voz": "Te escriben a las once de la noche y contestas al otro día. Ahí se fue.",
+    "sub": "Contestas al otro día",
+    "pausa": 0.45,
+    "datos": {
+     "kicker": "Peluquerías",
+     "titulo": "Te escriben y<br>contestas tarde"
+    }
+   },
+   {
+    "id": "s2",
+    "plantilla": "chat",
+    "voz": "La mitad de las consultas son las mismas tres preguntas de siempre.",
+    "sub": "Siempre las mismas preguntas",
+    "pausa": 0.4,
+    "datos": {
+     "mensajes": [
+      [
+       "ent",
+       "¿A qué hora abren?"
+      ],
+      [
+       "ent",
+       "¿Cuánto sale el corte?"
+      ],
+      [
+       "ent",
+       "¿Atienden sin hora?"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "s3",
+    "plantilla": "capacidad",
+    "voz": "Esas se pueden contestar solas, al segundo, a cualquier hora.",
+    "sub": "Esas se contestan solas",
+    "pausa": 0.4,
+    "datos": {
+     "n": "1",
+     "titulo": "Respuesta inmediata",
+     "detalle": "Las preguntas repetidas se contestan al segundo."
+    }
+   },
+   {
+    "id": "s4",
+    "plantilla": "capacidad",
+    "voz": "Y cuando la consulta es de verdad, te la pasan a ti.",
+    "sub": "Lo importante llega a ti",
+    "pausa": 0.4,
+    "datos": {
+     "n": "2",
+     "titulo": "Tú ves lo que importa",
+     "detalle": "Si la consulta es seria, te la derivan a ti."
+    }
+   },
+   {
+    "id": "s5",
+    "plantilla": "cierre",
+    "voz": "Comenta redes y te cuento cómo se arma.",
+    "sub": "Comenta REDES",
+    "pausa": 0.8,
+    "datos": {
+     "pill": "A cualquier hora",
+     "titulo": "Comenta REDES<br>y te cuento",
+     "detalle": "ByM Solutions &middot; Tarapacá"
+    }
+   }
+  ]
+ },
+ "reel-competencia": {
+  "titulo": "El de al lado publica todos los días",
+  "escenas": [
+   {
+    "id": "s1",
+    "plantilla": "gancho",
+    "voz": "El de al lado publica todos los días. No porque tenga más tiempo que tú.",
+    "sub": "El de al lado publica todos los días",
+    "pausa": 0.45,
+    "datos": {
+     "kicker": "Ferreterías",
+     "titulo": "El de al lado<br>publica todo el día"
+    }
+   },
+   {
+    "id": "s2",
+    "plantilla": "contador",
+    "voz": "Tú abres a las ocho y cierras a las ocho. No te sobra media hora.",
+    "sub": "No te sobra media hora",
+    "pausa": 0.4,
+    "datos": {
+     "arriba": "Tu día en la ferretería",
+     "desde": 0,
+     "hasta": 12,
+     "abajo": "horas atendiendo"
+    }
+   },
+   {
+    "id": "s3",
+    "plantilla": "capacidad",
+    "voz": "La diferencia no es tiempo ni ganas. Es que lo tiene automatizado.",
+    "sub": "No es tiempo. Es el sistema",
+    "pausa": 0.4,
+    "datos": {
+     "n": "1",
+     "titulo": "No es tiempo",
+     "detalle": "Es que alguien o algo lo hace por él."
+    }
+   },
+   {
+    "id": "s4",
+    "plantilla": "alerta",
+    "voz": "Tú escribes una vez a la semana, y se reparte solo.",
+    "sub": "Escribes una vez por semana",
+    "pausa": 0.4,
+    "datos": {
+     "etiqueta": "Toda la semana",
+     "texto": "Publicado solo,<br>sin que estés."
+    }
+   },
+   {
+    "id": "s5",
+    "plantilla": "cierre",
+    "voz": "Comenta redes y te empato la cancha.",
+    "sub": "Comenta REDES",
+    "pausa": 0.8,
+    "datos": {
+     "pill": "Sin contratar a nadie",
+     "titulo": "Comenta REDES<br>y lo vemos",
+     "detalle": "ByM Solutions &middot; Tarapacá"
+    }
+   }
+  ]
+ },
+ "reel-cuanto-cuesta": {
+  "titulo": "Cuánto cuesta esto",
+  "escenas": [
+   {
+    "id": "s1",
+    "plantilla": "gancho",
+    "voz": "¿Cuánto cuesta esto? Te doy el número, sin vueltas.",
+    "sub": "¿Cuánto cuesta esto?",
+    "pausa": 0.45,
+    "datos": {
+     "kicker": "Sin vueltas",
+     "titulo": "¿Cuánto<br>cuesta esto?"
+    }
+   },
+   {
+    "id": "s2",
+    "plantilla": "capacidad",
+    "voz": "Hay un pago al principio por dejarlo andando, y una mensualidad.",
+    "sub": "Implementación y mensualidad",
+    "pausa": 0.4,
+    "datos": {
+     "n": "1",
+     "titulo": "Dos cosas, nada más",
+     "detalle": "Un pago al armarlo y una mensualidad."
+    }
+   },
+   {
+    "id": "s3",
+    "plantilla": "capacidad",
+    "voz": "Para un negocio chico partimos desde ciento cincuenta mil y veinticinco mil al mes.",
+    "sub": "Desde $150.000 y $25.000 al mes",
+    "pausa": 0.4,
+    "datos": {
+     "n": "2",
+     "titulo": "Desde $150.000",
+     "detalle": "Más $25.000 al mes. El número final sale del diagnóstico."
+    }
+   },
+   {
+    "id": "s4",
+    "plantilla": "capacidad",
+    "voz": "No hay equipos que comprar ni aplicaciones nuevas que instalar.",
+    "sub": "Sin comprar equipos",
+    "pausa": 0.4,
+    "datos": {
+     "n": "3",
+     "titulo": "Nada más que pagar",
+     "detalle": "Sin equipos, sin apps nuevas, sin sorpresas."
+    }
+   },
+   {
+    "id": "s5",
+    "plantilla": "cierre",
+    "voz": "Comenta redes o stock y sacamos tu número.",
+    "sub": "Comenta REDES o STOCK",
+    "pausa": 0.8,
+    "datos": {
+     "pill": "El número exacto sale del diagnóstico",
+     "titulo": "Comenta y<br>lo calculamos",
+     "detalle": "ByM Solutions &middot; Tarapacá"
+    }
+   }
+  ]
  }
 }

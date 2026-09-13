@@ -14,6 +14,7 @@ Uso:  python3 medios.py                     arma todos los reels
 """
 import asyncio
 import base64
+import hashlib
 import json
 import pathlib
 import shutil
@@ -339,15 +340,43 @@ async def hacer(reel):
         f.unlink(missing_ok=True)
 
 
+def huella(reel):
+    """Identifica la version de un reel: su guion mas sus tiempos de voz.
+
+    Si el texto hablado o los tiempos cambian, cambia la huella y hay que
+    rearmar el video. Si no, se puede saltar.
+    """
+    guion = json.loads((BASE / "guion.json").read_text(encoding="utf-8"))
+    tiempos = (VOZ / reel / "tiempos.json").read_text(encoding="utf-8")
+    crudo = json.dumps(guion.get(reel, {}), ensure_ascii=False, sort_keys=True) + tiempos
+    return hashlib.sha256(crudo.encode()).hexdigest()[:16]
+
+
+def al_dia(reel):
+    """True si el video ya existe y corresponde al guion actual."""
+    marca = OUT / f"{reel}.huella"
+    return ((OUT / f"{reel}.mp4").exists() and marca.exists()
+            and marca.read_text().strip() == huella(reel))
+
+
 async def main():
     pedidos = [a for a in sys.argv[1:] if not a.startswith("-")]
+    forzar = "--todo" in sys.argv
     if not pedidos:
         if not VOZ.exists():
             print("No hay locucion todavia. Corre voz.py primero.")
             return
         pedidos = sorted(d.name for d in VOZ.iterdir() if d.is_dir())
+
     for reel in pedidos:
+        # Rearmar todos los reels en cada corrida no escala: con veinte guiones
+        # un cambio de una palabra rehace media hora de video y el proceso tiene
+        # un tope de 60 minutos. Se rearma solo lo que cambio.
+        if not forzar and al_dia(reel):
+            print(f"{reel}: al dia, se salta")
+            continue
         await hacer(reel)
+        (OUT / f"{reel}.huella").write_text(huella(reel) + "\n", encoding="utf-8")
 
 
 if __name__ == "__main__":
