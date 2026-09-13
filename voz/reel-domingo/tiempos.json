@@ -1,0 +1,75 @@
+{
+  "motor": "kokoro",
+  "escenas": [
+    {
+      "id": "s1",
+      "dur": 2.993,
+      "pausa": 0.45,
+      "plantilla": "gancho",
+      "datos": {
+        "kicker": "Te suena",
+        "titulo": "¿Contando el stock<br>otra vez?"
+      },
+      "sub": "Domingo, 11 de la noche"
+    },
+    {
+      "id": "s2",
+      "dur": 4.148,
+      "pausa": 0.4,
+      "plantilla": "chat",
+      "datos": {
+        "mensajes": [
+          [
+            "ent",
+            "Llegaron 24 cervezas"
+          ],
+          [
+            "sal",
+            "Anotado. Quedan 48 en total."
+          ],
+          [
+            "ent",
+            "Vendí 40 hoy"
+          ]
+        ]
+      },
+      "sub": "Avisas por mensaje, nada más"
+    },
+    {
+      "id": "s3",
+      "dur": 2.618,
+      "pausa": 0.4,
+      "plantilla": "contador",
+      "datos": {
+        "arriba": "Cerveza 350 ml",
+        "desde": 48,
+        "hasta": 8,
+        "abajo": "unidades en bodega"
+      },
+      "sub": "La cuenta se lleva sola"
+    },
+    {
+      "id": "s4",
+      "dur": 4.022,
+      "pausa": 0.4,
+      "plantilla": "alerta",
+      "datos": {
+        "etiqueta": "Jueves 18:40",
+        "texto": "Quedan 8 cervezas.<br>Hora de pedir."
+      },
+      "sub": "El aviso llegó el jueves"
+    },
+    {
+      "id": "s5",
+      "dur": 3.16,
+      "pausa": 0.8,
+      "plantilla": "cierre",
+      "datos": {
+        "pill": "Recupera tu domingo",
+        "titulo": "Comenta STOCK<br>y te muestro",
+        "detalle": "ByM Solutions &middot; Tarapacá"
+      },
+      "sub": "Comenta STOCK y te muestro"
+    }
+  ]
+}

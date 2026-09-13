@@ -1,0 +1,64 @@
+{
+  "motor": "kokoro",
+  "escenas": [
+    {
+      "id": "s1",
+      "dur": 3.012,
+      "pausa": 0.45,
+      "plantilla": "gancho",
+      "datos": {
+        "kicker": "Almacenes y minimarkets",
+        "titulo": "3 errores que te<br>cuestan plata"
+      },
+      "sub": "3 errores que te cuestan plata"
+    },
+    {
+      "id": "s2",
+      "dur": 2.942,
+      "pausa": 0.4,
+      "plantilla": "capacidad",
+      "datos": {
+        "n": "1",
+        "titulo": "Comprar de memoria",
+        "detalle": "Pides lo que crees que falta, no lo que se vendió."
+      },
+      "sub": "Comprar de memoria"
+    },
+    {
+      "id": "s3",
+      "dur": 3.971,
+      "pausa": 0.4,
+      "plantilla": "capacidad",
+      "datos": {
+        "n": "2",
+        "titulo": "Enterarte muy tarde",
+        "detalle": "Revisas la bodega cuando el cliente ya preguntó."
+      },
+      "sub": "Enterarte cuando ya se acabó"
+    },
+    {
+      "id": "s4",
+      "dur": 4.21,
+      "pausa": 0.4,
+      "plantilla": "capacidad",
+      "datos": {
+        "n": "3",
+        "titulo": "El cuaderno de siempre",
+        "detalle": "Si no estás tú, nadie sabe qué hay en bodega."
+      },
+      "sub": "El cuaderno que entiendes tú"
+    },
+    {
+      "id": "s5",
+      "dur": 3.144,
+      "pausa": 0.8,
+      "plantilla": "cierre",
+      "datos": {
+        "pill": "Los tres se arreglan igual",
+        "titulo": "Comenta STOCK<br>y te cuento",
+        "detalle": "ByM Solutions &middot; Tarapacá"
+      },
+      "sub": "Comenta STOCK y te cuento"
+    }
+  ]
+}
