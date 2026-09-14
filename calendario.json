@@ -97,7 +97,7 @@
   {
     "id": "post-07",
     "fecha": "2026-09-14",
-    "publicado": false,
+    "publicado": true,
     "plantilla": "lista",
     "kicker": "Lo que escuchamos",
     "titulo": "3 razones para no automatizar",
@@ -107,7 +107,8 @@
       "\"No sé nada de computación.\""
     ],
     "texto": "Las tres razones que más escuchamos para no automatizar 👇\n\n💬 \"Es muy caro\" — Partimos con un solo proceso, con inversión acotada. Se paga con el tiempo y las ventas que dejas de perder.\n\n💬 \"Soy muy chico\" — Justamente al revés: mientras más chico, más te duele cada quiebre de stock y cada producto vencido.\n\n💬 \"No sé de computación\" — Si sabes mandar un WhatsApp, ya sabes todo lo que necesitas.\n\n#Iquique #Tarapacá #Almacén #Minimarket #PYME",
-    "hora": "13:00"
+    "hora": "13:00",
+    "id_publicacion": "18335904436262300"
   },
   {
     "id": "post-08",
@@ -959,9 +960,10 @@
     "tipo": "reel",
     "fecha": "2026-09-14",
     "hora": "16:00",
-    "publicado": false,
+    "publicado": true,
     "portada": "reel-inconsistente-portada",
-    "texto": "Publicar tu ferretería en Instagram sin que te quite tiempo: el problema no es la falta de ganas, es que armar una publicación toma media hora.\n\nEste reel salió solo, sin que nadie lo publicara.\n\nComenta REDES y te muestro.\n\n#Iquique #AltoHospicio #Tarapaca"
+    "texto": "Publicar tu ferretería en Instagram sin que te quite tiempo: el problema no es la falta de ganas, es que armar una publicación toma media hora.\n\nEste reel salió solo, sin que nadie lo publicara.\n\nComenta REDES y te muestro.\n\n#Iquique #AltoHospicio #Tarapaca",
+    "id_publicacion": "18105918893186776"
   },
   {
     "id": "reel-nadie-encuentra",
