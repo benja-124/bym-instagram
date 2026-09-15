@@ -113,7 +113,7 @@
   {
     "id": "post-08",
     "fecha": "2026-09-15",
-    "publicado": false,
+    "publicado": true,
     "plantilla": "pasos",
     "kicker": "La alerta",
     "titulo": "Qué pasa cuando algo se acaba",
@@ -132,7 +132,8 @@
       ]
     ],
     "texto": "El momento más útil de todo el sistema es este 👇\n\n1️⃣ El sistema nota que un producto bajó del mínimo que tú definiste.\n2️⃣ Te llega el aviso al teléfono, sin que preguntes nada.\n3️⃣ Haces el pedido antes de quedarte sin stock, no después.\n\nLa diferencia entre enterarse antes o después son ventas concretas.\n\n#Iquique #Tarapacá #Inventario #Almacén #Botillería #Automatización",
-    "hora": "13:00"
+    "hora": "13:00",
+    "id_publicacion": "17958776115244538"
   },
   {
     "id": "post-09",
