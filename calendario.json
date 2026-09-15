@@ -200,10 +200,11 @@
     "id": "reel-oferta",
     "tipo": "reel",
     "fecha": "2026-09-15",
-    "publicado": false,
+    "publicado": true,
     "portada": "reel-oferta-portada",
     "texto": "Control de inventario por WhatsApp para almacenes y minimarkets de Iquique: esto es lo que puede tener tu negocio sin comprar ningún equipo ni instalar ninguna aplicación nueva.\n\nRegistras con un mensaje. El stock se descuenta solo. Cuando algo baja del mínimo, te avisa al teléfono antes de que te quedes sin producto.\n\nComenta STOCK y te mando por privado cómo se vería en tu negocio.\n\n#Iquique #AltoHospicio #Almacén",
-    "hora": "19:00"
+    "hora": "19:00",
+    "id_publicacion": "18015832496946955"
   },
   {
     "id": "car-01",
