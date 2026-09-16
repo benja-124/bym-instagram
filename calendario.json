@@ -387,12 +387,13 @@
     "tema": "stock-tiempo",
     "fecha": "2026-09-16",
     "hora": "13:00",
-    "publicado": false,
+    "publicado": true,
     "plantilla": "declaracion",
     "kicker": "Ferreterías",
     "titulo": "¿Cerraste para hacer inventario?",
     "bajada": "Un día cerrado es un día sin vender.",
-    "texto": "Ferreterías de Iquique: cerrar para hacer inventario cuesta el día completo de ventas.\n\nComenta STOCK y te cuento cómo se evita.\n\n#Iquique #AltoHospicio #Tarapaca"
+    "texto": "Ferreterías de Iquique: cerrar para hacer inventario cuesta el día completo de ventas.\n\nComenta STOCK y te cuento cómo se evita.\n\n#Iquique #AltoHospicio #Tarapaca",
+    "id_publicacion": "18085912151286838"
   },
   {
     "id": "reel-nadie-encuentra",
@@ -400,9 +401,10 @@
     "tema": "redes-invisible",
     "fecha": "2026-09-16",
     "hora": "16:00",
-    "publicado": false,
+    "publicado": true,
     "portada": "reel-nadie-encuentra-portada",
-    "texto": "Peluquerías de Iquique: alguien te está buscando en Instagram ahora mismo y no te encuentra.\n\nInstagram hoy funciona como buscador y lee el texto de tus publicaciones.\n\nComenta REDES y te cuento cómo se arregla.\n\n#Iquique #AltoHospicio #Tarapaca"
+    "texto": "Peluquerías de Iquique: alguien te está buscando en Instagram ahora mismo y no te encuentra.\n\nInstagram hoy funciona como buscador y lee el texto de tus publicaciones.\n\nComenta REDES y te cuento cómo se arregla.\n\n#Iquique #AltoHospicio #Tarapaca",
+    "id_publicacion": "18113685202824025"
   },
   {
     "id": "post-11",
