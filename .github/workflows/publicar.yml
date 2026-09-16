@@ -21,6 +21,13 @@ jobs:
         with:
           python-version: "3.12"
 
+      # Freno de mano antes de publicar. Solo mira el error que no tiene
+      # vuelta: dos piezas del mismo tema el mismo dia. Si eso pasa, es mejor
+      # no publicar nada que repetirse en el perfil. La revision completa
+      # (separacion, titulos calcados) vive en verificar.yml y no bloquea.
+      - name: Revisar que no haya piezas repetidas hoy
+        run: python verificar.py --estricto
+
       - name: Publicar el post de hoy
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}

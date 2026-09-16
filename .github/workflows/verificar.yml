@@ -1,0 +1,28 @@
+name: Revisar el calendario
+
+# Corre cada vez que cambia la fila de espera y avisa si hay contenido
+# repetido, ANTES de que se publique. Si esta corrida sale en rojo, GitHub
+# manda un correo: eso es el aviso. No bloquea la publicacion -- de eso se
+# encarga el paso estricto dentro de publicar.yml.
+
+on:
+  push:
+    paths:
+      - "calendario.json"
+      - "verificar.py"
+  workflow_dispatch: {}
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Solo lo que aun no se publica: lo que ya salio no se puede corregir y
+      # dejaria esta corrida en rojo para siempre.
+      - name: Revisar la fila pendiente
+        run: python verificar.py --futuro

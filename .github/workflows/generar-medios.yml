@@ -70,6 +70,12 @@ jobs:
             python3 voz.py
           fi
 
+      # Antes de gastar minutos armando video: revisar que ningun texto quede
+      # debajo de la interfaz de Instagram y que ningun titular se parta solo.
+      # Es barato (no renderiza video) y evita publicar un reel ilegible.
+      - name: Revisar que los textos se vean
+        run: python3 zonas.py
+
       - name: Armar los videos
         run: python3 medios.py
 
