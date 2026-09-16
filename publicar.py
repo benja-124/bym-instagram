@@ -88,6 +88,46 @@ def esperar(id_contenedor, intentos=40, espera=6):
     raise SystemExit("  el contenedor no termino de procesarse a tiempo")
 
 
+def normalizar_texto(t):
+    """Primera linea del caption, sin espacios de mas. Sirve de huella."""
+    return " ".join((t or "").strip().split())[:120]
+
+
+_publicado_ya = None
+
+
+def publicadas_en_instagram():
+    """Lo que la cuenta ya tiene publicado, segun la propia API.
+
+    El calendario no es una fuente confiable de que salio y que no: basta
+    que alguien suba por el navegador una version anterior del archivo para
+    que una pieza ya publicada vuelva a figurar como pendiente. Paso de
+    verdad el 13 de septiembre y 'reel-errores' salio dos veces.
+
+    Por eso, antes de publicar, se le pregunta a Instagram.
+    """
+    global _publicado_ya
+    if _publicado_ya is None:
+        r = llamar("GET", f"{USER_ID}/media",
+                   {"fields": "id,caption", "limit": "50"})
+        _publicado_ya = {
+            "ids": {m["id"] for m in r.get("data", [])},
+            "textos": {normalizar_texto(m.get("caption"))
+                       for m in r.get("data", [])},
+        }
+        print(f"  la cuenta ya tiene {len(_publicado_ya['ids'])} "
+              f"publicaciones recientes")
+    return _publicado_ya
+
+
+def ya_salio(post):
+    """True si esta pieza ya esta en el perfil, diga lo que diga el calendario."""
+    hechas = publicadas_en_instagram()
+    if post.get("id_publicacion") in hechas["ids"]:
+        return True
+    return normalizar_texto(post.get("texto")) in hechas["textos"]
+
+
 def extras(post):
     """Parametros opcionales comunes a foto, carrusel y reel."""
     d = {}
@@ -96,19 +136,40 @@ def extras(post):
     return d
 
 
+def describir(datos):
+    """Texto alternativo a partir de lo que dice la propia grafica.
+
+    Importa mas de lo que parece. Sin 'alt', Instagram inventa uno mirando la
+    imagen, y lo que invento para estas graficas fue "may be a meme of bread",
+    "crossword puzzle" y "doodle". Con eso clasifica el tema de la publicacion
+    y decide a quien se la muestra, asi que conviene decirselo nosotros.
+    """
+    partes = [datos.get("kicker"), datos.get("titulo"), datos.get("bajada")]
+    partes += datos.get("items") or []
+    for paso in datos.get("pasos") or []:
+        if len(paso) > 1:
+            partes.append(paso[1])
+    limpias = [p.replace("<br>", " ").strip().rstrip(".").strip()
+               for p in partes if isinstance(p, str) and p.strip()]
+    texto = ". ".join(p for p in limpias if p)
+    return " ".join(texto.split())[:900]  # Instagram corta cerca de 1000
+
+
 def contenedor_foto(post):
     url = f"{BASE_URL}/imagenes/{post['id']}.png"
     print(f"  imagen: {url}")
     p = {"image_url": url, "caption": post["texto"], **extras(post)}
-    if post.get("alt"):
-        p["alt_text"] = post["alt"]
+    alt = post.get("alt") or describir(post)
+    if alt:
+        p["alt_text"] = alt
     return llamar("POST", f"{USER_ID}/media", p)["id"]
 
 
 def contenedor_carrusel(post):
     # "partes" manda si esta; si no, se deducen de las laminas escritas
     # en el calendario, para no tener la lista de ids dos veces.
-    partes = post.get("partes") or [l["id"] for l in post.get("laminas", [])]
+    laminas = {l["id"]: l for l in post.get("laminas", [])}
+    partes = post.get("partes") or list(laminas)
     if not 2 <= len(partes) <= 10:
         raise SystemExit(
             f"Un carrusel lleva de 2 a 10 laminas ({post['id']}: {len(partes)})")
@@ -116,8 +177,13 @@ def contenedor_carrusel(post):
     for parte in partes:
         url = f"{BASE_URL}/imagenes/{parte}.png"
         print(f"  parte: {url}")
-        r = llamar("POST", f"{USER_ID}/media",
-                   {"image_url": url, "is_carousel_item": "true"})
+        p = {"image_url": url, "is_carousel_item": "true"}
+        # El alt va en cada lamina, no en el carrusel: es lo unico que
+        # Instagram acepta por separado en cada una.
+        alt = laminas.get(parte, {}).get("alt") or describir(laminas.get(parte, {}))
+        if alt:
+            p["alt_text"] = alt
+        r = llamar("POST", f"{USER_ID}/media", p)
         hijos.append(r["id"])
     for h in hijos:
         esperar(h, intentos=15, espera=3)
@@ -177,7 +243,31 @@ def main():
             f" (atrasado desde {programado:%d-%m %H:%M})"
         print(f"Publicando {post['id']} [{tipo}]{atraso}.")
 
-        contenedor = CONSTRUCTORES[tipo](post)
+        # Antes de crear nada: preguntarle a Instagram si esto ya salio.
+        if ya_salio(post):
+            print(f"  YA ESTABA PUBLICADO. No se publica de nuevo; solo se "
+                  f"corrige el calendario.")
+            for p in calendario:
+                if p["id"] == post["id"]:
+                    p["publicado"] = True
+            CALENDARIO.write_text(
+                json.dumps(calendario, ensure_ascii=False, indent=2) + "\n",
+                encoding="utf-8")
+            continue
+
+        try:
+            contenedor = CONSTRUCTORES[tipo](post)
+        except SystemExit:
+            # La ubicacion es lo unico opcional que puede tumbar la llamada
+            # entera: si el location_id no existe o Instagram lo rechaza, la
+            # peticion falla completa. Antes que perder la publicacion, se
+            # reintenta sin ubicacion y se avisa.
+            if not post.get("ubicacion"):
+                raise
+            print("  fallo con ubicacion; reintento sin ella. "
+                  f"Revisa el location_id de {post['id']}.")
+            sin_ubicacion = {k: v for k, v in post.items() if k != "ubicacion"}
+            contenedor = CONSTRUCTORES[tipo](sin_ubicacion)
         esperar(contenedor)
         id_publicacion = llamar("POST", f"{USER_ID}/media_publish",
                                 {"creation_id": contenedor})["id"]

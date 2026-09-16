@@ -56,12 +56,16 @@ CSS = f"""
 *{{margin:0;padding:0;box-sizing:border-box;}}
 body{{width:{W}px;height:{H}px;background:{AZUL};font-family:'Poppins',sans-serif;
   -webkit-font-smoothing:antialiased;overflow:hidden;}}
-#e{{width:{W}px;height:{H}px;position:relative;overflow:hidden;padding:0 96px;
+/* El relleno de la derecha es mas ancho a proposito: ahi Instagram dibuja
+   la columna de me gusta, comentar, compartir y guardar. Sin esto, el
+   "Comenta REDES" del cierre quedaba medio tapado por los botones. */
+#e{{width:{W}px;height:{H}px;position:relative;overflow:hidden;
+  padding:0 150px 0 96px;
   display:flex;flex-direction:column;justify-content:center;}}
 .blob{{position:absolute;border-radius:50%;background:{AMBAR};opacity:.14;}}
 .kick{{font-size:40px;font-weight:800;letter-spacing:4px;text-transform:uppercase;
   color:{AMBAR};margin-bottom:36px;}}
-.tit{{font-size:112px;font-weight:800;line-height:1.04;color:#fff;letter-spacing:-3px;}}
+.tit{{font-size:98px;font-weight:800;line-height:1.04;color:#fff;letter-spacing:-3px;}}
 .burb{{max-width:660px;padding:38px 46px;border-radius:40px;font-size:46px;
   font-weight:500;line-height:1.3;margin-bottom:30px;}}
 .ent{{background:#fff;color:{AZUL};border-bottom-left-radius:12px;align-self:flex-start;}}
@@ -80,18 +84,27 @@ body{{width:{W}px;height:{H}px;background:{AZUL};font-family:'Poppins',sans-seri
 .pval{{font-size:38px;font-weight:800;color:{AMBAR};width:90px;text-align:right;}}
 .nro{{font-size:150px;font-weight:800;color:{AMBAR};line-height:.9;
   letter-spacing:-6px;margin-bottom:20px;}}
-.cap{{font-size:88px;font-weight:800;color:#fff;line-height:1.08;letter-spacing:-2px;}}
+.cap{{font-size:78px;font-weight:800;color:#fff;line-height:1.08;letter-spacing:-2px;}}
 .det{{font-size:48px;font-weight:500;color:rgba(255,255,255,.78);
   line-height:1.35;margin-top:34px;}}
 .pill{{display:inline-block;background:{AMBAR};color:{AZUL};border-radius:100px;
   padding:20px 42px;font-size:40px;font-weight:800;letter-spacing:2px;
   text-transform:uppercase;}}
-.marca{{position:absolute;bottom:110px;left:96px;font-size:40px;font-weight:800;
+.marca{{position:absolute;top:150px;left:96px;font-size:40px;font-weight:800;
   color:{AMBAR};letter-spacing:1px;}}
-.sub{{position:absolute;bottom:230px;left:96px;right:96px;text-align:center;
-  font-size:44px;font-weight:700;color:#fff;line-height:1.25;
+.sub{{position:absolute;bottom:400px;left:96px;right:190px;text-align:center;
+  font-size:42px;font-weight:700;color:#fff;line-height:1.25;
   text-shadow:0 3px 18px rgba(0,0,0,.65);}}
 """
+
+# Por que el subtitulo esta tan arriba y la marca se fue al tope:
+# Instagram dibuja su propia interfaz encima del video. Abajo van el nombre
+# de la cuenta, el texto del pie y el audio -- unos 300 a 320 px de los 1920.
+# A la derecha, la columna de botones de me gusta, comentar, compartir y
+# guardar, otros 100 a 120 px. El subtitulo estaba a 230 px del borde y la
+# firma a 110 px: los dos quedaban tapados en el telefono, que es donde se
+# ve. Los subtitulos suben la retencion cerca de un 38%, asi que taparlos
+# era regalar justamente eso.
 
 # Las escenas se inyectan como JSON en __ESCENAS__.
 JS = """
@@ -341,14 +354,19 @@ async def hacer(reel):
 
 
 def huella(reel):
-    """Identifica la version de un reel: su guion mas sus tiempos de voz.
+    """Identifica la version de un reel: guion, tiempos de voz y diseno.
 
-    Si el texto hablado o los tiempos cambian, cambia la huella y hay que
-    rearmar el video. Si no, se puede saltar.
+    Si cambia el texto hablado, los tiempos o la forma en que se dibuja,
+    cambia la huella y hay que rearmar el video. Si no, se puede saltar.
+
+    El diseno cuenta: antes la huella solo miraba el guion y los tiempos, asi
+    que mover un subtitulo o cambiar la tipografia no rearmaba nada y los
+    videos se quedaban con la version vieja sin que nadie lo notara.
     """
     guion = json.loads((BASE / "guion.json").read_text(encoding="utf-8"))
     tiempos = (VOZ / reel / "tiempos.json").read_text(encoding="utf-8")
-    crudo = json.dumps(guion.get(reel, {}), ensure_ascii=False, sort_keys=True) + tiempos
+    crudo = (json.dumps(guion.get(reel, {}), ensure_ascii=False, sort_keys=True)
+             + tiempos + CSS + JS + f"{W}x{H}@{FPS}")
     return hashlib.sha256(crudo.encode()).hexdigest()[:16]
 
 

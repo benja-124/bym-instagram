@@ -1,27 +1,22 @@
 [
   {
-    "id": "reel-como-funciona",
-    "tipo": "reel",
-    "fecha": "2026-09-11",
-    "publicado": true,
-    "texto": "Inventario automático para almacenes y minimarkets. Le avisas por WhatsApp lo que llega y lo que vendes, y el stock se descuenta solo. Cuando algo está por acabarse, te avisa antes de que te quedes sin.\n\nSin apps nuevas, sin comprar equipos y sin planillas que llenar a mano.\n\nSomos de Iquique y trabajamos con negocios de Tarapacá. Escríbenos por mensaje directo y te mostramos cómo quedaría en el tuyo.\n\n#Iquique #Tarapaca #Almacen #Minimarket",
-    "id_publicacion": "18065248805765292"
-  },
-  {
     "id": "post-01",
+    "tema": "stock-quiebre",
     "fecha": "2026-09-10",
     "publicado": true,
+    "id_publicacion": "18093088838306067",
     "plantilla": "declaracion",
     "kicker": "Almacenes y botillerías",
     "titulo": "¿Se te acabó justo el fin de semana?",
     "bajada": "Te avisamos antes de que se acabe lo que más vendes.",
-    "texto": "¿Cuántas veces se te acabó justo lo que más se vende, justo el fin de semana? 😩\n\nNo es mala suerte: es que llevar el stock en la cabeza o en un cuaderno no alcanza cuando el negocio se mueve.\n\nEn ByM Solutions armamos un sistema simple que lleva la cuenta por ti y te avisa antes de que te quedes sin nada. Sin instalar apps raras, sin capacitaciones eternas.\n\n📍 Tarapacá\n\n#Iquique #AltoHospicio #Tarapacá #Almacén #Botillería #Minimarket #Inventario #NegocioLocal",
-    "id_publicacion": "18093088838306067"
+    "texto": "¿Cuántas veces se te acabó justo lo que más se vende, justo el fin de semana? 😩\n\nNo es mala suerte: es que llevar el stock en la cabeza o en un cuaderno no alcanza cuando el negocio se mueve.\n\nEn ByM Solutions armamos un sistema simple que lleva la cuenta por ti y te avisa antes de que te quedes sin nada. Sin instalar apps raras, sin capacitaciones eternas.\n\n📍 Tarapacá\n\n#Iquique #AltoHospicio #Tarapacá #Almacén #Botillería #Minimarket #Inventario #NegocioLocal"
   },
   {
     "id": "post-02",
+    "tema": "stock-plata-quieta",
     "fecha": "2026-09-10",
     "publicado": true,
+    "id_publicacion": "18454723156191144",
     "plantilla": "lista",
     "kicker": "Plata que se va",
     "titulo": "3 cosas que tu almacén pierde hoy",
@@ -30,13 +25,23 @@
       "Productos que se vencieron por pedir de más.",
       "Horas contando a mano para hacer el pedido."
     ],
-    "texto": "Tres formas silenciosas en que un almacén pierde plata todos los meses 👇\n\n1️⃣ Ventas que no hiciste porque no había stock. El cliente vino, no estaba, se fue a otro lado. Nadie las anota, pero se pierden igual.\n\n2️⃣ Productos vencidos por pedir de más. Comprar \"por si acaso\" sale caro.\n\n3️⃣ Horas contando a mano para armar el pedido. Ese tiempo también vale.\n\nLas tres se arreglan con lo mismo: que alguien lleve la cuenta por ti, automáticamente.\n\n#Iquique #Tarapacá #Almacén #Minimarket #ControlDeInventario #PYME",
-    "id_publicacion": "18454723156191144"
+    "texto": "Tres formas silenciosas en que un almacén pierde plata todos los meses 👇\n\n1️⃣ Ventas que no hiciste porque no había stock. El cliente vino, no estaba, se fue a otro lado. Nadie las anota, pero se pierden igual.\n\n2️⃣ Productos vencidos por pedir de más. Comprar \"por si acaso\" sale caro.\n\n3️⃣ Horas contando a mano para armar el pedido. Ese tiempo también vale.\n\nLas tres se arreglan con lo mismo: que alguien lleve la cuenta por ti, automáticamente.\n\n#Iquique #Tarapacá #Almacén #Minimarket #ControlDeInventario #PYME"
+  },
+  {
+    "id": "reel-como-funciona",
+    "tipo": "reel",
+    "tema": "stock-general",
+    "fecha": "2026-09-11",
+    "publicado": true,
+    "id_publicacion": "18065248805765292",
+    "texto": "Inventario automático para almacenes y minimarkets. Le avisas por WhatsApp lo que llega y lo que vendes, y el stock se descuenta solo. Cuando algo está por acabarse, te avisa antes de que te quedes sin.\n\nSin apps nuevas, sin comprar equipos y sin planillas que llenar a mano.\n\nSomos de Iquique y trabajamos con negocios de Tarapacá. Escríbenos por mensaje directo y te mostramos cómo quedaría en el tuyo.\n\n#Iquique #Tarapaca #Almacen #Minimarket"
   },
   {
     "id": "post-03",
+    "tema": "stock-general",
     "fecha": "2026-09-11",
     "publicado": true,
+    "id_publicacion": "17994850704034028",
     "plantilla": "pasos",
     "kicker": "Cómo funciona",
     "titulo": "Así de simple es",
@@ -54,24 +59,26 @@
         "Te avisa cuando algo está por acabarse."
       ]
     ],
-    "texto": "\"Suena complicado\" es lo primero que nos dicen. Y es justo al revés 👇\n\n1️⃣ Anotas lo que entra y sale por WhatsApp, como cualquier mensaje.\n2️⃣ El sistema lleva la cuenta solo.\n3️⃣ Te avisa cuando algo está por acabarse.\n\nEso es todo. No hay que aprender un programa nuevo ni comprar equipos. Si sabes mandar un WhatsApp, sabes usarlo.\n\n#Iquique #AltoHospicio #Tarapacá #Automatización #Almacén #Botillería",
-    "id_publicacion": "17994850704034028"
+    "texto": "\"Suena complicado\" es lo primero que nos dicen. Y es justo al revés 👇\n\n1️⃣ Anotas lo que entra y sale por WhatsApp, como cualquier mensaje.\n2️⃣ El sistema lleva la cuenta solo.\n3️⃣ Te avisa cuando algo está por acabarse.\n\nEso es todo. No hay que aprender un programa nuevo ni comprar equipos. Si sabes mandar un WhatsApp, sabes usarlo.\n\n#Iquique #AltoHospicio #Tarapacá #Automatización #Almacén #Botillería"
   },
   {
     "id": "post-04",
+    "tema": "stock-memoria",
     "fecha": "2026-09-11",
     "publicado": true,
+    "id_publicacion": "17966194638179196",
     "plantilla": "declaracion",
     "kicker": "El cuaderno",
     "titulo": "El cuaderno solo lo entiendes tú",
     "bajada": "Y el día que no estás, nadie sabe qué falta ni cuánto queda.",
-    "texto": "El cuaderno funciona… hasta que no 📓\n\nSe moja. Se pierde una hoja. La letra la entiendes solo tú. Y el día que no puedes ir al local, nadie sabe qué falta ni cuánto queda.\n\nNo es que el cuaderno esté mal. Es que tu negocio ya creció más que él.\n\n#Iquique #Tarapacá #Almacén #Minimarket #Botillería #NegocioLocal",
-    "id_publicacion": "17966194638179196"
+    "texto": "El cuaderno funciona… hasta que no 📓\n\nSe moja. Se pierde una hoja. La letra la entiendes solo tú. Y el día que no puedes ir al local, nadie sabe qué falta ni cuánto queda.\n\nNo es que el cuaderno esté mal. Es que tu negocio ya creció más que él.\n\n#Iquique #Tarapacá #Almacén #Minimarket #Botillería #NegocioLocal"
   },
   {
     "id": "post-05",
+    "tema": "stock-plata-quieta",
     "fecha": "2026-09-12",
     "publicado": true,
+    "id_publicacion": "17906410785490806",
     "plantilla": "lista",
     "kicker": "Pregúntate esto",
     "titulo": "3 preguntas que quizás no puedes responder",
@@ -80,138 +87,39 @@
       "¿Cuánto stock tienes ahora mismo, exacto?",
       "¿Qué se vende más los fines de semana?"
     ],
-    "texto": "Tres preguntas simples sobre tu propio negocio 👇\n\n¿Cuál es el producto que más plata te deja? (Ojo: no es el que más vendes, es el que deja mejor margen.)\n\n¿Cuánto stock tienes ahora mismo, exacto, sin ir a contar?\n\n¿Qué se vende más los fines de semana que entre semana?\n\nSi dudaste en alguna, no es porque no conozcas tu negocio. Es porque esa información existe, pero nadie la está juntando.\n\n#Iquique #Tarapacá #Almacén #Minimarket #GestiónDeNegocios",
-    "id_publicacion": "17906410785490806"
+    "texto": "Tres preguntas simples sobre tu propio negocio 👇\n\n¿Cuál es el producto que más plata te deja? (Ojo: no es el que más vendes, es el que deja mejor margen.)\n\n¿Cuánto stock tienes ahora mismo, exacto, sin ir a contar?\n\n¿Qué se vende más los fines de semana que entre semana?\n\nSi dudaste en alguna, no es porque no conozcas tu negocio. Es porque esa información existe, pero nadie la está juntando.\n\n#Iquique #Tarapacá #Almacén #Minimarket #GestiónDeNegocios"
   },
   {
     "id": "post-06",
+    "tema": "objeciones",
     "fecha": "2026-09-12",
     "publicado": true,
+    "id_publicacion": "18020500967875596",
     "plantilla": "declaracion",
     "kicker": "Sin comprar nada",
     "titulo": "No necesitas comprar ningún equipo",
     "bajada": "Ni lector de códigos, ni computador, ni sistema caro. Solo WhatsApp.",
-    "texto": "Una duda que nos llega siempre: \"¿tengo que comprar un computador o una máquina?\" 🤔\n\nNo. Nada.\n\nNi lector de códigos de barra, ni caja registradora nueva, ni un sistema caro con licencia mensual. Todo funciona con el WhatsApp que ya tienes en el teléfono que ya usas.\n\nEsa es justamente la idea: que la solución sea más simple que el problema.\n\n#Iquique #AltoHospicio #Tarapacá #Automatización #PYME #Almacén",
-    "id_publicacion": "18020500967875596"
+    "texto": "Una duda que nos llega siempre: \"¿tengo que comprar un computador o una máquina?\" 🤔\n\nNo. Nada.\n\nNi lector de códigos de barra, ni caja registradora nueva, ni un sistema caro con licencia mensual. Todo funciona con el WhatsApp que ya tienes en el teléfono que ya usas.\n\nEsa es justamente la idea: que la solución sea más simple que el problema.\n\n#Iquique #AltoHospicio #Tarapacá #Automatización #PYME #Almacén"
   },
   {
-    "id": "post-07",
-    "fecha": "2026-09-14",
-    "publicado": true,
-    "plantilla": "lista",
-    "kicker": "Lo que escuchamos",
-    "titulo": "3 razones para no automatizar",
-    "items": [
-      "\"Es muy caro para un negocio como el mío.\"",
-      "\"Soy muy chico, esto es para empresas grandes.\"",
-      "\"No sé nada de computación.\""
-    ],
-    "texto": "Las tres razones que más escuchamos para no automatizar 👇\n\n💬 \"Es muy caro\" — Partimos con un solo proceso, con inversión acotada. Se paga con el tiempo y las ventas que dejas de perder.\n\n💬 \"Soy muy chico\" — Justamente al revés: mientras más chico, más te duele cada quiebre de stock y cada producto vencido.\n\n💬 \"No sé de computación\" — Si sabes mandar un WhatsApp, ya sabes todo lo que necesitas.\n\n#Iquique #Tarapacá #Almacén #Minimarket #PYME",
-    "hora": "13:00",
-    "id_publicacion": "18335904436262300"
-  },
-  {
-    "id": "post-08",
-    "fecha": "2026-09-15",
-    "publicado": true,
-    "plantilla": "pasos",
-    "kicker": "La alerta",
-    "titulo": "Qué pasa cuando algo se acaba",
-    "pasos": [
-      [
-        "1",
-        "El sistema ve que bajaste del mínimo."
-      ],
-      [
-        "2",
-        "Te llega el aviso al teléfono."
-      ],
-      [
-        "3",
-        "Pides antes de quedarte sin stock."
-      ]
-    ],
-    "texto": "El momento más útil de todo el sistema es este 👇\n\n1️⃣ El sistema nota que un producto bajó del mínimo que tú definiste.\n2️⃣ Te llega el aviso al teléfono, sin que preguntes nada.\n3️⃣ Haces el pedido antes de quedarte sin stock, no después.\n\nLa diferencia entre enterarse antes o después son ventas concretas.\n\n#Iquique #Tarapacá #Inventario #Almacén #Botillería #Automatización",
-    "hora": "13:00",
-    "id_publicacion": "17958776115244538"
-  },
-  {
-    "id": "post-09",
-    "fecha": "2026-09-16",
-    "publicado": false,
-    "plantilla": "declaracion",
-    "kicker": "Tu tiempo",
-    "titulo": "¿Cuánto vale una hora tuya?",
-    "bajada": "Contar stock a mano cada semana son horas que no vuelven.",
-    "texto": "Hagamos una cuenta rápida ⏱️\n\nSi cada semana pierdes dos horas contando stock y armando el pedido a mano, son ocho horas al mes. Un día completo de trabajo, todos los meses, haciendo algo que un sistema hace solo.\n\nY eso sin contar los errores de conteo, que se pagan aparte.\n\nTu tiempo también es plata del negocio.\n\n#Iquique #Tarapacá #Almacén #Minimarket #GestiónDeNegocios #PYME",
-    "hora": "13:00"
-  },
-  {
-    "id": "post-10",
-    "fecha": "2026-09-17",
-    "publicado": false,
-    "plantilla": "lista",
-    "kicker": "Fugas invisibles",
-    "titulo": "3 lugares donde se escapa la plata",
-    "items": [
-      "Mermas y vencimientos que nadie registra.",
-      "Pedidos duplicados por no saber qué había.",
-      "El fiado anotado en cualquier parte."
-    ],
-    "texto": "Hay pérdidas que no se ven en la caja, pero se sienten a fin de mes 👇\n\n📦 Mermas y vencimientos que nadie registra. Si no se anota, no existe… hasta que falta la plata.\n\n🔁 Pedidos duplicados. Compraste algo que ya tenías porque no sabías que estaba.\n\n📝 El fiado anotado en un papel, en el teléfono, o en la memoria. Y lo que no está anotado bien, muchas veces no se cobra.\n\n#Iquique #Tarapacá #Almacén #Botillería #Minimarket #ControlDeInventario",
-    "hora": "13:00"
-  },
-  {
-    "id": "post-11",
-    "fecha": "2026-09-18",
-    "publicado": false,
-    "plantilla": "pasos",
-    "kicker": "Cómo partimos",
-    "titulo": "Cómo trabajamos contigo",
-    "pasos": [
-      [
-        "1",
-        "Conversamos 15 minutos, sin costo."
-      ],
-      [
-        "2",
-        "Te armamos una propuesta clara."
-      ],
-      [
-        "3",
-        "Lo probamos juntos antes de largarlo."
-      ]
-    ],
-    "texto": "Por si te da curiosidad cómo es trabajar con nosotros 👇\n\n1️⃣ Conversamos 15 o 20 minutos para entender qué te complica hoy. Sin costo y sin compromiso.\n2️⃣ Te armamos una propuesta clara, con precio y plazo. Nada de letra chica.\n3️⃣ Lo implementamos y lo probamos contigo antes de darlo por listo.\n\nY después no te dejamos solo: queda con soporte.\n\n#Iquique #AltoHospicio #Tarapacá #ByMSolutions #PYME",
-    "hora": "13:00"
-  },
-  {
-    "id": "post-12",
-    "fecha": "2026-09-19",
-    "publicado": false,
-    "plantilla": "declaracion",
-    "kicker": "Hablemos",
-    "titulo": "Cuéntanos qué te complica hoy",
-    "bajada": "Mándanos un mensaje y te decimos si esto te sirve. Sin vueltas.",
-    "texto": "Si llegaste hasta acá viendo nuestro contenido, probablemente algo te hizo sentido 👀\n\nMándanos un mensaje directo y cuéntanos qué es lo que más te complica hoy en tu negocio. Te decimos derechamente si esto te sirve o no.\n\nSin vueltas, sin costo, y si no te sirve te lo decimos igual.\n\n📍 Tarapacá\n\n#Iquique #AltoHospicio #Tarapacá #Almacén #Botillería #Minimarket #NegocioLocal",
-    "hora": "13:00"
-  },
-  {
-    "id": "reel-oferta",
+    "id": "reel-errores",
     "tipo": "reel",
-    "fecha": "2026-09-15",
+    "tema": "stock-errores",
+    "fecha": "2026-09-13",
+    "hora": "13:00",
     "publicado": true,
-    "portada": "reel-oferta-portada",
-    "texto": "Control de inventario por WhatsApp para almacenes y minimarkets de Iquique: esto es lo que puede tener tu negocio sin comprar ningún equipo ni instalar ninguna aplicación nueva.\n\nRegistras con un mensaje. El stock se descuenta solo. Cuando algo baja del mínimo, te avisa al teléfono antes de que te quedes sin producto.\n\nComenta STOCK y te mando por privado cómo se vería en tu negocio.\n\n#Iquique #AltoHospicio #Almacén",
-    "hora": "19:00",
-    "id_publicacion": "18015832496946955"
+    "id_publicacion": "18251011846307849",
+    "portada": "reel-errores-portada",
+    "texto": "3 errores de control de inventario que cometen casi todos los almacenes y minimarkets de Iquique.\n\nNinguno es por desordenado: aparecen solos cuando el stock se lleva de memoria y el día no da para más.\n\nComenta STOCK y te cuento cómo se arreglan los tres a la vez.\n\n#Iquique #AltoHospicio #Almacen"
   },
   {
     "id": "car-01",
     "tipo": "carrusel",
+    "tema": "stock-errores",
     "fecha": "2026-09-13",
+    "hora": "19:00",
     "publicado": true,
-    "texto": "5 errores de control de inventario que cometen los almacenes y minimarkets de Iquique, y qué hacer con cada uno.\n\nNinguno es por desordenado. Son errores que aparecen solos cuando el stock se lleva a mano y el día no da para más.\n\nGuárdalo y cuéntame en los comentarios cuántos de los cinco reconociste. El tercero es el más común de lejos.\n\nComenta STOCK y te mando por privado cómo se vería resuelto en tu negocio.\n\n#Iquique #AltoHospicio #Almacen",
+    "id_publicacion": "18078846971358961",
     "laminas": [
       {
         "id": "car-01-1",
@@ -329,15 +237,44 @@
         "bajada": "Te muestro cómo se vería en tu negocio."
       }
     ],
-    "hora": "19:00",
-    "id_publicacion": "18078846971358961"
+    "texto": "5 errores de control de inventario que cometen los almacenes y minimarkets de Iquique, y qué hacer con cada uno.\n\nNinguno es por desordenado. Son errores que aparecen solos cuando el stock se lleva a mano y el día no da para más.\n\nGuárdalo y cuéntame en los comentarios cuántos de los cinco reconociste. El tercero es el más común de lejos.\n\nComenta STOCK y te mando por privado cómo se vería resuelto en tu negocio.\n\n#Iquique #AltoHospicio #Almacen"
+  },
+  {
+    "id": "post-07",
+    "tema": "objeciones",
+    "fecha": "2026-09-14",
+    "hora": "13:00",
+    "publicado": true,
+    "id_publicacion": "18335904436262300",
+    "plantilla": "lista",
+    "kicker": "Lo que escuchamos",
+    "titulo": "3 razones para no automatizar",
+    "items": [
+      "\"Es muy caro para un negocio como el mío.\"",
+      "\"Soy muy chico, esto es para empresas grandes.\"",
+      "\"No sé nada de computación.\""
+    ],
+    "texto": "Las tres razones que más escuchamos para no automatizar 👇\n\n💬 \"Es muy caro\" — Partimos con un solo proceso, con inversión acotada. Se paga con el tiempo y las ventas que dejas de perder.\n\n💬 \"Soy muy chico\" — Justamente al revés: mientras más chico, más te duele cada quiebre de stock y cada producto vencido.\n\n💬 \"No sé de computación\" — Si sabes mandar un WhatsApp, ya sabes todo lo que necesitas.\n\n#Iquique #Tarapacá #Almacén #Minimarket #PYME"
+  },
+  {
+    "id": "reel-inconsistente",
+    "tipo": "reel",
+    "tema": "redes-constancia",
+    "fecha": "2026-09-14",
+    "hora": "16:00",
+    "publicado": true,
+    "id_publicacion": "18105918893186776",
+    "portada": "reel-inconsistente-portada",
+    "texto": "Publicar tu ferretería en Instagram sin que te quite tiempo: el problema no es la falta de ganas, es que armar una publicación toma media hora.\n\nEste reel salió solo, sin que nadie lo publicara.\n\nComenta REDES y te muestro.\n\n#Iquique #AltoHospicio #Tarapaca"
   },
   {
     "id": "car-02",
     "tipo": "carrusel",
+    "tema": "stock-general",
     "fecha": "2026-09-14",
+    "hora": "19:00",
     "publicado": true,
-    "texto": "Qué se puede automatizar en un almacén o minimarket de Iquique, en concreto: cuatro cosas que hoy haces a mano y que el sistema puede hacer solo.\n\nNo hay que comprar equipos ni instalar aplicaciones nuevas. Todo funciona sobre el WhatsApp que ya usas todos los días.\n\nGuárdalo para cuando estés pensando en ordenar el negocio.\n\nComenta STOCK y te cuento cuál de las cuatro te conviene partir.\n\n#Iquique #AltoHospicio #Almacen",
+    "id_publicacion": "18391403425204216",
     "laminas": [
       {
         "id": "car-02-1",
@@ -405,15 +342,507 @@
         "bajada": "Casi siempre conviene partir por una sola."
       }
     ],
+    "texto": "Qué se puede automatizar en un almacén o minimarket de Iquique, en concreto: cuatro cosas que hoy haces a mano y que el sistema puede hacer solo.\n\nNo hay que comprar equipos ni instalar aplicaciones nuevas. Todo funciona sobre el WhatsApp que ya usas todos los días.\n\nGuárdalo para cuando estés pensando en ordenar el negocio.\n\nComenta STOCK y te cuento cuál de las cuatro te conviene partir.\n\n#Iquique #AltoHospicio #Almacen"
+  },
+  {
+    "id": "post-08",
+    "tema": "stock-quiebre",
+    "fecha": "2026-09-15",
+    "hora": "13:00",
+    "publicado": true,
+    "id_publicacion": "17958776115244538",
+    "plantilla": "pasos",
+    "kicker": "La alerta",
+    "titulo": "Qué pasa cuando algo se acaba",
+    "pasos": [
+      [
+        "1",
+        "El sistema ve que bajaste del mínimo."
+      ],
+      [
+        "2",
+        "Te llega el aviso al teléfono."
+      ],
+      [
+        "3",
+        "Pides antes de quedarte sin stock."
+      ]
+    ],
+    "texto": "El momento más útil de todo el sistema es este 👇\n\n1️⃣ El sistema nota que un producto bajó del mínimo que tú definiste.\n2️⃣ Te llega el aviso al teléfono, sin que preguntes nada.\n3️⃣ Haces el pedido antes de quedarte sin stock, no después.\n\nLa diferencia entre enterarse antes o después son ventas concretas.\n\n#Iquique #Tarapacá #Inventario #Almacén #Botillería #Automatización"
+  },
+  {
+    "id": "reel-oferta",
+    "tipo": "reel",
+    "tema": "stock-general",
+    "fecha": "2026-09-15",
     "hora": "19:00",
-    "id_publicacion": "18391403425204216"
+    "publicado": true,
+    "id_publicacion": "18015832496946955",
+    "portada": "reel-oferta-portada",
+    "texto": "Control de inventario por WhatsApp para almacenes y minimarkets de Iquique: esto es lo que puede tener tu negocio sin comprar ningún equipo ni instalar ninguna aplicación nueva.\n\nRegistras con un mensaje. El stock se descuenta solo. Cuando algo baja del mínimo, te avisa al teléfono antes de que te quedes sin producto.\n\nComenta STOCK y te mando por privado cómo se vería en tu negocio.\n\n#Iquique #AltoHospicio #Almacén"
+  },
+  {
+    "id": "post-19",
+    "tipo": "foto",
+    "tema": "stock-tiempo",
+    "fecha": "2026-09-16",
+    "hora": "13:00",
+    "publicado": false,
+    "plantilla": "declaracion",
+    "kicker": "Ferreterías",
+    "titulo": "¿Cerraste para hacer inventario?",
+    "bajada": "Un día cerrado es un día sin vender.",
+    "texto": "Ferreterías de Iquique: cerrar para hacer inventario cuesta el día completo de ventas.\n\nComenta STOCK y te cuento cómo se evita.\n\n#Iquique #AltoHospicio #Tarapaca"
+  },
+  {
+    "id": "reel-nadie-encuentra",
+    "tipo": "reel",
+    "tema": "redes-invisible",
+    "fecha": "2026-09-16",
+    "hora": "16:00",
+    "publicado": false,
+    "portada": "reel-nadie-encuentra-portada",
+    "texto": "Peluquerías de Iquique: alguien te está buscando en Instagram ahora mismo y no te encuentra.\n\nInstagram hoy funciona como buscador y lee el texto de tus publicaciones.\n\nComenta REDES y te cuento cómo se arregla.\n\n#Iquique #AltoHospicio #Tarapaca"
+  },
+  {
+    "id": "post-11",
+    "tema": "proceso",
+    "fecha": "2026-09-17",
+    "hora": "13:00",
+    "publicado": false,
+    "plantilla": "pasos",
+    "kicker": "Cómo partimos",
+    "titulo": "La primera conversación<br>no se cobra",
+    "pasos": [
+      [
+        "1",
+        "Conversamos 15 minutos, sin costo."
+      ],
+      [
+        "2",
+        "Te armamos una propuesta clara."
+      ],
+      [
+        "3",
+        "Lo probamos juntos antes de largarlo."
+      ]
+    ],
+    "texto": "Automatización para negocios de Iquique: así es trabajar con nosotros, por si te da curiosidad antes de escribir.\n\n1️⃣ Conversamos 15 o 20 minutos para entender qué te complica hoy. Sin costo y sin compromiso.\n2️⃣ Te armamos una propuesta clara, con precio y plazo. Nada de letra chica.\n3️⃣ Lo implementamos y lo probamos contigo antes de darlo por listo. Después queda con soporte.\n\nComenta STOCK o REDES según qué te complique más, y partimos por ahí.\n\n#Iquique #AltoHospicio #Tarapaca"
+  },
+  {
+    "id": "car-06",
+    "tipo": "carrusel",
+    "tema": "stock-memoria",
+    "fecha": "2026-09-17",
+    "hora": "19:00",
+    "publicado": false,
+    "laminas": [
+      {
+        "id": "car-06-1",
+        "plantilla": "declaracion",
+        "kicker": "Ferreterías",
+        "titulo": "Tienes 400 productos y una memoria",
+        "bajada": "Adivina cuál de los dos falla primero."
+      },
+      {
+        "id": "car-06-2",
+        "plantilla": "lista",
+        "kicker": "El problema",
+        "titulo": "Lo que nadie ve",
+        "items": [
+          "Tornillos que llevan meses parados.",
+          "Lo que más sale, siempre justo.",
+          "Pedidos hechos a última hora."
+        ]
+      },
+      {
+        "id": "car-06-3",
+        "plantilla": "pasos",
+        "kicker": "Paso 1",
+        "titulo": "Registrar sin planillas",
+        "pasos": [
+          [
+            "✕",
+            "Anotar en el cuaderno del mesón.",
+            "#E8877F"
+          ],
+          [
+            "✓",
+            "Un mensaje de WhatsApp y listo.",
+            "#7FE8B0"
+          ]
+        ]
+      },
+      {
+        "id": "car-06-4",
+        "plantilla": "pasos",
+        "kicker": "Paso 2",
+        "titulo": "Saber qué reponer",
+        "pasos": [
+          [
+            "✕",
+            "Revisar estante por estante.",
+            "#E8877F"
+          ],
+          [
+            "✓",
+            "La lista te llega armada.",
+            "#7FE8B0"
+          ]
+        ]
+      },
+      {
+        "id": "car-06-5",
+        "plantilla": "lista",
+        "kicker": "Lo que cambia",
+        "titulo": "No es tecnología, es tiempo",
+        "items": [
+          "No cierras para hacer inventario.",
+          "No compras lo que ya tenías.",
+          "Sabes qué conviene tener."
+        ]
+      },
+      {
+        "id": "car-06-6",
+        "plantilla": "declaracion",
+        "kicker": "¿Hablamos?",
+        "titulo": "Comenta STOCK y te escribo",
+        "bajada": "Sin costo. Si no te sirve, te lo digo de frente."
+      }
+    ],
+    "texto": "Control de inventario para ferreterías de Iquique: cómo llevar cientos de productos sin hacer inventario a mano.\n\nComenta STOCK y te muestro cómo funcionaría en la tuya.\n\n#Iquique #AltoHospicio #Tarapaca"
+  },
+  {
+    "id": "post-17",
+    "tipo": "foto",
+    "tema": "stock-plata-quieta",
+    "fecha": "2026-09-18",
+    "hora": "13:00",
+    "publicado": false,
+    "plantilla": "declaracion",
+    "kicker": "Almacenes",
+    "titulo": "Lo que no se vende también cuesta",
+    "bajada": "Es plata quieta en un estante, no mercadería.",
+    "texto": "Control de inventario para almacenes: lo que lleva meses parado en la bodega es plata detenida.\n\nComenta STOCK y lo revisamos.\n\n#Iquique #AltoHospicio #Tarapaca"
+  },
+  {
+    "id": "reel-que-publico",
+    "tipo": "reel",
+    "tema": "redes-quepublico",
+    "fecha": "2026-09-18",
+    "hora": "16:00",
+    "publicado": false,
+    "portada": "reel-que-publico-portada",
+    "texto": "¿Y qué publico? Es la pregunta que frena a todo dueño de negocio en Iquique.\n\nNo hay que inventar nada: lo que ya sabes de tu rubro le sirve a alguien. Se escribe una vez a la semana y se reparte solo.\n\nComenta REDES y te muestro cómo queda.\n\n#Iquique #AltoHospicio #Tarapaca"
+  },
+  {
+    "id": "post-20",
+    "tipo": "foto",
+    "tema": "redes-demo",
+    "fecha": "2026-09-19",
+    "hora": "13:00",
+    "publicado": false,
+    "plantilla": "pasos",
+    "kicker": "Publicar",
+    "titulo": "Cómo sale una publicación sola",
+    "pasos": [
+      [
+        "1",
+        "Escribes el texto una vez."
+      ],
+      [
+        "2",
+        "La gráfica y la voz se generan."
+      ],
+      [
+        "3",
+        "Se publica a la hora que fijes."
+      ]
+    ],
+    "texto": "Así se publica solo el Instagram de un negocio de Iquique: el texto se escribe una vez y el resto sale automático.\n\nComenta REDES y te muestro.\n\n#Iquique #AltoHospicio #Tarapaca"
+  },
+  {
+    "id": "car-07",
+    "tipo": "carrusel",
+    "tema": "stock-insumos",
+    "fecha": "2026-09-19",
+    "hora": "19:00",
+    "publicado": false,
+    "laminas": [
+      {
+        "id": "car-07-1",
+        "plantilla": "declaracion",
+        "kicker": "Peluquerías y barberías",
+        "titulo": "La bodega que<br>nadie cuenta",
+        "bajada": "Tu plata también está en las tinturas."
+      },
+      {
+        "id": "car-07-2",
+        "plantilla": "pasos",
+        "kicker": "El problema",
+        "titulo": "Se acabó el tono 7.1",
+        "pasos": [
+          [
+            "✕",
+            "Y la clienta ya estaba sentada.",
+            "#E8877F"
+          ],
+          [
+            "✓",
+            "El aviso llegó cuando quedaban dos.",
+            "#7FE8B0"
+          ]
+        ]
+      },
+      {
+        "id": "car-07-3",
+        "plantilla": "lista",
+        "kicker": "Lo que se acumula",
+        "titulo": "Plata parada en el estante",
+        "items": [
+          "Tonos que compraste y nadie pide.",
+          "Ampollas que se vencieron calladas.",
+          "Shampoo repetido por si acaso."
+        ]
+      },
+      {
+        "id": "car-07-4",
+        "plantilla": "pasos",
+        "kicker": "Cómo se registra",
+        "titulo": "Un mensaje y listo",
+        "pasos": [
+          [
+            "✕",
+            "Contar frascos entre clienta y clienta.",
+            "#E8877F"
+          ],
+          [
+            "✓",
+            "Avisas por WhatsApp lo que usaste.",
+            "#7FE8B0"
+          ]
+        ]
+      },
+      {
+        "id": "car-07-5",
+        "plantilla": "lista",
+        "kicker": "Lo que nadie calcula",
+        "titulo": "Cuánto insumo se va<br>en un color",
+        "items": [
+          "Sabes perfecto lo que cobras.",
+          "Pero no cuánto producto gastaste.",
+          "Esa diferencia es tu margen real."
+        ]
+      },
+      {
+        "id": "car-07-6",
+        "plantilla": "pasos",
+        "kicker": "Lo que cambia",
+        "titulo": "Compras lo que sale",
+        "pasos": [
+          [
+            "✕",
+            "Pides de todo un poco, por si acaso.",
+            "#E8877F"
+          ],
+          [
+            "✓",
+            "Pides lo que se usó el mes pasado.",
+            "#7FE8B0"
+          ]
+        ]
+      },
+      {
+        "id": "car-07-7",
+        "plantilla": "lista",
+        "kicker": "En resumen",
+        "titulo": "Tres cosas que sabrías",
+        "items": [
+          "Qué tono está por acabarse.",
+          "Qué lleva meses sin moverse.",
+          "Cuánto te cuesta cada servicio."
+        ]
+      },
+      {
+        "id": "car-07-8",
+        "plantilla": "declaracion",
+        "kicker": "¿Cuánto tienes parado?",
+        "titulo": "Comenta STOCK<br>y lo vemos",
+        "bajada": "Te muestro cómo se vería en tu local."
+      }
+    ],
+    "texto": "Control de inventario para peluquerías y barberías de Iquique: la bodega es chica, pero ahí hay más plata detenida de la que crees.\n\nTinturas que nadie pide, ampollas vencidas, y el tono que justo se acabó con la clienta sentada. Todo eso se puede llevar solo, por WhatsApp.\n\nComenta STOCK y te muestro cómo se vería en tu local.\n\n#Iquique #AltoHospicio #Tarapaca"
+  },
+  {
+    "id": "post-22",
+    "tipo": "foto",
+    "tema": "stock-general",
+    "fecha": "2026-09-20",
+    "hora": "13:00",
+    "publicado": false,
+    "plantilla": "lista",
+    "kicker": "Peluquerías",
+    "titulo": "3 cosas que puedes automatizar",
+    "items": [
+      "Las publicaciones de la semana.",
+      "El stock de tintes y productos.",
+      "Las respuestas más repetidas."
+    ],
+    "texto": "3 cosas que una peluquería de Iquique puede dejar funcionando sola, sin contratar a nadie.\n\nComenta REDES o STOCK, según cuál te complique.\n\n#Iquique #AltoHospicio #Tarapaca"
+  },
+  {
+    "id": "reel-responder",
+    "tipo": "reel",
+    "tema": "redes-responder",
+    "fecha": "2026-09-20",
+    "hora": "16:00",
+    "publicado": false,
+    "portada": "reel-responder-portada",
+    "texto": "Peluquerías de Iquique: te escriben a las once de la noche y contestas al otro día. Esa hora ya se perdió.\n\nLa mitad de las consultas son las mismas tres preguntas, y esas se pueden contestar solas.\n\nComenta REDES y te cuento cómo se arma.\n\n#Iquique #AltoHospicio #Tarapaca"
+  },
+  {
+    "id": "post-14",
+    "tipo": "foto",
+    "tema": "redes-invisible",
+    "fecha": "2026-09-21",
+    "hora": "13:00",
+    "publicado": false,
+    "plantilla": "lista",
+    "kicker": "Publicar",
+    "titulo": "3 señales de que no te ven",
+    "items": [
+      "Publicas una vez al mes.",
+      "Tu texto no dice Iquique.",
+      "Nadie comenta nunca."
+    ],
+    "texto": "3 señales de que tu negocio de Iquique no aparece en Instagram, y las tres se arreglan sin que te quite tiempo.\n\nComenta REDES y te muestro.\n\n#Iquique #AltoHospicio #Tarapaca"
+  },
+  {
+    "id": "car-05",
+    "tipo": "carrusel",
+    "tema": "stock-quiebre",
+    "fecha": "2026-09-21",
+    "hora": "19:00",
+    "publicado": false,
+    "laminas": [
+      {
+        "id": "car-05-1",
+        "plantilla": "declaracion",
+        "kicker": "Botillerías y almacenes",
+        "titulo": "Lo que se pierde un viernes",
+        "bajada": "Tres ventas que no vas a poder hacer."
+      },
+      {
+        "id": "car-05-2",
+        "plantilla": "pasos",
+        "kicker": "Lo que pasa",
+        "titulo": "Se acabó a las 21:00",
+        "pasos": [
+          [
+            "✕",
+            "El cliente se va al de al lado.",
+            "#E8877F"
+          ],
+          [
+            "✓",
+            "El aviso llegó el jueves.",
+            "#7FE8B0"
+          ]
+        ]
+      },
+      {
+        "id": "car-05-3",
+        "plantilla": "pasos",
+        "kicker": "Lo que pasa",
+        "titulo": "Pediste de más",
+        "pasos": [
+          [
+            "✕",
+            "Plata parada en la bodega.",
+            "#E8877F"
+          ],
+          [
+            "✓",
+            "Pides lo que se vendió de verdad.",
+            "#7FE8B0"
+          ]
+        ]
+      },
+      {
+        "id": "car-05-4",
+        "plantilla": "pasos",
+        "kicker": "Lo que pasa",
+        "titulo": "No sabes qué se vende",
+        "pasos": [
+          [
+            "✕",
+            "Te guías por lo que recuerdas.",
+            "#E8877F"
+          ],
+          [
+            "✓",
+            "El resumen te lo dice cada semana.",
+            "#7FE8B0"
+          ]
+        ]
+      },
+      {
+        "id": "car-05-5",
+        "plantilla": "lista",
+        "kicker": "Cómo funciona",
+        "titulo": "Por WhatsApp, nada más",
+        "items": [
+          "Registras con un mensaje.",
+          "El saldo se descuenta solo.",
+          "El aviso llega antes."
+        ]
+      },
+      {
+        "id": "car-05-6",
+        "plantilla": "declaracion",
+        "kicker": "¿Te pasa?",
+        "titulo": "Comenta STOCK y lo vemos",
+        "bajada": "Te muestro cómo se vería en tu botillería."
+      }
+    ],
+    "texto": "Control de inventario para botillerías de Iquique: las tres formas en que se pierde plata un viernes.\n\nGuárdalo si tu bodega la llevas de memoria.\n\nComenta STOCK y te muestro cómo se vería resuelto.\n\n#Iquique #AltoHospicio #Tarapaca"
+  },
+  {
+    "id": "post-13",
+    "tipo": "foto",
+    "tema": "stock-memoria",
+    "fecha": "2026-09-22",
+    "hora": "13:00",
+    "publicado": false,
+    "plantilla": "declaracion",
+    "kicker": "Ferreterías",
+    "titulo": "“Déjame ver si me queda”",
+    "bajada": "Y te vas a la bodega a averiguarlo.",
+    "texto": "Control de inventario para ferreterías de Iquique: cuando el cliente pregunta, la respuesta debería estar en tu teléfono y no al fondo de la bodega.\n\nComenta STOCK y te cuento cómo se arma.\n\n#Iquique #AltoHospicio #Tarapaca"
+  },
+  {
+    "id": "post-10",
+    "tema": "stock-plata-quieta",
+    "fecha": "2026-09-23",
+    "hora": "13:00",
+    "publicado": false,
+    "plantilla": "lista",
+    "kicker": "Fugas invisibles",
+    "titulo": "3 lugares donde se escapa la plata",
+    "items": [
+      "Mermas y vencimientos que nadie registra.",
+      "Pedidos duplicados por no saber qué había.",
+      "El fiado anotado en cualquier parte."
+    ],
+    "texto": "Control de inventario para almacenes y botillerías de Iquique: hay pérdidas que no se ven en la caja pero se sienten a fin de mes.\n\n📦 Mermas y vencimientos que nadie registra. Si no se anota, no existe… hasta que falta la plata.\n🔁 Pedidos duplicados: compraste algo que ya tenías porque no sabías que estaba.\n📝 El fiado anotado en un papel o en la memoria. Lo que no está bien anotado, muchas veces no se cobra.\n\nComenta STOCK y te cuento cuál de las tres te está costando más.\n\n#Iquique #AltoHospicio #Tarapaca"
   },
   {
     "id": "car-03",
     "tipo": "carrusel",
-    "fecha": "2026-09-16",
+    "tema": "objeciones",
+    "fecha": "2026-09-23",
+    "hora": "19:00",
     "publicado": false,
-    "texto": "Control de inventario para negocios chicos: las tres excusas que más escuchamos para no ordenar el stock, y por qué ninguna se sostiene.\n\nNo es que la gente sea desordenada. Es que contar a mano es un trabajo que no termina nunca, y nadie tiene tiempo de sobra.\n\nSi alguna te suena conocida, no eres tú solo: nos pasa con casi todos.\n\nComenta STOCK y te muestro cómo se vería en tu negocio.\n\n#Iquique #AltoHospicio #Almacen",
     "laminas": [
       {
         "id": "car-03-1",
@@ -463,34 +892,200 @@
         "bajada": "Si no te sirve, te lo digo de frente."
       }
     ],
-    "hora": "19:00"
+    "texto": "Control de inventario para negocios chicos: las tres excusas que más escuchamos para no ordenar el stock, y por qué ninguna se sostiene.\n\nNo es que la gente sea desordenada. Es que contar a mano es un trabajo que no termina nunca, y nadie tiene tiempo de sobra.\n\nSi alguna te suena conocida, no eres tú solo: nos pasa con casi todos.\n\nComenta STOCK y te muestro cómo se vería en tu negocio.\n\n#Iquique #AltoHospicio #Almacen"
   },
   {
-    "id": "reel-errores",
+    "id": "reel-competencia",
     "tipo": "reel",
-    "fecha": "2026-09-13",
-    "publicado": true,
-    "portada": "reel-errores-portada",
-    "texto": "3 errores de control de inventario que cometen casi todos los almacenes y minimarkets de Iquique.\n\nNinguno es por desordenado: aparecen solos cuando el stock se lleva de memoria y el día no da para más.\n\nComenta STOCK y te cuento cómo se arreglan los tres a la vez.\n\n#Iquique #AltoHospicio #Almacen",
+    "tema": "redes-constancia",
+    "fecha": "2026-09-24",
+    "hora": "16:00",
+    "publicado": false,
+    "portada": "reel-competencia-portada",
+    "texto": "El de al lado publica todos los días y no es porque le sobre tiempo. Lo tiene automatizado.\n\nAsí funciona para una ferretería de Iquique: escribes una vez a la semana y se reparte solo.\n\nComenta REDES y te empato la cancha.\n\n#Iquique #AltoHospicio #Tarapaca"
+  },
+  {
+    "id": "car-08",
+    "tipo": "carrusel",
+    "tema": "proceso",
+    "fecha": "2026-09-25",
+    "hora": "19:00",
+    "publicado": false,
+    "laminas": [
+      {
+        "id": "car-08-1",
+        "plantilla": "declaracion",
+        "kicker": "Antes de contratar a nadie",
+        "titulo": "Cómo trabajamos contigo",
+        "bajada": "Para que sepas en qué te estás metiendo."
+      },
+      {
+        "id": "car-08-2",
+        "plantilla": "pasos",
+        "kicker": "Primero",
+        "titulo": "Conversamos 20 minutos",
+        "pasos": [
+          [
+            "1",
+            "Me cuentas qué te complica hoy.",
+            "#F2994A"
+          ],
+          [
+            "2",
+            "Te digo de frente si te sirve o no.",
+            "#F2994A"
+          ]
+        ]
+      },
+      {
+        "id": "car-08-3",
+        "plantilla": "pasos",
+        "kicker": "Después",
+        "titulo": "Propuesta con número",
+        "pasos": [
+          [
+            "1",
+            "Qué incluye y qué no.",
+            "#F2994A"
+          ],
+          [
+            "2",
+            "Precio y plazo por escrito.",
+            "#F2994A"
+          ]
+        ]
+      },
+      {
+        "id": "car-08-4",
+        "plantilla": "pasos",
+        "kicker": "Y recién ahí",
+        "titulo": "Lo armamos y lo probamos",
+        "pasos": [
+          [
+            "1",
+            "Probamos contigo antes de darlo por hecho.",
+            "#F2994A"
+          ],
+          [
+            "2",
+            "Quedas con soporte, no te dejo solo.",
+            "#F2994A"
+          ]
+        ]
+      },
+      {
+        "id": "car-08-5",
+        "plantilla": "lista",
+        "kicker": "Lo que no hacemos",
+        "titulo": "Para que quede claro",
+        "items": [
+          "No vendemos equipos.",
+          "No hay app nueva que instalar.",
+          "No amarramos con contratos largos."
+        ]
+      },
+      {
+        "id": "car-08-6",
+        "plantilla": "declaracion",
+        "kicker": "¿Partimos?",
+        "titulo": "Comenta STOCK o REDES",
+        "bajada": "Según qué te complique más hoy."
+      }
+    ],
+    "texto": "Cómo trabajamos en ByM Solutions, antes de que le entregues tu negocio a cualquiera.\n\nAutomatizamos inventario y publicaciones para negocios de Iquique y Alto Hospicio.\n\nComenta STOCK o REDES según qué te complique más hoy.\n\n#Iquique #AltoHospicio #Tarapaca"
+  },
+  {
+    "id": "post-16",
+    "tipo": "foto",
+    "tema": "stock-quiebre",
+    "fecha": "2026-09-26",
     "hora": "13:00",
-    "id_publicacion": "18251011846307849"
+    "publicado": false,
+    "plantilla": "pasos",
+    "kicker": "Botillerías",
+    "titulo": "Cómo evitar el quiebre",
+    "pasos": [
+      [
+        "1",
+        "Defines un mínimo por producto."
+      ],
+      [
+        "2",
+        "El sistema vigila el saldo solo."
+      ],
+      [
+        "3",
+        "Te avisa con días de anticipación."
+      ]
+    ],
+    "texto": "Cómo evita un quiebre de stock una botillería de Iquique, sin revisar la bodega todos los días.\n\nComenta STOCK y te muestro.\n\n#Iquique #AltoHospicio #Tarapaca"
+  },
+  {
+    "id": "reel-publica-sola",
+    "tipo": "reel",
+    "tema": "redes-demo",
+    "fecha": "2026-09-26",
+    "hora": "16:00",
+    "publicado": false,
+    "portada": "reel-publica-sola-portada",
+    "texto": "Nadie publicó este reel. Ni armó el video, ni apretó publicar.\n\nAsí automatizamos Instagram para negocios de Iquique: el texto se escribe una vez y el resto sale solo.\n\nComenta REDES y te muestro cómo.\n\n#Iquique #AltoHospicio #Tarapaca"
+  },
+  {
+    "id": "post-12",
+    "tema": "cta",
+    "fecha": "2026-09-27",
+    "hora": "13:00",
+    "publicado": false,
+    "plantilla": "declaracion",
+    "kicker": "Hablemos",
+    "titulo": "Cuéntanos qué te complica hoy",
+    "bajada": "Mándanos un mensaje y te decimos si esto te sirve. Sin vueltas.",
+    "texto": "Automatización para negocios de Iquique y Alto Hospicio: si llegaste hasta acá viendo el contenido, algo te hizo sentido.\n\nCuéntame qué es lo que más te complica hoy en tu negocio y te digo derechamente si esto te sirve o no. Sin costo, y si no te sirve te lo digo igual.\n\nComenta STOCK si es el inventario, o REDES si es publicar.\n\n#Iquique #AltoHospicio #Tarapaca"
   },
   {
     "id": "reel-domingo",
     "tipo": "reel",
-    "fecha": "2026-09-17",
+    "tema": "stock-tiempo",
+    "fecha": "2026-09-27",
+    "hora": "19:00",
     "publicado": false,
     "portada": "reel-domingo-portada",
-    "texto": "Control de inventario para almacenes de Iquique: si cuentas el stock el domingo en la noche, esto es para ti.\n\nRegistras con un mensaje, el saldo se descuenta solo, y el aviso te llega el jueves — no cuando ya te quedaste sin producto.\n\nComenta STOCK y te muestro cómo se vería en tu negocio.\n\n#Iquique #AltoHospicio #Almacen",
-    "hora": "19:00"
+    "texto": "Control de inventario para almacenes de Iquique: si cuentas el stock el domingo en la noche, esto es para ti.\n\nRegistras con un mensaje, el saldo se descuenta solo, y el aviso te llega el jueves — no cuando ya te quedaste sin producto.\n\nComenta STOCK y te muestro cómo se vería en tu negocio.\n\n#Iquique #AltoHospicio #Almacen"
+  },
+  {
+    "id": "post-18",
+    "tipo": "foto",
+    "tema": "objeciones",
+    "fecha": "2026-09-28",
+    "hora": "13:00",
+    "publicado": false,
+    "plantilla": "lista",
+    "kicker": "Mitos",
+    "titulo": "“Esto es para grandes”",
+    "items": [
+      "Se parte con un proceso, no diez.",
+      "Usa el WhatsApp que ya tienes.",
+      "Sin comprar ningún equipo."
+    ],
+    "texto": "El mito más común que escuchamos: que automatizar es solo para empresas grandes.\n\nComenta STOCK y te muestro lo contrario.\n\n#Iquique #AltoHospicio #Tarapaca"
+  },
+  {
+    "id": "reel-cuanto-cuesta",
+    "tipo": "reel",
+    "tema": "precio",
+    "fecha": "2026-09-28",
+    "hora": "16:00",
+    "publicado": false,
+    "portada": "reel-cuanto-cuesta-portada",
+    "texto": "¿Cuánto cuesta automatizar tu negocio? Te doy el número sin vueltas: desde $150.000 de implementación y $25.000 al mes para un negocio chico.\n\nSin equipos que comprar ni apps nuevas. El número final sale de una conversación de 20 minutos, sin costo.\n\nComenta REDES o STOCK y lo calculamos.\n\n#Iquique #AltoHospicio #Tarapaca"
   },
   {
     "id": "car-04",
     "tipo": "carrusel",
-    "fecha": "2026-09-18",
+    "tema": "redes-invisible",
+    "fecha": "2026-09-29",
     "hora": "19:00",
     "publicado": false,
-    "texto": "5 errores que dejan invisible a un negocio de Iquique en Instagram, y qué hacer con cada uno.\n\nNinguno es por flojera. Publicar bien toma tiempo que un dueño de negocio no tiene.\n\nComenta REDES y te muestro cómo se ve cuando sale solo.\n\n#Iquique #AltoHospicio #Tarapaca",
     "laminas": [
       {
         "id": "car-04-1",
@@ -607,604 +1202,75 @@
         "titulo": "Comenta REDES y te digo",
         "bajada": "Te muestro cómo quedaría publicando solo."
       }
-    ]
+    ],
+    "texto": "5 errores que dejan invisible a un negocio de Iquique en Instagram, y qué hacer con cada uno.\n\nNinguno es por flojera. Publicar bien toma tiempo que un dueño de negocio no tiene.\n\nComenta REDES y te muestro cómo se ve cuando sale solo.\n\n#Iquique #AltoHospicio #Tarapaca"
   },
   {
-    "id": "car-05",
-    "tipo": "carrusel",
-    "fecha": "2026-09-20",
-    "hora": "19:00",
+    "id": "post-09",
+    "tema": "stock-tiempo",
+    "fecha": "2026-10-02",
+    "hora": "13:00",
     "publicado": false,
-    "texto": "Control de inventario para botillerías de Iquique: las tres formas en que se pierde plata un viernes.\n\nGuárdalo si tu bodega la llevas de memoria.\n\nComenta STOCK y te muestro cómo se vería resuelto.\n\n#Iquique #AltoHospicio #Tarapaca",
-    "laminas": [
-      {
-        "id": "car-05-1",
-        "plantilla": "declaracion",
-        "kicker": "Botillerías y almacenes",
-        "titulo": "Lo que se pierde un viernes",
-        "bajada": "Tres ventas que no vas a poder hacer."
-      },
-      {
-        "id": "car-05-2",
-        "plantilla": "pasos",
-        "kicker": "Lo que pasa",
-        "titulo": "Se acabó a las 21:00",
-        "pasos": [
-          [
-            "✕",
-            "El cliente se va al de al lado.",
-            "#E8877F"
-          ],
-          [
-            "✓",
-            "El aviso llegó el jueves.",
-            "#7FE8B0"
-          ]
-        ]
-      },
-      {
-        "id": "car-05-3",
-        "plantilla": "pasos",
-        "kicker": "Lo que pasa",
-        "titulo": "Pediste de más",
-        "pasos": [
-          [
-            "✕",
-            "Plata parada en la bodega.",
-            "#E8877F"
-          ],
-          [
-            "✓",
-            "Pides lo que se vendió de verdad.",
-            "#7FE8B0"
-          ]
-        ]
-      },
-      {
-        "id": "car-05-4",
-        "plantilla": "pasos",
-        "kicker": "Lo que pasa",
-        "titulo": "No sabes qué se vende",
-        "pasos": [
-          [
-            "✕",
-            "Te guías por lo que recuerdas.",
-            "#E8877F"
-          ],
-          [
-            "✓",
-            "El resumen te lo dice cada semana.",
-            "#7FE8B0"
-          ]
-        ]
-      },
-      {
-        "id": "car-05-5",
-        "plantilla": "lista",
-        "kicker": "Cómo funciona",
-        "titulo": "Por WhatsApp, nada más",
-        "items": [
-          "Registras con un mensaje.",
-          "El saldo se descuenta solo.",
-          "El aviso llega antes."
-        ]
-      },
-      {
-        "id": "car-05-6",
-        "plantilla": "declaracion",
-        "kicker": "¿Te pasa?",
-        "titulo": "Comenta STOCK y lo vemos",
-        "bajada": "Te muestro cómo se vería en tu botillería."
-      }
-    ]
-  },
-  {
-    "id": "car-06",
-    "tipo": "carrusel",
-    "fecha": "2026-09-22",
-    "hora": "19:00",
-    "publicado": false,
-    "texto": "Control de inventario para ferreterías de Iquique: cómo llevar cientos de productos sin hacer inventario a mano.\n\nComenta STOCK y te muestro cómo funcionaría en la tuya.\n\n#Iquique #AltoHospicio #Tarapaca",
-    "laminas": [
-      {
-        "id": "car-06-1",
-        "plantilla": "declaracion",
-        "kicker": "Ferreterías",
-        "titulo": "Tienes 400 productos y una memoria",
-        "bajada": "Adivina cuál de los dos falla primero."
-      },
-      {
-        "id": "car-06-2",
-        "plantilla": "lista",
-        "kicker": "El problema",
-        "titulo": "Lo que nadie ve",
-        "items": [
-          "Tornillos que llevan meses parados.",
-          "Lo que más sale, siempre justo.",
-          "Pedidos hechos a última hora."
-        ]
-      },
-      {
-        "id": "car-06-3",
-        "plantilla": "pasos",
-        "kicker": "Paso 1",
-        "titulo": "Registrar sin planillas",
-        "pasos": [
-          [
-            "✕",
-            "Anotar en el cuaderno del mesón.",
-            "#E8877F"
-          ],
-          [
-            "✓",
-            "Un mensaje de WhatsApp y listo.",
-            "#7FE8B0"
-          ]
-        ]
-      },
-      {
-        "id": "car-06-4",
-        "plantilla": "pasos",
-        "kicker": "Paso 2",
-        "titulo": "Saber qué reponer",
-        "pasos": [
-          [
-            "✕",
-            "Revisar estante por estante.",
-            "#E8877F"
-          ],
-          [
-            "✓",
-            "La lista te llega armada.",
-            "#7FE8B0"
-          ]
-        ]
-      },
-      {
-        "id": "car-06-5",
-        "plantilla": "lista",
-        "kicker": "Lo que cambia",
-        "titulo": "No es tecnología, es tiempo",
-        "items": [
-          "No cierras para hacer inventario.",
-          "No compras lo que ya tenías.",
-          "Sabes qué conviene tener."
-        ]
-      },
-      {
-        "id": "car-06-6",
-        "plantilla": "declaracion",
-        "kicker": "¿Hablamos?",
-        "titulo": "Comenta STOCK y te escribo",
-        "bajada": "Sin costo. Si no te sirve, te lo digo de frente."
-      }
-    ]
-  },
-  {
-    "id": "car-07",
-    "tipo": "carrusel",
-    "fecha": "2026-09-24",
-    "hora": "19:00",
-    "publicado": false,
-    "texto": "Cómo hace una peluquería de Iquique para aparecer cuando alguien la busca en Instagram.\n\nTres razones por las que hoy no sales, y cómo se resuelven sin que te quite tiempo.\n\nComenta REDES y te muestro.\n\n#Iquique #AltoHospicio #Tarapaca",
-    "laminas": [
-      {
-        "id": "car-07-1",
-        "plantilla": "declaracion",
-        "kicker": "Peluquerías y barberías",
-        "titulo": "Te buscan en Instagram y no sales",
-        "bajada": "Tres razones, y ninguna es tu culpa."
-      },
-      {
-        "id": "car-07-2",
-        "plantilla": "pasos",
-        "kicker": "Razón 1",
-        "titulo": "No dices dónde estás",
-        "pasos": [
-          [
-            "✕",
-            "Tu texto no menciona Iquique.",
-            "#E8877F"
-          ],
-          [
-            "✓",
-            "Va en la primera línea y en la ubicación.",
-            "#7FE8B0"
-          ]
-        ]
-      },
-      {
-        "id": "car-07-3",
-        "plantilla": "pasos",
-        "kicker": "Razón 2",
-        "titulo": "Publicas muy poco",
-        "pasos": [
-          [
-            "✕",
-            "Una vez al mes, cuando te acuerdas.",
-            "#E8877F"
-          ],
-          [
-            "✓",
-            "Tres por semana, sin que te cueste.",
-            "#7FE8B0"
-          ]
-        ]
-      },
-      {
-        "id": "car-07-4",
-        "plantilla": "pasos",
-        "kicker": "Razón 3",
-        "titulo": "Confías en los hashtags",
-        "pasos": [
-          [
-            "✕",
-            "Treinta hashtags al final.",
-            "#E8877F"
-          ],
-          [
-            "✓",
-            "Palabras que la gente realmente busca.",
-            "#7FE8B0"
-          ]
-        ]
-      },
-      {
-        "id": "car-07-5",
-        "plantilla": "lista",
-        "kicker": "Lo bueno",
-        "titulo": "Las tres se automatizan",
-        "items": [
-          "El texto se escribe una vez.",
-          "La gráfica sale sola.",
-          "Se publica a la hora que fijes."
-        ]
-      },
-      {
-        "id": "car-07-6",
-        "plantilla": "declaracion",
-        "kicker": "¿Te suena?",
-        "titulo": "Comenta REDES y te muestro",
-        "bajada": "Esta cuenta funciona así. Puedes revisarla."
-      }
-    ]
-  },
-  {
-    "id": "car-08",
-    "tipo": "carrusel",
-    "fecha": "2026-09-26",
-    "hora": "19:00",
-    "publicado": false,
-    "texto": "Cómo trabajamos en ByM Solutions, antes de que le entregues tu negocio a cualquiera.\n\nAutomatizamos inventario y publicaciones para negocios de Iquique y Alto Hospicio.\n\nComenta STOCK o REDES según qué te complique más hoy.\n\n#Iquique #AltoHospicio #Tarapaca",
-    "laminas": [
-      {
-        "id": "car-08-1",
-        "plantilla": "declaracion",
-        "kicker": "Antes de contratar a nadie",
-        "titulo": "Cómo trabajamos contigo",
-        "bajada": "Para que sepas en qué te estás metiendo."
-      },
-      {
-        "id": "car-08-2",
-        "plantilla": "pasos",
-        "kicker": "Primero",
-        "titulo": "Conversamos 20 minutos",
-        "pasos": [
-          [
-            "1",
-            "Me cuentas qué te complica hoy.",
-            "#F2994A"
-          ],
-          [
-            "2",
-            "Te digo de frente si te sirve o no.",
-            "#F2994A"
-          ]
-        ]
-      },
-      {
-        "id": "car-08-3",
-        "plantilla": "pasos",
-        "kicker": "Después",
-        "titulo": "Propuesta con número",
-        "pasos": [
-          [
-            "1",
-            "Qué incluye y qué no.",
-            "#F2994A"
-          ],
-          [
-            "2",
-            "Precio y plazo por escrito.",
-            "#F2994A"
-          ]
-        ]
-      },
-      {
-        "id": "car-08-4",
-        "plantilla": "pasos",
-        "kicker": "Y recién ahí",
-        "titulo": "Lo armamos y lo probamos",
-        "pasos": [
-          [
-            "1",
-            "Probamos contigo antes de darlo por hecho.",
-            "#F2994A"
-          ],
-          [
-            "2",
-            "Quedas con soporte, no te dejo solo.",
-            "#F2994A"
-          ]
-        ]
-      },
-      {
-        "id": "car-08-5",
-        "plantilla": "lista",
-        "kicker": "Lo que no hacemos",
-        "titulo": "Para que quede claro",
-        "items": [
-          "No vendemos equipos.",
-          "No hay app nueva que instalar.",
-          "No amarramos con contratos largos."
-        ]
-      },
-      {
-        "id": "car-08-6",
-        "plantilla": "declaracion",
-        "kicker": "¿Partimos?",
-        "titulo": "Comenta STOCK o REDES",
-        "bajada": "Según qué te complique más hoy."
-      }
-    ]
-  },
-  {
-    "id": "reel-inconsistente",
-    "tipo": "reel",
-    "fecha": "2026-09-14",
-    "hora": "16:00",
-    "publicado": true,
-    "portada": "reel-inconsistente-portada",
-    "texto": "Publicar tu ferretería en Instagram sin que te quite tiempo: el problema no es la falta de ganas, es que armar una publicación toma media hora.\n\nEste reel salió solo, sin que nadie lo publicara.\n\nComenta REDES y te muestro.\n\n#Iquique #AltoHospicio #Tarapaca",
-    "id_publicacion": "18105918893186776"
-  },
-  {
-    "id": "reel-nadie-encuentra",
-    "tipo": "reel",
-    "fecha": "2026-09-18",
-    "hora": "16:00",
-    "publicado": false,
-    "portada": "reel-nadie-encuentra-portada",
-    "texto": "Peluquerías de Iquique: alguien te está buscando en Instagram ahora mismo y no te encuentra.\n\nInstagram hoy funciona como buscador y lee el texto de tus publicaciones.\n\nComenta REDES y te cuento cómo se arregla.\n\n#Iquique #AltoHospicio #Tarapaca"
+    "plantilla": "declaracion",
+    "kicker": "Tu tiempo",
+    "titulo": "¿Cuánto vale una hora tuya?",
+    "bajada": "Contar stock a mano cada semana son horas que no vuelven.",
+    "texto": "Control de inventario para almacenes y minimarkets de Iquique: hagamos una cuenta rápida.\n\nSi cada semana pierdes dos horas contando stock y armando el pedido a mano, son ocho horas al mes. Un día completo de trabajo, todos los meses, haciendo algo que un sistema hace solo. Y eso sin contar los errores de conteo, que se pagan aparte.\n\nComenta STOCK y sacamos la cuenta con los números de tu negocio.\n\n#Iquique #AltoHospicio #Tarapaca"
   },
   {
     "id": "reel-viernes",
     "tipo": "reel",
-    "fecha": "2026-09-19",
+    "tema": "stock-quiebre",
+    "fecha": "2026-10-02",
     "hora": "19:00",
     "publicado": false,
     "portada": "reel-viernes-portada",
     "texto": "Control de inventario para botillerías de Iquique: que no se te acabe la cerveza un viernes en la noche.\n\nEl aviso llega el jueves, y el pedido al proveedor viene armado.\n\nComenta STOCK y te muestro.\n\n#Iquique #AltoHospicio #Tarapaca"
   },
   {
-    "id": "reel-publica-sola",
-    "tipo": "reel",
-    "fecha": "2026-09-26",
-    "hora": "16:00",
+    "id": "post-15",
+    "tipo": "foto",
+    "tema": "redes-invisible",
+    "fecha": "2026-10-04",
+    "hora": "13:00",
     "publicado": false,
-    "portada": "reel-publica-sola-portada",
-    "texto": "Nadie publicó este reel. Ni armó el video, ni apretó publicar.\n\nAsí automatizamos Instagram para negocios de Iquique: el texto se escribe una vez y el resto sale solo.\n\nComenta REDES y te muestro cómo.\n\n#Iquique #AltoHospicio #Tarapaca"
+    "plantilla": "declaracion",
+    "kicker": "Peluquerías",
+    "titulo": "El sillón vacío de un martes",
+    "bajada": "No es que no haya clientes. Es que no te encuentran.",
+    "texto": "Peluquerías de Iquique: si el martes está vacío, puede no ser falta de clientes sino que no te ubican.\n\nComenta REDES y lo vemos.\n\n#Iquique #AltoHospicio #Tarapaca"
   },
   {
     "id": "reel-hora",
     "tipo": "reel",
-    "fecha": "2026-09-21",
+    "tema": "stock-tiempo",
+    "fecha": "2026-10-07",
     "hora": "19:00",
     "publicado": false,
     "portada": "reel-hora-portada",
     "texto": "¿Cuánto vale una hora tuya? Un almacén pierde unas 6 horas al mes contando stock a mano. Al año son 72.\n\nComenta STOCK y sacamos la cuenta para tu negocio.\n\n#Iquique #AltoHospicio #Tarapaca"
   },
   {
-    "id": "post-13",
-    "tipo": "foto",
-    "fecha": "2026-09-20",
-    "hora": "13:00",
-    "publicado": false,
-    "plantilla": "declaracion",
-    "texto": "Control de inventario para ferreterías de Iquique: con cientos de productos, la memoria no alcanza y el cuaderno tampoco.\n\nComenta STOCK y te cuento.\n\n#Iquique #AltoHospicio #Tarapaca",
-    "kicker": "Ferreterías",
-    "titulo": "400 productos, una memoria",
-    "bajada": "Algo se va a traspapelar. Siempre pasa."
-  },
-  {
-    "id": "post-14",
-    "tipo": "foto",
-    "fecha": "2026-09-21",
-    "hora": "13:00",
-    "publicado": false,
-    "plantilla": "lista",
-    "texto": "3 señales de que tu negocio de Iquique no aparece en Instagram, y las tres se arreglan sin que te quite tiempo.\n\nComenta REDES y te muestro.\n\n#Iquique #AltoHospicio #Tarapaca",
-    "kicker": "Publicar",
-    "titulo": "3 señales de que no te ven",
-    "items": [
-      "Publicas una vez al mes.",
-      "Tu texto no dice Iquique.",
-      "Nadie comenta nunca."
-    ]
-  },
-  {
-    "id": "post-15",
-    "tipo": "foto",
-    "fecha": "2026-09-22",
-    "hora": "13:00",
-    "publicado": false,
-    "plantilla": "declaracion",
-    "texto": "Peluquerías de Iquique: si el martes está vacío, puede no ser falta de clientes sino que no te ubican.\n\nComenta REDES y lo vemos.\n\n#Iquique #AltoHospicio #Tarapaca",
-    "kicker": "Peluquerías",
-    "titulo": "El sillón vacío de un martes",
-    "bajada": "No es que no haya clientes. Es que no te encuentran."
-  },
-  {
-    "id": "post-16",
-    "tipo": "foto",
-    "fecha": "2026-09-23",
-    "hora": "13:00",
-    "publicado": false,
-    "plantilla": "pasos",
-    "texto": "Cómo evita un quiebre de stock una botillería de Iquique, sin revisar la bodega todos los días.\n\nComenta STOCK y te muestro.\n\n#Iquique #AltoHospicio #Tarapaca",
-    "kicker": "Botillerías",
-    "titulo": "Cómo evitar el quiebre",
-    "pasos": [
-      [
-        "1",
-        "Defines un mínimo por producto."
-      ],
-      [
-        "2",
-        "El sistema vigila el saldo solo."
-      ],
-      [
-        "3",
-        "Te avisa con días de anticipación."
-      ]
-    ]
-  },
-  {
-    "id": "post-17",
-    "tipo": "foto",
-    "fecha": "2026-09-24",
-    "hora": "13:00",
-    "publicado": false,
-    "plantilla": "declaracion",
-    "texto": "Control de inventario para almacenes: lo que lleva meses parado en la bodega es plata detenida.\n\nComenta STOCK y lo revisamos.\n\n#Iquique #AltoHospicio #Tarapaca",
-    "kicker": "Almacenes",
-    "titulo": "Lo que no se vende también cuesta",
-    "bajada": "Es plata quieta en un estante, no mercadería."
-  },
-  {
-    "id": "post-18",
-    "tipo": "foto",
-    "fecha": "2026-09-25",
-    "hora": "13:00",
-    "publicado": false,
-    "plantilla": "lista",
-    "texto": "El mito más común que escuchamos: que automatizar es solo para empresas grandes.\n\nComenta STOCK y te muestro lo contrario.\n\n#Iquique #AltoHospicio #Tarapaca",
-    "kicker": "Mitos",
-    "titulo": "“Esto es para grandes”",
-    "items": [
-      "Se parte con un proceso, no diez.",
-      "Usa el WhatsApp que ya tienes.",
-      "Sin comprar ningún equipo."
-    ]
-  },
-  {
-    "id": "post-19",
-    "tipo": "foto",
-    "fecha": "2026-09-26",
-    "hora": "13:00",
-    "publicado": false,
-    "plantilla": "declaracion",
-    "texto": "Ferreterías de Iquique: cerrar para hacer inventario cuesta el día completo de ventas.\n\nComenta STOCK y te cuento cómo se evita.\n\n#Iquique #AltoHospicio #Tarapaca",
-    "kicker": "Ferreterías",
-    "titulo": "¿Cerraste para hacer inventario?",
-    "bajada": "Un día cerrado es un día sin vender."
-  },
-  {
-    "id": "post-20",
-    "tipo": "foto",
-    "fecha": "2026-09-27",
-    "hora": "13:00",
-    "publicado": false,
-    "plantilla": "pasos",
-    "texto": "Así se publica solo el Instagram de un negocio de Iquique: el texto se escribe una vez y el resto sale automático.\n\nComenta REDES y te muestro.\n\n#Iquique #AltoHospicio #Tarapaca",
-    "kicker": "Publicar",
-    "titulo": "Cómo sale una publicación sola",
-    "pasos": [
-      [
-        "1",
-        "Escribes el texto una vez."
-      ],
-      [
-        "2",
-        "La gráfica y la voz se generan."
-      ],
-      [
-        "3",
-        "Se publica a la hora que fijes."
-      ]
-    ]
-  },
-  {
     "id": "post-21",
     "tipo": "foto",
-    "fecha": "2026-09-28",
+    "tema": "stock-quiebre",
+    "fecha": "2026-10-08",
     "hora": "13:00",
     "publicado": false,
     "plantilla": "declaracion",
-    "texto": "Botillerías: el fin de semana se gana el jueves, cuando haces el pedido bien.\n\nComenta STOCK y te muestro cómo se anticipa.\n\n#Iquique #AltoHospicio #Tarapaca",
     "kicker": "Botillerías",
     "titulo": "El fin de semana se gana el jueves",
-    "bajada": "Cuando pides. No cuando se acaba."
-  },
-  {
-    "id": "post-22",
-    "tipo": "foto",
-    "fecha": "2026-09-29",
-    "hora": "13:00",
-    "publicado": false,
-    "plantilla": "lista",
-    "texto": "3 cosas que una peluquería de Iquique puede dejar funcionando sola, sin contratar a nadie.\n\nComenta REDES o STOCK, según cuál te complique.\n\n#Iquique #AltoHospicio #Tarapaca",
-    "kicker": "Peluquerías",
-    "titulo": "3 cosas que puedes automatizar",
-    "items": [
-      "Las publicaciones de la semana.",
-      "El stock de tintes y productos.",
-      "Las respuestas más repetidas."
-    ]
-  },
-  {
-    "id": "reel-que-publico",
-    "tipo": "reel",
-    "fecha": "2026-09-16",
-    "hora": "16:00",
-    "publicado": false,
-    "portada": "reel-que-publico-portada",
-    "texto": "¿Y qué publico? Es la pregunta que frena a todo dueño de negocio en Iquique.\n\nNo hay que inventar nada: lo que ya sabes de tu rubro le sirve a alguien. Se escribe una vez a la semana y se reparte solo.\n\nComenta REDES y te muestro cómo queda.\n\n#Iquique #AltoHospicio #Tarapaca"
+    "bajada": "Cuando pides. No cuando se acaba.",
+    "texto": "Botillerías: el fin de semana se gana el jueves, cuando haces el pedido bien.\n\nComenta STOCK y te muestro cómo se anticipa.\n\n#Iquique #AltoHospicio #Tarapaca"
   },
   {
     "id": "reel-hashtags",
     "tipo": "reel",
-    "fecha": "2026-09-20",
+    "tema": "redes-invisible",
+    "fecha": "2026-10-10",
     "hora": "16:00",
     "publicado": false,
     "portada": "reel-hashtags-portada",
     "texto": "Tus hashtags ya no te traen a nadie, y no es culpa tuya: Instagram cambió en 2024 y dejó de repartir por ahí.\n\nHoy funciona como buscador y lee el texto. \"Almacén en Iquique\" al principio vale más que treinta etiquetas al final.\n\nComenta REDES y te reviso cómo estás publicando.\n\n#Iquique #AltoHospicio #Tarapaca"
-  },
-  {
-    "id": "reel-responder",
-    "tipo": "reel",
-    "fecha": "2026-09-24",
-    "hora": "16:00",
-    "publicado": false,
-    "portada": "reel-responder-portada",
-    "texto": "Peluquerías de Iquique: te escriben a las once de la noche y contestas al otro día. Esa hora ya se perdió.\n\nLa mitad de las consultas son las mismas tres preguntas, y esas se pueden contestar solas.\n\nComenta REDES y te cuento cómo se arma.\n\n#Iquique #AltoHospicio #Tarapaca"
-  },
-  {
-    "id": "reel-competencia",
-    "tipo": "reel",
-    "fecha": "2026-09-22",
-    "hora": "16:00",
-    "publicado": false,
-    "portada": "reel-competencia-portada",
-    "texto": "El de al lado publica todos los días y no es porque le sobre tiempo. Lo tiene automatizado.\n\nAsí funciona para una ferretería de Iquique: escribes una vez a la semana y se reparte solo.\n\nComenta REDES y te empato la cancha.\n\n#Iquique #AltoHospicio #Tarapaca"
-  },
-  {
-    "id": "reel-cuanto-cuesta",
-    "tipo": "reel",
-    "fecha": "2026-09-28",
-    "hora": "16:00",
-    "publicado": false,
-    "portada": "reel-cuanto-cuesta-portada",
-    "texto": "¿Cuánto cuesta automatizar tu negocio? Te doy el número sin vueltas: desde $150.000 de implementación y $25.000 al mes para un negocio chico.\n\nSin equipos que comprar ni apps nuevas. El número final sale de una conversación de 20 minutos, sin costo.\n\nComenta REDES o STOCK y lo calculamos.\n\n#Iquique #AltoHospicio #Tarapaca"
   }
 ]
