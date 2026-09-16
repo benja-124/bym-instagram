@@ -31,7 +31,7 @@
       "plantilla": "capacidad",
       "datos": {
         "n": "2",
-        "titulo": "Ahora es un buscador",
+        "titulo": "Ahora es<br>un buscador",
         "detalle": "Lee lo que escribes, no lo que etiquetas."
       },
       "sub": "Ahora lee tu texto"

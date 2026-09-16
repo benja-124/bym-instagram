@@ -19,7 +19,7 @@
       "plantilla": "capacidad",
       "datos": {
         "n": "1",
-        "titulo": "Comprar de memoria",
+        "titulo": "Comprar<br>de memoria",
         "detalle": "Pides lo que crees que falta, no lo que se vendió."
       },
       "sub": "Comprar de memoria"
@@ -43,7 +43,7 @@
       "plantilla": "capacidad",
       "datos": {
         "n": "3",
-        "titulo": "El cuaderno de siempre",
+        "titulo": "El cuaderno<br>de siempre",
         "detalle": "Si no estás tú, nadie sabe qué hay en bodega."
       },
       "sub": "El cuaderno que entiendes tú"
