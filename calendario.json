@@ -411,7 +411,7 @@
     "tema": "proceso",
     "fecha": "2026-09-17",
     "hora": "13:00",
-    "publicado": false,
+    "publicado": true,
     "plantilla": "pasos",
     "kicker": "Cómo partimos",
     "titulo": "La primera conversación<br>no se cobra",
@@ -429,7 +429,8 @@
         "Lo probamos juntos antes de largarlo."
       ]
     ],
-    "texto": "Automatización para negocios de Iquique: así es trabajar con nosotros, por si te da curiosidad antes de escribir.\n\n1️⃣ Conversamos 15 o 20 minutos para entender qué te complica hoy. Sin costo y sin compromiso.\n2️⃣ Te armamos una propuesta clara, con precio y plazo. Nada de letra chica.\n3️⃣ Lo implementamos y lo probamos contigo antes de darlo por listo. Después queda con soporte.\n\nComenta STOCK o REDES según qué te complique más, y partimos por ahí.\n\n#Iquique #AltoHospicio #Tarapaca"
+    "texto": "Automatización para negocios de Iquique: así es trabajar con nosotros, por si te da curiosidad antes de escribir.\n\n1️⃣ Conversamos 15 o 20 minutos para entender qué te complica hoy. Sin costo y sin compromiso.\n2️⃣ Te armamos una propuesta clara, con precio y plazo. Nada de letra chica.\n3️⃣ Lo implementamos y lo probamos contigo antes de darlo por listo. Después queda con soporte.\n\nComenta STOCK o REDES según qué te complique más, y partimos por ahí.\n\n#Iquique #AltoHospicio #Tarapaca",
+    "id_publicacion": "18563475472074033"
   },
   {
     "id": "car-06",
