@@ -438,7 +438,7 @@
     "tema": "stock-memoria",
     "fecha": "2026-09-17",
     "hora": "19:00",
-    "publicado": false,
+    "publicado": true,
     "laminas": [
       {
         "id": "car-06-1",
@@ -513,7 +513,8 @@
         "bajada": "Sin costo. Si no te sirve, te lo digo de frente."
       }
     ],
-    "texto": "Control de inventario para ferreterías de Iquique: cómo llevar cientos de productos sin hacer inventario a mano.\n\nComenta STOCK y te muestro cómo funcionaría en la tuya.\n\n#Iquique #AltoHospicio #Tarapaca"
+    "texto": "Control de inventario para ferreterías de Iquique: cómo llevar cientos de productos sin hacer inventario a mano.\n\nComenta STOCK y te muestro cómo funcionaría en la tuya.\n\n#Iquique #AltoHospicio #Tarapaca",
+    "id_publicacion": "18127901140790596"
   },
   {
     "id": "post-17",
