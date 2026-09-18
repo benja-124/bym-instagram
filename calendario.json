@@ -522,12 +522,13 @@
     "tema": "stock-plata-quieta",
     "fecha": "2026-09-18",
     "hora": "13:00",
-    "publicado": false,
+    "publicado": true,
     "plantilla": "declaracion",
     "kicker": "Almacenes",
     "titulo": "Lo que no se vende también cuesta",
     "bajada": "Es plata quieta en un estante, no mercadería.",
-    "texto": "Control de inventario para almacenes: lo que lleva meses parado en la bodega es plata detenida.\n\nComenta STOCK y lo revisamos.\n\n#Iquique #AltoHospicio #Tarapaca"
+    "texto": "Control de inventario para almacenes: lo que lleva meses parado en la bodega es plata detenida.\n\nComenta STOCK y lo revisamos.\n\n#Iquique #AltoHospicio #Tarapaca",
+    "id_publicacion": "17911486425533646"
   },
   {
     "id": "reel-que-publico",
@@ -535,9 +536,10 @@
     "tema": "redes-quepublico",
     "fecha": "2026-09-18",
     "hora": "16:00",
-    "publicado": false,
+    "publicado": true,
     "portada": "reel-que-publico-portada",
-    "texto": "¿Y qué publico? Es la pregunta que frena a todo dueño de negocio en Iquique.\n\nNo hay que inventar nada: lo que ya sabes de tu rubro le sirve a alguien. Se escribe una vez a la semana y se reparte solo.\n\nComenta REDES y te muestro cómo queda.\n\n#Iquique #AltoHospicio #Tarapaca"
+    "texto": "¿Y qué publico? Es la pregunta que frena a todo dueño de negocio en Iquique.\n\nNo hay que inventar nada: lo que ya sabes de tu rubro le sirve a alguien. Se escribe una vez a la semana y se reparte solo.\n\nComenta REDES y te muestro cómo queda.\n\n#Iquique #AltoHospicio #Tarapaca",
+    "id_publicacion": "18008210618977259"
   },
   {
     "id": "post-20",
