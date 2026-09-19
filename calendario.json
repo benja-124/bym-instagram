@@ -574,7 +574,7 @@
     "tema": "stock-insumos",
     "fecha": "2026-09-19",
     "hora": "19:00",
-    "publicado": false,
+    "publicado": true,
     "laminas": [
       {
         "id": "car-07-1",
@@ -678,7 +678,8 @@
         "bajada": "Te muestro cómo se vería en tu local."
       }
     ],
-    "texto": "Control de inventario para peluquerías y barberías de Iquique: la bodega es chica, pero ahí hay más plata detenida de la que crees.\n\nTinturas que nadie pide, ampollas vencidas, y el tono que justo se acabó con la clienta sentada. Todo eso se puede llevar solo, por WhatsApp.\n\nComenta STOCK y te muestro cómo se vería en tu local.\n\n#Iquique #AltoHospicio #Tarapaca"
+    "texto": "Control de inventario para peluquerías y barberías de Iquique: la bodega es chica, pero ahí hay más plata detenida de la que crees.\n\nTinturas que nadie pide, ampollas vencidas, y el tono que justo se acabó con la clienta sentada. Todo eso se puede llevar solo, por WhatsApp.\n\nComenta STOCK y te muestro cómo se vería en tu local.\n\n#Iquique #AltoHospicio #Tarapaca",
+    "id_publicacion": "18075124511424810"
   },
   {
     "id": "post-22",
