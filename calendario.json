@@ -547,7 +547,7 @@
     "tema": "redes-demo",
     "fecha": "2026-09-19",
     "hora": "13:00",
-    "publicado": false,
+    "publicado": true,
     "plantilla": "pasos",
     "kicker": "Publicar",
     "titulo": "Cómo sale una publicación sola",
@@ -565,7 +565,8 @@
         "Se publica a la hora que fijes."
       ]
     ],
-    "texto": "Así se publica solo el Instagram de un negocio de Iquique: el texto se escribe una vez y el resto sale automático.\n\nComenta REDES y te muestro.\n\n#Iquique #AltoHospicio #Tarapaca"
+    "texto": "Así se publica solo el Instagram de un negocio de Iquique: el texto se escribe una vez y el resto sale automático.\n\nComenta REDES y te muestro.\n\n#Iquique #AltoHospicio #Tarapaca",
+    "id_publicacion": "18104067572630581"
   },
   {
     "id": "car-07",
