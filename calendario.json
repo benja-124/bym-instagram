@@ -687,7 +687,7 @@
     "tema": "stock-general",
     "fecha": "2026-09-20",
     "hora": "13:00",
-    "publicado": false,
+    "publicado": true,
     "plantilla": "lista",
     "kicker": "Peluquerías",
     "titulo": "3 cosas que puedes automatizar",
@@ -696,7 +696,8 @@
       "El stock de tintes y productos.",
       "Las respuestas más repetidas."
     ],
-    "texto": "3 cosas que una peluquería de Iquique puede dejar funcionando sola, sin contratar a nadie.\n\nComenta REDES o STOCK, según cuál te complique.\n\n#Iquique #AltoHospicio #Tarapaca"
+    "texto": "3 cosas que una peluquería de Iquique puede dejar funcionando sola, sin contratar a nadie.\n\nComenta REDES o STOCK, según cuál te complique.\n\n#Iquique #AltoHospicio #Tarapaca",
+    "id_publicacion": "18123052126849809"
   },
   {
     "id": "reel-responder",
