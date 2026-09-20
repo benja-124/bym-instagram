@@ -705,9 +705,10 @@
     "tema": "redes-responder",
     "fecha": "2026-09-20",
     "hora": "16:00",
-    "publicado": false,
+    "publicado": true,
     "portada": "reel-responder-portada",
-    "texto": "Peluquerías de Iquique: te escriben a las once de la noche y contestas al otro día. Esa hora ya se perdió.\n\nLa mitad de las consultas son las mismas tres preguntas, y esas se pueden contestar solas.\n\nComenta REDES y te cuento cómo se arma.\n\n#Iquique #AltoHospicio #Tarapaca"
+    "texto": "Peluquerías de Iquique: te escriben a las once de la noche y contestas al otro día. Esa hora ya se perdió.\n\nLa mitad de las consultas son las mismas tres preguntas, y esas se pueden contestar solas.\n\nComenta REDES y te cuento cómo se arma.\n\n#Iquique #AltoHospicio #Tarapaca",
+    "id_publicacion": "18113120588108819"
   },
   {
     "id": "post-14",
