@@ -716,7 +716,7 @@
     "tema": "redes-invisible",
     "fecha": "2026-09-21",
     "hora": "13:00",
-    "publicado": false,
+    "publicado": true,
     "plantilla": "lista",
     "kicker": "Publicar",
     "titulo": "3 señales de que no te ven",
@@ -725,7 +725,8 @@
       "Tu texto no dice Iquique.",
       "Nadie comenta nunca."
     ],
-    "texto": "3 señales de que tu negocio de Iquique no aparece en Instagram, y las tres se arreglan sin que te quite tiempo.\n\nComenta REDES y te muestro.\n\n#Iquique #AltoHospicio #Tarapaca"
+    "texto": "3 señales de que tu negocio de Iquique no aparece en Instagram, y las tres se arreglan sin que te quite tiempo.\n\nComenta REDES y te muestro.\n\n#Iquique #AltoHospicio #Tarapaca",
+    "id_publicacion": "18217765696349874"
   },
   {
     "id": "car-05",
