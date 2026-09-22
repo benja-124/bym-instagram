@@ -734,7 +734,7 @@
     "tema": "stock-quiebre",
     "fecha": "2026-09-21",
     "hora": "19:00",
-    "publicado": false,
+    "publicado": true,
     "laminas": [
       {
         "id": "car-05-1",
@@ -816,7 +816,8 @@
         "bajada": "Te muestro cómo se vería en tu botillería."
       }
     ],
-    "texto": "Control de inventario para botillerías de Iquique: las tres formas en que se pierde plata un viernes.\n\nGuárdalo si tu bodega la llevas de memoria.\n\nComenta STOCK y te muestro cómo se vería resuelto.\n\n#Iquique #AltoHospicio #Tarapaca"
+    "texto": "Control de inventario para botillerías de Iquique: las tres formas en que se pierde plata un viernes.\n\nGuárdalo si tu bodega la llevas de memoria.\n\nComenta STOCK y te muestro cómo se vería resuelto.\n\n#Iquique #AltoHospicio #Tarapaca",
+    "id_publicacion": "17900609748657519"
   },
   {
     "id": "post-13",
