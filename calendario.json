@@ -838,7 +838,7 @@
     "tema": "stock-plata-quieta",
     "fecha": "2026-09-23",
     "hora": "13:00",
-    "publicado": false,
+    "publicado": true,
     "plantilla": "lista",
     "kicker": "Fugas invisibles",
     "titulo": "3 lugares donde se escapa la plata",
@@ -847,7 +847,8 @@
       "Pedidos duplicados por no saber qué había.",
       "El fiado anotado en cualquier parte."
     ],
-    "texto": "Control de inventario para almacenes y botillerías de Iquique: hay pérdidas que no se ven en la caja pero se sienten a fin de mes.\n\n📦 Mermas y vencimientos que nadie registra. Si no se anota, no existe… hasta que falta la plata.\n🔁 Pedidos duplicados: compraste algo que ya tenías porque no sabías que estaba.\n📝 El fiado anotado en un papel o en la memoria. Lo que no está bien anotado, muchas veces no se cobra.\n\nComenta STOCK y te cuento cuál de las tres te está costando más.\n\n#Iquique #AltoHospicio #Tarapaca"
+    "texto": "Control de inventario para almacenes y botillerías de Iquique: hay pérdidas que no se ven en la caja pero se sienten a fin de mes.\n\n📦 Mermas y vencimientos que nadie registra. Si no se anota, no existe… hasta que falta la plata.\n🔁 Pedidos duplicados: compraste algo que ya tenías porque no sabías que estaba.\n📝 El fiado anotado en un papel o en la memoria. Lo que no está bien anotado, muchas veces no se cobra.\n\nComenta STOCK y te cuento cuál de las tres te está costando más.\n\n#Iquique #AltoHospicio #Tarapaca",
+    "id_publicacion": "18429416608195443"
   },
   {
     "id": "car-03",
