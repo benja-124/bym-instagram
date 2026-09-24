@@ -915,9 +915,10 @@
     "tema": "redes-constancia",
     "fecha": "2026-09-24",
     "hora": "16:00",
-    "publicado": false,
+    "publicado": true,
     "portada": "reel-competencia-portada",
-    "texto": "El de al lado publica todos los días y no es porque le sobre tiempo. Lo tiene automatizado.\n\nAsí funciona para una ferretería de Iquique: escribes una vez a la semana y se reparte solo.\n\nComenta REDES y te empato la cancha.\n\n#Iquique #AltoHospicio #Tarapaca"
+    "texto": "El de al lado publica todos los días y no es porque le sobre tiempo. Lo tiene automatizado.\n\nAsí funciona para una ferretería de Iquique: escribes una vez a la semana y se reparte solo.\n\nComenta REDES y te empato la cancha.\n\n#Iquique #AltoHospicio #Tarapaca",
+    "id_publicacion": "18122680114930522"
   },
   {
     "id": "car-08",
