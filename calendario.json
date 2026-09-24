@@ -856,7 +856,7 @@
     "tema": "objeciones",
     "fecha": "2026-09-23",
     "hora": "19:00",
-    "publicado": false,
+    "publicado": true,
     "laminas": [
       {
         "id": "car-03-1",
@@ -906,7 +906,8 @@
         "bajada": "Si no te sirve, te lo digo de frente."
       }
     ],
-    "texto": "Control de inventario para negocios chicos: las tres excusas que más escuchamos para no ordenar el stock, y por qué ninguna se sostiene.\n\nNo es que la gente sea desordenada. Es que contar a mano es un trabajo que no termina nunca, y nadie tiene tiempo de sobra.\n\nSi alguna te suena conocida, no eres tú solo: nos pasa con casi todos.\n\nComenta STOCK y te muestro cómo se vería en tu negocio.\n\n#Iquique #AltoHospicio #Almacen"
+    "texto": "Control de inventario para negocios chicos: las tres excusas que más escuchamos para no ordenar el stock, y por qué ninguna se sostiene.\n\nNo es que la gente sea desordenada. Es que contar a mano es un trabajo que no termina nunca, y nadie tiene tiempo de sobra.\n\nSi alguna te suena conocida, no eres tú solo: nos pasa con casi todos.\n\nComenta STOCK y te muestro cómo se vería en tu negocio.\n\n#Iquique #AltoHospicio #Almacen",
+    "id_publicacion": "18112987592028432"
   },
   {
     "id": "reel-competencia",
