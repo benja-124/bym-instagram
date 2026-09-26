@@ -1017,7 +1017,7 @@
     "tema": "stock-quiebre",
     "fecha": "2026-09-26",
     "hora": "13:00",
-    "publicado": false,
+    "publicado": true,
     "plantilla": "pasos",
     "kicker": "Botillerías",
     "titulo": "Cómo evitar el quiebre",
@@ -1035,7 +1035,8 @@
         "Te avisa con días de anticipación."
       ]
     ],
-    "texto": "Cómo evita un quiebre de stock una botillería de Iquique, sin revisar la bodega todos los días.\n\nComenta STOCK y te muestro.\n\n#Iquique #AltoHospicio #Tarapaca"
+    "texto": "Cómo evita un quiebre de stock una botillería de Iquique, sin revisar la bodega todos los días.\n\nComenta STOCK y te muestro.\n\n#Iquique #AltoHospicio #Tarapaca",
+    "id_publicacion": "18110122844142987"
   },
   {
     "id": "reel-publica-sola",
