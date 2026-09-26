@@ -926,7 +926,7 @@
     "tema": "proceso",
     "fecha": "2026-09-25",
     "hora": "19:00",
-    "publicado": false,
+    "publicado": true,
     "laminas": [
       {
         "id": "car-08-1",
@@ -1008,7 +1008,8 @@
         "bajada": "Según qué te complique más hoy."
       }
     ],
-    "texto": "Cómo trabajamos en ByM Solutions, antes de que le entregues tu negocio a cualquiera.\n\nAutomatizamos inventario y publicaciones para negocios de Iquique y Alto Hospicio.\n\nComenta STOCK o REDES según qué te complique más hoy.\n\n#Iquique #AltoHospicio #Tarapaca"
+    "texto": "Cómo trabajamos en ByM Solutions, antes de que le entregues tu negocio a cualquiera.\n\nAutomatizamos inventario y publicaciones para negocios de Iquique y Alto Hospicio.\n\nComenta STOCK o REDES según qué te complique más hoy.\n\n#Iquique #AltoHospicio #Tarapaca",
+    "id_publicacion": "17891701545436665"
   },
   {
     "id": "post-16",
