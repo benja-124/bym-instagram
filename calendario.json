@@ -1044,9 +1044,10 @@
     "tema": "redes-demo",
     "fecha": "2026-09-26",
     "hora": "16:00",
-    "publicado": false,
+    "publicado": true,
     "portada": "reel-publica-sola-portada",
-    "texto": "Nadie publicó este reel. Ni armó el video, ni apretó publicar.\n\nAsí automatizamos Instagram para negocios de Iquique: el texto se escribe una vez y el resto sale solo.\n\nComenta REDES y te muestro cómo.\n\n#Iquique #AltoHospicio #Tarapaca"
+    "texto": "Nadie publicó este reel. Ni armó el video, ni apretó publicar.\n\nAsí automatizamos Instagram para negocios de Iquique: el texto se escribe una vez y el resto sale solo.\n\nComenta REDES y te muestro cómo.\n\n#Iquique #AltoHospicio #Tarapaca",
+    "id_publicacion": "18170108428413208"
   },
   {
     "id": "post-12",
