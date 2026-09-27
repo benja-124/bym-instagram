@@ -1054,12 +1054,13 @@
     "tema": "cta",
     "fecha": "2026-09-27",
     "hora": "13:00",
-    "publicado": false,
+    "publicado": true,
     "plantilla": "declaracion",
     "kicker": "Hablemos",
     "titulo": "Cuéntanos qué te complica hoy",
     "bajada": "Mándanos un mensaje y te decimos si esto te sirve. Sin vueltas.",
-    "texto": "Automatización para negocios de Iquique y Alto Hospicio: si llegaste hasta acá viendo el contenido, algo te hizo sentido.\n\nCuéntame qué es lo que más te complica hoy en tu negocio y te digo derechamente si esto te sirve o no. Sin costo, y si no te sirve te lo digo igual.\n\nComenta STOCK si es el inventario, o REDES si es publicar.\n\n#Iquique #AltoHospicio #Tarapaca"
+    "texto": "Automatización para negocios de Iquique y Alto Hospicio: si llegaste hasta acá viendo el contenido, algo te hizo sentido.\n\nCuéntame qué es lo que más te complica hoy en tu negocio y te digo derechamente si esto te sirve o no. Sin costo, y si no te sirve te lo digo igual.\n\nComenta STOCK si es el inventario, o REDES si es publicar.\n\n#Iquique #AltoHospicio #Tarapaca",
+    "id_publicacion": "18110478944139729"
   },
   {
     "id": "reel-domingo",
