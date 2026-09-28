@@ -1068,9 +1068,10 @@
     "tema": "stock-tiempo",
     "fecha": "2026-09-27",
     "hora": "19:00",
-    "publicado": false,
+    "publicado": true,
     "portada": "reel-domingo-portada",
-    "texto": "Control de inventario para almacenes de Iquique: si cuentas el stock el domingo en la noche, esto es para ti.\n\nRegistras con un mensaje, el saldo se descuenta solo, y el aviso te llega el jueves — no cuando ya te quedaste sin producto.\n\nComenta STOCK y te muestro cómo se vería en tu negocio.\n\n#Iquique #AltoHospicio #Almacen"
+    "texto": "Control de inventario para almacenes de Iquique: si cuentas el stock el domingo en la noche, esto es para ti.\n\nRegistras con un mensaje, el saldo se descuenta solo, y el aviso te llega el jueves — no cuando ya te quedaste sin producto.\n\nComenta STOCK y te muestro cómo se vería en tu negocio.\n\n#Iquique #AltoHospicio #Almacen",
+    "id_publicacion": "18084288749331568"
   },
   {
     "id": "post-18",
