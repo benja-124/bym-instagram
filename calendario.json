@@ -1079,7 +1079,7 @@
     "tema": "objeciones",
     "fecha": "2026-09-28",
     "hora": "13:00",
-    "publicado": false,
+    "publicado": true,
     "plantilla": "lista",
     "kicker": "Mitos",
     "titulo": "“Esto es para grandes”",
@@ -1088,7 +1088,8 @@
       "Usa el WhatsApp que ya tienes.",
       "Sin comprar ningún equipo."
     ],
-    "texto": "El mito más común que escuchamos: que automatizar es solo para empresas grandes.\n\nComenta STOCK y te muestro lo contrario.\n\n#Iquique #AltoHospicio #Tarapaca"
+    "texto": "El mito más común que escuchamos: que automatizar es solo para empresas grandes.\n\nComenta STOCK y te muestro lo contrario.\n\n#Iquique #AltoHospicio #Tarapaca",
+    "id_publicacion": "18156419107501832"
   },
   {
     "id": "reel-cuanto-cuesta",
@@ -1096,9 +1097,10 @@
     "tema": "precio",
     "fecha": "2026-09-28",
     "hora": "16:00",
-    "publicado": false,
+    "publicado": true,
     "portada": "reel-cuanto-cuesta-portada",
-    "texto": "¿Cuánto cuesta automatizar tu negocio? Te doy el número sin vueltas: desde $150.000 de implementación y $25.000 al mes para un negocio chico.\n\nSin equipos que comprar ni apps nuevas. El número final sale de una conversación de 20 minutos, sin costo.\n\nComenta REDES o STOCK y lo calculamos.\n\n#Iquique #AltoHospicio #Tarapaca"
+    "texto": "¿Cuánto cuesta automatizar tu negocio? Te doy el número sin vueltas: desde $150.000 de implementación y $25.000 al mes para un negocio chico.\n\nSin equipos que comprar ni apps nuevas. El número final sale de una conversación de 20 minutos, sin costo.\n\nComenta REDES o STOCK y lo calculamos.\n\n#Iquique #AltoHospicio #Tarapaca",
+    "id_publicacion": "17917828386453152"
   },
   {
     "id": "car-04",
