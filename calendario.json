@@ -1108,7 +1108,7 @@
     "tema": "redes-invisible",
     "fecha": "2026-09-29",
     "hora": "19:00",
-    "publicado": false,
+    "publicado": true,
     "laminas": [
       {
         "id": "car-04-1",
@@ -1226,7 +1226,8 @@
         "bajada": "Te muestro cómo quedaría publicando solo."
       }
     ],
-    "texto": "5 errores que dejan invisible a un negocio de Iquique en Instagram, y qué hacer con cada uno.\n\nNinguno es por flojera. Publicar bien toma tiempo que un dueño de negocio no tiene.\n\nComenta REDES y te muestro cómo se ve cuando sale solo.\n\n#Iquique #AltoHospicio #Tarapaca"
+    "texto": "5 errores que dejan invisible a un negocio de Iquique en Instagram, y qué hacer con cada uno.\n\nNinguno es por flojera. Publicar bien toma tiempo que un dueño de negocio no tiene.\n\nComenta REDES y te muestro cómo se ve cuando sale solo.\n\n#Iquique #AltoHospicio #Tarapaca",
+    "id_publicacion": "18135124453645138"
   },
   {
     "id": "post-09",
