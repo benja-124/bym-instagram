@@ -1234,12 +1234,13 @@
     "tema": "stock-tiempo",
     "fecha": "2026-10-02",
     "hora": "13:00",
-    "publicado": false,
+    "publicado": true,
     "plantilla": "declaracion",
     "kicker": "Tu tiempo",
     "titulo": "¿Cuánto vale una hora tuya?",
     "bajada": "Contar stock a mano cada semana son horas que no vuelven.",
-    "texto": "Control de inventario para almacenes y minimarkets de Iquique: hagamos una cuenta rápida.\n\nSi cada semana pierdes dos horas contando stock y armando el pedido a mano, son ocho horas al mes. Un día completo de trabajo, todos los meses, haciendo algo que un sistema hace solo. Y eso sin contar los errores de conteo, que se pagan aparte.\n\nComenta STOCK y sacamos la cuenta con los números de tu negocio.\n\n#Iquique #AltoHospicio #Tarapaca"
+    "texto": "Control de inventario para almacenes y minimarkets de Iquique: hagamos una cuenta rápida.\n\nSi cada semana pierdes dos horas contando stock y armando el pedido a mano, son ocho horas al mes. Un día completo de trabajo, todos los meses, haciendo algo que un sistema hace solo. Y eso sin contar los errores de conteo, que se pagan aparte.\n\nComenta STOCK y sacamos la cuenta con los números de tu negocio.\n\n#Iquique #AltoHospicio #Tarapaca",
+    "id_publicacion": "18129980284744041"
   },
   {
     "id": "reel-viernes",
