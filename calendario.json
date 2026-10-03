@@ -1248,9 +1248,10 @@
     "tema": "stock-quiebre",
     "fecha": "2026-10-02",
     "hora": "19:00",
-    "publicado": false,
+    "publicado": true,
     "portada": "reel-viernes-portada",
-    "texto": "Control de inventario para botillerías de Iquique: que no se te acabe la cerveza un viernes en la noche.\n\nEl aviso llega el jueves, y el pedido al proveedor viene armado.\n\nComenta STOCK y te muestro.\n\n#Iquique #AltoHospicio #Tarapaca"
+    "texto": "Control de inventario para botillerías de Iquique: que no se te acabe la cerveza un viernes en la noche.\n\nEl aviso llega el jueves, y el pedido al proveedor viene armado.\n\nComenta STOCK y te muestro.\n\n#Iquique #AltoHospicio #Tarapaca",
+    "id_publicacion": "18113611424043430"
   },
   {
     "id": "post-15",
