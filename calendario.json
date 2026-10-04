@@ -1259,12 +1259,13 @@
     "tema": "redes-invisible",
     "fecha": "2026-10-04",
     "hora": "13:00",
-    "publicado": false,
+    "publicado": true,
     "plantilla": "declaracion",
     "kicker": "Peluquerías",
     "titulo": "El sillón vacío de un martes",
     "bajada": "No es que no haya clientes. Es que no te encuentran.",
-    "texto": "Peluquerías de Iquique: si el martes está vacío, puede no ser falta de clientes sino que no te ubican.\n\nComenta REDES y lo vemos.\n\n#Iquique #AltoHospicio #Tarapaca"
+    "texto": "Peluquerías de Iquique: si el martes está vacío, puede no ser falta de clientes sino que no te ubican.\n\nComenta REDES y lo vemos.\n\n#Iquique #AltoHospicio #Tarapaca",
+    "id_publicacion": "18131042632704809"
   },
   {
     "id": "reel-hora",
