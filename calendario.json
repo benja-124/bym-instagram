@@ -1284,12 +1284,13 @@
     "tema": "stock-quiebre",
     "fecha": "2026-10-08",
     "hora": "13:00",
-    "publicado": false,
+    "publicado": true,
     "plantilla": "declaracion",
     "kicker": "Botillerías",
     "titulo": "El fin de semana se gana el jueves",
     "bajada": "Cuando pides. No cuando se acaba.",
-    "texto": "Botillerías: el fin de semana se gana el jueves, cuando haces el pedido bien.\n\nComenta STOCK y te muestro cómo se anticipa.\n\n#Iquique #AltoHospicio #Tarapaca"
+    "texto": "Botillerías: el fin de semana se gana el jueves, cuando haces el pedido bien.\n\nComenta STOCK y te muestro cómo se anticipa.\n\n#Iquique #AltoHospicio #Tarapaca",
+    "id_publicacion": "18077806274388503"
   },
   {
     "id": "reel-hashtags",
