@@ -1273,9 +1273,10 @@
     "tema": "stock-tiempo",
     "fecha": "2026-10-07",
     "hora": "19:00",
-    "publicado": false,
+    "publicado": true,
     "portada": "reel-hora-portada",
-    "texto": "¿Cuánto vale una hora tuya? Un almacén pierde unas 6 horas al mes contando stock a mano. Al año son 72.\n\nComenta STOCK y sacamos la cuenta para tu negocio.\n\n#Iquique #AltoHospicio #Tarapaca"
+    "texto": "¿Cuánto vale una hora tuya? Un almacén pierde unas 6 horas al mes contando stock a mano. Al año son 72.\n\nComenta STOCK y sacamos la cuenta para tu negocio.\n\n#Iquique #AltoHospicio #Tarapaca",
+    "id_publicacion": "18122557021821632"
   },
   {
     "id": "post-21",
