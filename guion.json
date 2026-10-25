@@ -1019,5 +1019,689 @@
     }
    }
   ]
+ },
+ "reel-planilla": {
+  "titulo": "Te regalo la planilla",
+  "escenas": [
+   {
+    "id": "s1",
+    "plantilla": "gancho",
+    "pausa": 0.45,
+    "voz": "Te regalo la planilla de inventario que uso con mis clientes.",
+    "sub": "Te regalo mi planilla de inventario",
+    "datos": {
+     "kicker": "Gratis, sin letra chica",
+     "titulo": "Te regalo<br>mi planilla"
+    }
+   },
+   {
+    "id": "s2",
+    "plantilla": "capacidad",
+    "pausa": 0.4,
+    "voz": "Anotas lo que entra y lo que sale. Nada más.",
+    "sub": "Anotas lo que entra y lo que sale",
+    "datos": {
+     "n": "1",
+     "titulo": "Dos columnas",
+     "detalle": "Entradas y salidas, con la fecha."
+    }
+   },
+   {
+    "id": "s3",
+    "plantilla": "contador",
+    "pausa": 0.4,
+    "voz": "El saldo de cada producto se calcula solo.",
+    "sub": "El saldo se calcula solo",
+    "datos": {
+     "arriba": "Cerveza 350 ml",
+     "desde": 0,
+     "hasta": 54,
+     "abajo": "Stock hoy, sin contar nada"
+    }
+   },
+   {
+    "id": "s4",
+    "plantilla": "alerta",
+    "pausa": 0.4,
+    "voz": "Y una hoja te dice sola qué reponer y cuánto pedir.",
+    "sub": "Te dice qué reponer y cuánto",
+    "datos": {
+     "etiqueta": "Qué reponer",
+     "texto": "Pan de molde<br>Pedir 10"
+    }
+   },
+   {
+    "id": "s5",
+    "plantilla": "cierre",
+    "pausa": 0.8,
+    "voz": "Comenta stock y te la mando. No te voy a vender nada.",
+    "sub": "Comenta STOCK y te la mando",
+    "datos": {
+     "pill": "Sin compromiso",
+     "titulo": "Comenta STOCK<br>y te la mando",
+     "detalle": "ByM Solutions · Iquique"
+    }
+   }
+  ]
+ },
+ "reel-dos-minutos": {
+  "titulo": "Dos minutos al dia",
+  "escenas": [
+   {
+    "id": "s1",
+    "plantilla": "gancho",
+    "pausa": 0.45,
+    "voz": "Llevar el stock ordenado toma dos minutos al día. En serio.",
+    "sub": "Dos minutos al día",
+    "datos": {
+     "kicker": "Almacenes y botillerías",
+     "titulo": "Dos minutos<br>al día"
+    }
+   },
+   {
+    "id": "s2",
+    "plantilla": "chat",
+    "pausa": 0.4,
+    "voz": "Llegó el pedido. Anotas la entrada.",
+    "sub": "Llegó el pedido, lo anotas",
+    "datos": {
+     "mensajes": [
+      [
+       "ent",
+       "Llegaron 24 cervezas"
+      ],
+      [
+       "sal",
+       "Anotado"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "s3",
+    "plantilla": "chat",
+    "pausa": 0.4,
+    "voz": "Cierras la caja. Anotas lo que vendiste.",
+    "sub": "Cierras caja, anotas la salida",
+    "datos": {
+     "mensajes": [
+      [
+       "ent",
+       "Vendí 18 hoy"
+      ],
+      [
+       "sal",
+       "Quedan 54"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "s4",
+    "plantilla": "capacidad",
+    "pausa": 0.4,
+    "voz": "Eso es todo. El resto lo hace la planilla.",
+    "sub": "El resto lo hace la planilla",
+    "datos": {
+     "n": "2",
+     "titulo": "Nada más",
+     "detalle": "Los totales y los avisos salen solos."
+    }
+   },
+   {
+    "id": "s5",
+    "plantilla": "cierre",
+    "pausa": 0.8,
+    "voz": "Comenta stock y te mando la planilla.",
+    "sub": "Comenta STOCK",
+    "datos": {
+     "pill": "Te la mando hoy",
+     "titulo": "Comenta STOCK<br>y te la mando",
+     "detalle": "Gratis, sin compromiso"
+    }
+   }
+  ]
+ },
+ "reel-pan": {
+  "titulo": "El producto que se acabo sin que miraras",
+  "escenas": [
+   {
+    "id": "s1",
+    "plantilla": "gancho",
+    "pausa": 0.45,
+    "voz": "Se te acabó un producto y te enteraste cuando lo pidieron.",
+    "sub": "Te enteraste cuando lo pidieron",
+    "datos": {
+     "kicker": "Te suena",
+     "titulo": "Se acabó y<br>no lo viste"
+    }
+   },
+   {
+    "id": "s2",
+    "plantilla": "tablero",
+    "pausa": 0.4,
+    "voz": "Lo que más se vende es justo lo que menos miras.",
+    "sub": "Lo que más sale es lo que menos miras",
+    "datos": {
+     "kicker": "Tu bodega ahora",
+     "filas": [
+      [
+       "Cerveza 350",
+       54,
+       60,
+       "#7FE8B0"
+      ],
+      [
+       "Arroz 1 kg",
+       30,
+       60,
+       "#7FE8B0"
+      ],
+      [
+       "Pan de molde",
+       2,
+       60,
+       "#E8877F"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "s3",
+    "plantilla": "alerta",
+    "pausa": 0.4,
+    "voz": "Con la planilla eso se pinta solo de rojo.",
+    "sub": "Se pinta solo de rojo",
+    "datos": {
+     "etiqueta": "Reponer",
+     "texto": "Pan de molde<br>Quedan 2"
+    }
+   },
+   {
+    "id": "s4",
+    "plantilla": "capacidad",
+    "pausa": 0.4,
+    "voz": "Y te dice cuánto pedir, para no quedarte corto otra vez.",
+    "sub": "Y cuánto pedir",
+    "datos": {
+     "n": "10",
+     "titulo": "Unidades a pedir",
+     "detalle": "Calculado con tu propio mínimo."
+    }
+   },
+   {
+    "id": "s5",
+    "plantilla": "cierre",
+    "pausa": 0.8,
+    "voz": "Comenta stock y te la mando, es gratis.",
+    "sub": "Comenta STOCK",
+    "datos": {
+     "pill": "Es gratis",
+     "titulo": "Comenta STOCK<br>y te la mando",
+     "detalle": "ByM Solutions · Iquique"
+    }
+   }
+  ]
+ },
+ "reel-plata-parada": {
+  "titulo": "Cuanta plata tienes parada",
+  "escenas": [
+   {
+    "id": "s1",
+    "plantilla": "gancho",
+    "pausa": 0.45,
+    "voz": "¿Cuánta plata tienes parada en la bodega ahora mismo?",
+    "sub": "¿Cuánta plata tienes parada?",
+    "datos": {
+     "kicker": "La pregunta incómoda",
+     "titulo": "¿Cuánta plata<br>tienes parada?"
+    }
+   },
+   {
+    "id": "s2",
+    "plantilla": "capacidad",
+    "pausa": 0.4,
+    "voz": "No es lo que vendes. Es lo que compraste y sigue ahí.",
+    "sub": "Lo que compraste y sigue ahí",
+    "datos": {
+     "n": "1",
+     "titulo": "No es lo que vendes",
+     "detalle": "Es lo que lleva meses sin moverse."
+    }
+   },
+   {
+    "id": "s3",
+    "plantilla": "contador",
+    "pausa": 0.4,
+    "voz": "En un almacén chico suelen ser varios cientos de miles.",
+    "sub": "Suelen ser cientos de miles",
+    "datos": {
+     "arriba": "Parado en bodega",
+     "desde": 0,
+     "hasta": 480,
+     "abajo": "miles de pesos, en promedio"
+    }
+   },
+   {
+    "id": "s4",
+    "plantilla": "capacidad",
+    "pausa": 0.4,
+    "voz": "La planilla te lo muestra producto por producto.",
+    "sub": "Producto por producto",
+    "datos": {
+     "n": "2",
+     "titulo": "Lo ves en una hoja",
+     "detalle": "Qué se mueve y qué no."
+    }
+   },
+   {
+    "id": "s5",
+    "plantilla": "cierre",
+    "pausa": 0.8,
+    "voz": "Comenta stock y la sacas tú mismo.",
+    "sub": "Comenta STOCK",
+    "datos": {
+     "pill": "Saca tu número",
+     "titulo": "Comenta STOCK<br>y te la mando",
+     "detalle": "Gratis, sin compromiso"
+    }
+   }
+  ]
+ },
+ "reel-proveedor": {
+  "titulo": "Llegar donde el proveedor sin lista",
+  "escenas": [
+   {
+    "id": "s1",
+    "plantilla": "gancho",
+    "pausa": 0.45,
+    "voz": "Llegas donde el proveedor y pides de memoria.",
+    "sub": "Pides de memoria",
+    "datos": {
+     "kicker": "Pasa todas las semanas",
+     "titulo": "Pides<br>de memoria"
+    }
+   },
+   {
+    "id": "s2",
+    "plantilla": "capacidad",
+    "pausa": 0.4,
+    "voz": "Traes de más lo que se vende poco, y de menos lo que vuela.",
+    "sub": "De más lo lento, de menos lo que vuela",
+    "datos": {
+     "n": "1",
+     "titulo": "Siempre al revés",
+     "detalle": "La memoria recuerda lo último, no lo que más sale."
+    }
+   },
+   {
+    "id": "s3",
+    "plantilla": "alerta",
+    "pausa": 0.4,
+    "voz": "La planilla te arma la lista antes de salir.",
+    "sub": "La lista sale armada",
+    "datos": {
+     "etiqueta": "Para el proveedor",
+     "texto": "3 productos<br>bajo el mínimo"
+    }
+   },
+   {
+    "id": "s4",
+    "plantilla": "capacidad",
+    "pausa": 0.4,
+    "voz": "Con cantidades, no con corazonadas.",
+    "sub": "Con cantidades",
+    "datos": {
+     "n": "2",
+     "titulo": "Cuánto de cada uno",
+     "detalle": "Sale de lo que vendiste de verdad."
+    }
+   },
+   {
+    "id": "s5",
+    "plantilla": "cierre",
+    "pausa": 0.8,
+    "voz": "Comenta stock y te la mando antes de tu próximo pedido.",
+    "sub": "Comenta STOCK",
+    "datos": {
+     "pill": "Antes de tu próximo pedido",
+     "titulo": "Comenta STOCK<br>y te la mando",
+     "detalle": "ByM Solutions · Iquique"
+    }
+   }
+  ]
+ },
+ "reel-peluqueria": {
+  "titulo": "La bodega de una peluqueria",
+  "escenas": [
+   {
+    "id": "s1",
+    "plantilla": "gancho",
+    "pausa": 0.45,
+    "voz": "Una peluquería también tiene bodega, aunque sea chica.",
+    "sub": "Una peluquería también tiene bodega",
+    "datos": {
+     "kicker": "Peluquerías y barberías",
+     "titulo": "Tu bodega<br>también cuenta"
+    }
+   },
+   {
+    "id": "s2",
+    "plantilla": "chat",
+    "pausa": 0.4,
+    "voz": "Se acabó el tono justo con la clienta sentada.",
+    "sub": "Se acabó con la clienta sentada",
+    "datos": {
+     "mensajes": [
+      [
+       "ent",
+       "¿Tienes el 7.1?"
+      ],
+      [
+       "sal",
+       "Se me acabó ayer"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "s3",
+    "plantilla": "capacidad",
+    "pausa": 0.4,
+    "voz": "Tinturas, ampollas, shampoo. Todo eso es plata.",
+    "sub": "Tinturas, ampollas, shampoo",
+    "datos": {
+     "n": "1",
+     "titulo": "Todo eso es plata",
+     "detalle": "Y se vence sin que nadie lo note."
+    }
+   },
+   {
+    "id": "s4",
+    "plantilla": "capacidad",
+    "pausa": 0.4,
+    "voz": "La misma planilla sirve. Cambias los productos y listo.",
+    "sub": "La misma planilla sirve",
+    "datos": {
+     "n": "2",
+     "titulo": "Cambias<br>los productos",
+     "detalle": "No hay que aprender nada nuevo."
+    }
+   },
+   {
+    "id": "s5",
+    "plantilla": "cierre",
+    "pausa": 0.8,
+    "voz": "Comenta stock y te la mando.",
+    "sub": "Comenta STOCK",
+    "datos": {
+     "pill": "Sirve igual",
+     "titulo": "Comenta STOCK<br>y te la mando",
+     "detalle": "Gratis, sin compromiso"
+    }
+   }
+  ]
+ },
+ "reel-ferreteria": {
+  "titulo": "El cliente pregunta y vas a mirar",
+  "escenas": [
+   {
+    "id": "s1",
+    "plantilla": "gancho",
+    "pausa": 0.45,
+    "voz": "El cliente pregunta si te queda, y tú vas a mirar.",
+    "sub": "Y tú vas a mirar",
+    "datos": {
+     "kicker": "Ferreterías",
+     "titulo": "¿Me queda?<br>Voy a ver"
+    }
+   },
+   {
+    "id": "s2",
+    "plantilla": "contador",
+    "pausa": 0.4,
+    "voz": "Con cuatrocientos productos, nadie se los sabe.",
+    "sub": "Nadie se sabe 400 productos",
+    "datos": {
+     "arriba": "Productos distintos",
+     "desde": 0,
+     "hasta": 400,
+     "abajo": "y una sola memoria"
+    }
+   },
+   {
+    "id": "s3",
+    "plantilla": "capacidad",
+    "pausa": 0.4,
+    "voz": "Cada viaje a la bodega es una venta que se enfría.",
+    "sub": "Cada viaje enfría una venta",
+    "datos": {
+     "n": "1",
+     "titulo": "El cliente espera",
+     "detalle": "Y a veces se va antes de que vuelvas."
+    }
+   },
+   {
+    "id": "s4",
+    "plantilla": "alerta",
+    "pausa": 0.4,
+    "voz": "La respuesta debería estar en el teléfono, no al fondo.",
+    "sub": "La respuesta en el teléfono",
+    "datos": {
+     "etiqueta": "En pantalla",
+     "texto": "Quedan 12<br>en bodega"
+    }
+   },
+   {
+    "id": "s5",
+    "plantilla": "cierre",
+    "pausa": 0.8,
+    "voz": "Comenta stock y partimos por la planilla.",
+    "sub": "Comenta STOCK",
+    "datos": {
+     "pill": "Partamos simple",
+     "titulo": "Comenta STOCK<br>y te la mando",
+     "detalle": "ByM Solutions · Iquique"
+    }
+   }
+  ]
+ },
+ "reel-de-planilla-a-whatsapp": {
+  "titulo": "De la planilla a WhatsApp",
+  "escenas": [
+   {
+    "id": "s1",
+    "plantilla": "gancho",
+    "pausa": 0.45,
+    "voz": "Si la planilla te empieza a cansar, hay un paso más.",
+    "sub": "Si la planilla te cansa",
+    "datos": {
+     "kicker": "El paso siguiente",
+     "titulo": "Cuando la<br>planilla no<br>alcanza"
+    }
+   },
+   {
+    "id": "s2",
+    "plantilla": "capacidad",
+    "pausa": 0.4,
+    "voz": "La planilla funciona, pero hay que abrirla.",
+    "sub": "La planilla hay que abrirla",
+    "datos": {
+     "n": "1",
+     "titulo": "Alguien la tiene<br>que llenar",
+     "detalle": "Y en un día cargado, no pasa."
+    }
+   },
+   {
+    "id": "s3",
+    "plantilla": "chat",
+    "pausa": 0.4,
+    "voz": "Esto es lo mismo, pero por WhatsApp.",
+    "sub": "Lo mismo, por WhatsApp",
+    "datos": {
+     "mensajes": [
+      [
+       "ent",
+       "Llegaron 24 cervezas"
+      ],
+      [
+       "sal",
+       "Anotado. Quedan 54."
+      ]
+     ]
+    }
+   },
+   {
+    "id": "s4",
+    "plantilla": "capacidad",
+    "pausa": 0.4,
+    "voz": "Mismo número, misma app. Sin instalar nada.",
+    "sub": "Sin instalar nada",
+    "datos": {
+     "n": "2",
+     "titulo": "El WhatsApp<br>que ya usas",
+     "detalle": "Nadie tiene que aprender un sistema."
+    }
+   },
+   {
+    "id": "s5",
+    "plantilla": "cierre",
+    "pausa": 0.8,
+    "voz": "Parte por la planilla. Comenta stock.",
+    "sub": "Parte por la planilla",
+    "datos": {
+     "pill": "Primero lo simple",
+     "titulo": "Comenta STOCK<br>y te la mando",
+     "detalle": "Después vemos si vale la pena el resto"
+    }
+   }
+  ]
+ },
+ "reel-cuarenta-y-cuatro": {
+  "titulo": "Cuarenta y cuatro publicaciones solas",
+  "escenas": [
+   {
+    "id": "s1",
+    "plantilla": "gancho",
+    "pausa": 0.45,
+    "voz": "Esta cuenta publicó cuarenta y cuatro veces sin que nadie la tocara.",
+    "sub": "44 publicaciones, nadie las publicó",
+    "datos": {
+     "kicker": "Esto es una demostración",
+     "titulo": "44 veces,<br>solo"
+    }
+   },
+   {
+    "id": "s2",
+    "plantilla": "contador",
+    "pausa": 0.4,
+    "voz": "Cuarenta y cuatro piezas en seis semanas.",
+    "sub": "44 piezas en seis semanas",
+    "datos": {
+     "arriba": "Publicaciones",
+     "desde": 0,
+     "hasta": 44,
+     "abajo": "sin abrir la aplicación"
+    }
+   },
+   {
+    "id": "s3",
+    "plantilla": "capacidad",
+    "pausa": 0.4,
+    "voz": "El texto se escribe una vez. La imagen y la voz salen solas.",
+    "sub": "Se escribe una vez",
+    "datos": {
+     "n": "1",
+     "titulo": "Una sola vez",
+     "detalle": "Lo demás lo arma el sistema."
+    }
+   },
+   {
+    "id": "s4",
+    "plantilla": "alerta",
+    "pausa": 0.4,
+    "voz": "Y se publica a la hora que le pongas, aunque estés durmiendo.",
+    "sub": "A la hora que le pongas",
+    "datos": {
+     "etiqueta": "Hoy 19:00",
+     "texto": "Publicado solo.<br>Sin nadie mirando."
+    }
+   },
+   {
+    "id": "s5",
+    "plantilla": "cierre",
+    "pausa": 0.8,
+    "voz": "Si funciona acá, funciona en tu negocio. Comenta redes.",
+    "sub": "Comenta REDES",
+    "datos": {
+     "pill": "Si funciona acá, funciona allá",
+     "titulo": "Comenta REDES<br>y te muestro",
+     "detalle": "ByM Solutions · Iquique"
+    }
+   }
+  ]
+ },
+ "reel-cierre-ano": {
+  "titulo": "Cerrar el ano sin saber que tienes",
+  "escenas": [
+   {
+    "id": "s1",
+    "plantilla": "gancho",
+    "pausa": 0.45,
+    "voz": "Se viene fin de año y no sabes qué tienes en bodega.",
+    "sub": "Fin de año y no sabes qué tienes",
+    "datos": {
+     "kicker": "Noviembre",
+     "titulo": "Fin de año<br>y a ciegas"
+    }
+   },
+   {
+    "id": "s2",
+    "plantilla": "capacidad",
+    "pausa": 0.4,
+    "voz": "Diciembre es el mes que más vendes y el que peor controlas.",
+    "sub": "El mes que más vendes",
+    "datos": {
+     "n": "1",
+     "titulo": "Más venta,<br>menos control",
+     "detalle": "Entra y sale todo junto."
+    }
+   },
+   {
+    "id": "s3",
+    "plantilla": "capacidad",
+    "pausa": 0.4,
+    "voz": "Si partes ahora, en diciembre ya tienes un mes de datos.",
+    "sub": "Partiendo ahora, llegas con datos",
+    "datos": {
+     "n": "2",
+     "titulo": "Un mes de ventaja",
+     "detalle": "Sabes qué pedir antes del peak."
+    }
+   },
+   {
+    "id": "s4",
+    "plantilla": "alerta",
+    "pausa": 0.4,
+    "voz": "Y no cierras en enero para contar a mano.",
+    "sub": "Sin cerrar en enero para contar",
+    "datos": {
+     "etiqueta": "Enero",
+     "texto": "Sin inventario<br>a mano"
+    }
+   },
+   {
+    "id": "s5",
+    "plantilla": "cierre",
+    "pausa": 0.8,
+    "voz": "Comenta stock y te mando la planilla hoy.",
+    "sub": "Comenta STOCK",
+    "datos": {
+     "pill": "Parte antes de diciembre",
+     "titulo": "Comenta STOCK<br>y te la mando",
+     "detalle": "Gratis, sin compromiso"
+    }
+   }
+  ]
  }
 }
