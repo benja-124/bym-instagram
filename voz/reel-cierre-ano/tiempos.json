@@ -1,0 +1,63 @@
+{
+  "motor": "kokoro",
+  "escenas": [
+    {
+      "id": "s1",
+      "dur": 2.974,
+      "pausa": 0.45,
+      "plantilla": "gancho",
+      "datos": {
+        "kicker": "Noviembre",
+        "titulo": "Fin de año<br>y a ciegas"
+      },
+      "sub": "Fin de año y no sabes qué tienes"
+    },
+    {
+      "id": "s2",
+      "dur": 3.228,
+      "pausa": 0.4,
+      "plantilla": "capacidad",
+      "datos": {
+        "n": "1",
+        "titulo": "Más venta,<br>menos control",
+        "detalle": "Entra y sale todo junto."
+      },
+      "sub": "El mes que más vendes"
+    },
+    {
+      "id": "s3",
+      "dur": 3.197,
+      "pausa": 0.4,
+      "plantilla": "capacidad",
+      "datos": {
+        "n": "2",
+        "titulo": "Un mes de ventaja",
+        "detalle": "Sabes qué pedir antes del peak."
+      },
+      "sub": "Partiendo ahora, llegas con datos"
+    },
+    {
+      "id": "s4",
+      "dur": 2.36,
+      "pausa": 0.4,
+      "plantilla": "alerta",
+      "datos": {
+        "etiqueta": "Enero",
+        "texto": "Sin inventario<br>a mano"
+      },
+      "sub": "Sin cerrar en enero para contar"
+    },
+    {
+      "id": "s5",
+      "dur": 2.389,
+      "pausa": 0.8,
+      "plantilla": "cierre",
+      "datos": {
+        "pill": "Parte antes de diciembre",
+        "titulo": "Comenta STOCK<br>y te la mando",
+        "detalle": "Gratis, sin compromiso"
+      },
+      "sub": "Comenta STOCK"
+    }
+  ]
+}

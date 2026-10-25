@@ -1,0 +1,63 @@
+{
+  "motor": "kokoro",
+  "escenas": [
+    {
+      "id": "s1",
+      "dur": 2.335,
+      "pausa": 0.45,
+      "plantilla": "gancho",
+      "datos": {
+        "kicker": "Pasa todas las semanas",
+        "titulo": "Pides<br>de memoria"
+      },
+      "sub": "Pides de memoria"
+    },
+    {
+      "id": "s2",
+      "dur": 3.311,
+      "pausa": 0.4,
+      "plantilla": "capacidad",
+      "datos": {
+        "n": "1",
+        "titulo": "Siempre al revés",
+        "detalle": "La memoria recuerda lo último, no lo que más sale."
+      },
+      "sub": "De más lo lento, de menos lo que vuela"
+    },
+    {
+      "id": "s3",
+      "dur": 2.585,
+      "pausa": 0.4,
+      "plantilla": "alerta",
+      "datos": {
+        "etiqueta": "Para el proveedor",
+        "texto": "3 productos<br>bajo el mínimo"
+      },
+      "sub": "La lista sale armada"
+    },
+    {
+      "id": "s4",
+      "dur": 2.273,
+      "pausa": 0.4,
+      "plantilla": "capacidad",
+      "datos": {
+        "n": "2",
+        "titulo": "Cuánto de cada uno",
+        "detalle": "Sale de lo que vendiste de verdad."
+      },
+      "sub": "Con cantidades"
+    },
+    {
+      "id": "s5",
+      "dur": 3.269,
+      "pausa": 0.8,
+      "plantilla": "cierre",
+      "datos": {
+        "pill": "Antes de tu próximo pedido",
+        "titulo": "Comenta STOCK<br>y te la mando",
+        "detalle": "ByM Solutions · Iquique"
+      },
+      "sub": "Comenta STOCK"
+    }
+  ]
+}

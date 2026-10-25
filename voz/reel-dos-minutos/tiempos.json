@@ -1,0 +1,78 @@
+{
+  "motor": "kokoro",
+  "escenas": [
+    {
+      "id": "s1",
+      "dur": 3.335,
+      "pausa": 0.45,
+      "plantilla": "gancho",
+      "datos": {
+        "kicker": "Almacenes y botillerías",
+        "titulo": "Dos minutos<br>al día"
+      },
+      "sub": "Dos minutos al día"
+    },
+    {
+      "id": "s2",
+      "dur": 2.05,
+      "pausa": 0.4,
+      "plantilla": "chat",
+      "datos": {
+        "mensajes": [
+          [
+            "ent",
+            "Llegaron 24 cervezas"
+          ],
+          [
+            "sal",
+            "Anotado"
+          ]
+        ]
+      },
+      "sub": "Llegó el pedido, lo anotas"
+    },
+    {
+      "id": "s3",
+      "dur": 2.33,
+      "pausa": 0.4,
+      "plantilla": "chat",
+      "datos": {
+        "mensajes": [
+          [
+            "ent",
+            "Vendí 18 hoy"
+          ],
+          [
+            "sal",
+            "Quedan 54"
+          ]
+        ]
+      },
+      "sub": "Cierras caja, anotas la salida"
+    },
+    {
+      "id": "s4",
+      "dur": 2.41,
+      "pausa": 0.4,
+      "plantilla": "capacidad",
+      "datos": {
+        "n": "2",
+        "titulo": "Nada más",
+        "detalle": "Los totales y los avisos salen solos."
+      },
+      "sub": "El resto lo hace la planilla"
+    },
+    {
+      "id": "s5",
+      "dur": 2.161,
+      "pausa": 0.8,
+      "plantilla": "cierre",
+      "datos": {
+        "pill": "Te la mando hoy",
+        "titulo": "Comenta STOCK<br>y te la mando",
+        "detalle": "Gratis, sin compromiso"
+      },
+      "sub": "Comenta STOCK"
+    }
+  ]
+}

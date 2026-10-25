@@ -1,0 +1,71 @@
+{
+  "motor": "kokoro",
+  "escenas": [
+    {
+      "id": "s1",
+      "dur": 3.031,
+      "pausa": 0.45,
+      "plantilla": "gancho",
+      "datos": {
+        "kicker": "Peluquerías y barberías",
+        "titulo": "Tu bodega<br>también cuenta"
+      },
+      "sub": "Una peluquería también tiene bodega"
+    },
+    {
+      "id": "s2",
+      "dur": 2.662,
+      "pausa": 0.4,
+      "plantilla": "chat",
+      "datos": {
+        "mensajes": [
+          [
+            "ent",
+            "¿Tienes el 7.1?"
+          ],
+          [
+            "sal",
+            "Se me acabó ayer"
+          ]
+        ]
+      },
+      "sub": "Se acabó con la clienta sentada"
+    },
+    {
+      "id": "s3",
+      "dur": 2.756,
+      "pausa": 0.4,
+      "plantilla": "capacidad",
+      "datos": {
+        "n": "1",
+        "titulo": "Todo eso es plata",
+        "detalle": "Y se vence sin que nadie lo note."
+      },
+      "sub": "Tinturas, ampollas, shampoo"
+    },
+    {
+      "id": "s4",
+      "dur": 3.28,
+      "pausa": 0.4,
+      "plantilla": "capacidad",
+      "datos": {
+        "n": "2",
+        "titulo": "Cambias<br>los productos",
+        "detalle": "No hay que aprender nada nuevo."
+      },
+      "sub": "La misma planilla sirve"
+    },
+    {
+      "id": "s5",
+      "dur": 1.734,
+      "pausa": 0.8,
+      "plantilla": "cierre",
+      "datos": {
+        "pill": "Sirve igual",
+        "titulo": "Comenta STOCK<br>y te la mando",
+        "detalle": "Gratis, sin compromiso"
+      },
+      "sub": "Comenta STOCK"
+    }
+  ]
+}

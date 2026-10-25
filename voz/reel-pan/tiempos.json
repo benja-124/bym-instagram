@@ -1,0 +1,81 @@
+{
+  "motor": "kokoro",
+  "escenas": [
+    {
+      "id": "s1",
+      "dur": 3.273,
+      "pausa": 0.45,
+      "plantilla": "gancho",
+      "datos": {
+        "kicker": "Te suena",
+        "titulo": "Se acabó y<br>no lo viste"
+      },
+      "sub": "Te enteraste cuando lo pidieron"
+    },
+    {
+      "id": "s2",
+      "dur": 2.772,
+      "pausa": 0.4,
+      "plantilla": "tablero",
+      "datos": {
+        "kicker": "Tu bodega ahora",
+        "filas": [
+          [
+            "Cerveza 350",
+            54,
+            60,
+            "#7FE8B0"
+          ],
+          [
+            "Arroz 1 kg",
+            30,
+            60,
+            "#7FE8B0"
+          ],
+          [
+            "Pan de molde",
+            2,
+            60,
+            "#E8877F"
+          ]
+        ]
+      },
+      "sub": "Lo que más sale es lo que menos miras"
+    },
+    {
+      "id": "s3",
+      "dur": 2.634,
+      "pausa": 0.4,
+      "plantilla": "alerta",
+      "datos": {
+        "etiqueta": "Reponer",
+        "texto": "Pan de molde<br>Quedan 2"
+      },
+      "sub": "Se pinta solo de rojo"
+    },
+    {
+      "id": "s4",
+      "dur": 3.178,
+      "pausa": 0.4,
+      "plantilla": "capacidad",
+      "datos": {
+        "n": "10",
+        "titulo": "Unidades a pedir",
+        "detalle": "Calculado con tu propio mínimo."
+      },
+      "sub": "Y cuánto pedir"
+    },
+    {
+      "id": "s5",
+      "dur": 2.326,
+      "pausa": 0.8,
+      "plantilla": "cierre",
+      "datos": {
+        "pill": "Es gratis",
+        "titulo": "Comenta STOCK<br>y te la mando",
+        "detalle": "ByM Solutions · Iquique"
+      },
+      "sub": "Comenta STOCK"
+    }
+  ]
+}

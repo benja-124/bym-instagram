@@ -1,0 +1,71 @@
+{
+  "motor": "kokoro",
+  "escenas": [
+    {
+      "id": "s1",
+      "dur": 2.869,
+      "pausa": 0.45,
+      "plantilla": "gancho",
+      "datos": {
+        "kicker": "El paso siguiente",
+        "titulo": "Cuando la<br>planilla no<br>alcanza"
+      },
+      "sub": "Si la planilla te cansa"
+    },
+    {
+      "id": "s2",
+      "dur": 2.383,
+      "pausa": 0.4,
+      "plantilla": "capacidad",
+      "datos": {
+        "n": "1",
+        "titulo": "Alguien la tiene<br>que llenar",
+        "detalle": "Y en un día cargado, no pasa."
+      },
+      "sub": "La planilla hay que abrirla"
+    },
+    {
+      "id": "s3",
+      "dur": 2.186,
+      "pausa": 0.4,
+      "plantilla": "chat",
+      "datos": {
+        "mensajes": [
+          [
+            "ent",
+            "Llegaron 24 cervezas"
+          ],
+          [
+            "sal",
+            "Anotado. Quedan 54."
+          ]
+        ]
+      },
+      "sub": "Lo mismo, por WhatsApp"
+    },
+    {
+      "id": "s4",
+      "dur": 2.659,
+      "pausa": 0.4,
+      "plantilla": "capacidad",
+      "datos": {
+        "n": "2",
+        "titulo": "El WhatsApp<br>que ya usas",
+        "detalle": "Nadie tiene que aprender un sistema."
+      },
+      "sub": "Sin instalar nada"
+    },
+    {
+      "id": "s5",
+      "dur": 2.073,
+      "pausa": 0.8,
+      "plantilla": "cierre",
+      "datos": {
+        "pill": "Primero lo simple",
+        "titulo": "Comenta STOCK<br>y te la mando",
+        "detalle": "Después vemos si vale la pena el resto"
+      },
+      "sub": "Parte por la planilla"
+    }
+  ]
+}

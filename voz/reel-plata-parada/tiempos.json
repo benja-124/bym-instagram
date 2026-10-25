@@ -1,0 +1,65 @@
+{
+  "motor": "kokoro",
+  "escenas": [
+    {
+      "id": "s1",
+      "dur": 2.833,
+      "pausa": 0.45,
+      "plantilla": "gancho",
+      "datos": {
+        "kicker": "La pregunta incómoda",
+        "titulo": "¿Cuánta plata<br>tienes parada?"
+      },
+      "sub": "¿Cuánta plata tienes parada?"
+    },
+    {
+      "id": "s2",
+      "dur": 2.834,
+      "pausa": 0.4,
+      "plantilla": "capacidad",
+      "datos": {
+        "n": "1",
+        "titulo": "No es lo que vendes",
+        "detalle": "Es lo que lleva meses sin moverse."
+      },
+      "sub": "Lo que compraste y sigue ahí"
+    },
+    {
+      "id": "s3",
+      "dur": 3.021,
+      "pausa": 0.4,
+      "plantilla": "contador",
+      "datos": {
+        "arriba": "Parado en bodega",
+        "desde": 0,
+        "hasta": 480,
+        "abajo": "miles de pesos, en promedio"
+      },
+      "sub": "Suelen ser cientos de miles"
+    },
+    {
+      "id": "s4",
+      "dur": 2.875,
+      "pausa": 0.4,
+      "plantilla": "capacidad",
+      "datos": {
+        "n": "2",
+        "titulo": "Lo ves en una hoja",
+        "detalle": "Qué se mueve y qué no."
+      },
+      "sub": "Producto por producto"
+    },
+    {
+      "id": "s5",
+      "dur": 2.06,
+      "pausa": 0.8,
+      "plantilla": "cierre",
+      "datos": {
+        "pill": "Saca tu número",
+        "titulo": "Comenta STOCK<br>y te la mando",
+        "detalle": "Gratis, sin compromiso"
+      },
+      "sub": "Comenta STOCK"
+    }
+  ]
+}

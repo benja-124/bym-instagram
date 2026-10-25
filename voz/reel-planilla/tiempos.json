@@ -1,0 +1,64 @@
+{
+  "motor": "kokoro",
+  "escenas": [
+    {
+      "id": "s1",
+      "dur": 3.432,
+      "pausa": 0.45,
+      "plantilla": "gancho",
+      "datos": {
+        "kicker": "Gratis, sin letra chica",
+        "titulo": "Te regalo<br>mi planilla"
+      },
+      "sub": "Te regalo mi planilla de inventario"
+    },
+    {
+      "id": "s2",
+      "dur": 2.571,
+      "pausa": 0.4,
+      "plantilla": "capacidad",
+      "datos": {
+        "n": "1",
+        "titulo": "Dos columnas",
+        "detalle": "Entradas y salidas, con la fecha."
+      },
+      "sub": "Anotas lo que entra y lo que sale"
+    },
+    {
+      "id": "s3",
+      "dur": 2.599,
+      "pausa": 0.4,
+      "plantilla": "contador",
+      "datos": {
+        "arriba": "Cerveza 350 ml",
+        "desde": 0,
+        "hasta": 54,
+        "abajo": "Stock hoy, sin contar nada"
+      },
+      "sub": "El saldo se calcula solo"
+    },
+    {
+      "id": "s4",
+      "dur": 2.833,
+      "pausa": 0.4,
+      "plantilla": "alerta",
+      "datos": {
+        "etiqueta": "Qué reponer",
+        "texto": "Pan de molde<br>Pedir 10"
+      },
+      "sub": "Te dice qué reponer y cuánto"
+    },
+    {
+      "id": "s5",
+      "dur": 3.188,
+      "pausa": 0.8,
+      "plantilla": "cierre",
+      "datos": {
+        "pill": "Sin compromiso",
+        "titulo": "Comenta STOCK<br>y te la mando",
+        "detalle": "ByM Solutions · Iquique"
+      },
+      "sub": "Comenta STOCK y te la mando"
+    }
+  ]
+}

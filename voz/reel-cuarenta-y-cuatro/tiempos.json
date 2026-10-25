@@ -1,0 +1,64 @@
+{
+  "motor": "kokoro",
+  "escenas": [
+    {
+      "id": "s1",
+      "dur": 3.784,
+      "pausa": 0.45,
+      "plantilla": "gancho",
+      "datos": {
+        "kicker": "Esto es una demostración",
+        "titulo": "44 veces,<br>solo"
+      },
+      "sub": "44 publicaciones, nadie las publicó"
+    },
+    {
+      "id": "s2",
+      "dur": 2.499,
+      "pausa": 0.4,
+      "plantilla": "contador",
+      "datos": {
+        "arriba": "Publicaciones",
+        "desde": 0,
+        "hasta": 44,
+        "abajo": "sin abrir la aplicación"
+      },
+      "sub": "44 piezas en seis semanas"
+    },
+    {
+      "id": "s3",
+      "dur": 3.497,
+      "pausa": 0.4,
+      "plantilla": "capacidad",
+      "datos": {
+        "n": "1",
+        "titulo": "Una sola vez",
+        "detalle": "Lo demás lo arma el sistema."
+      },
+      "sub": "Se escribe una vez"
+    },
+    {
+      "id": "s4",
+      "dur": 3.14,
+      "pausa": 0.4,
+      "plantilla": "alerta",
+      "datos": {
+        "etiqueta": "Hoy 19:00",
+        "texto": "Publicado solo.<br>Sin nadie mirando."
+      },
+      "sub": "A la hora que le pongas"
+    },
+    {
+      "id": "s5",
+      "dur": 3.172,
+      "pausa": 0.8,
+      "plantilla": "cierre",
+      "datos": {
+        "pill": "Si funciona acá, funciona allá",
+        "titulo": "Comenta REDES<br>y te muestro",
+        "detalle": "ByM Solutions · Iquique"
+      },
+      "sub": "Comenta REDES"
+    }
+  ]
+}

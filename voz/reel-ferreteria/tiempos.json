@@ -1,0 +1,64 @@
+{
+  "motor": "kokoro",
+  "escenas": [
+    {
+      "id": "s1",
+      "dur": 2.84,
+      "pausa": 0.45,
+      "plantilla": "gancho",
+      "datos": {
+        "kicker": "Ferreterías",
+        "titulo": "¿Me queda?<br>Voy a ver"
+      },
+      "sub": "Y tú vas a mirar"
+    },
+    {
+      "id": "s2",
+      "dur": 2.603,
+      "pausa": 0.4,
+      "plantilla": "contador",
+      "datos": {
+        "arriba": "Productos distintos",
+        "desde": 0,
+        "hasta": 400,
+        "abajo": "y una sola memoria"
+      },
+      "sub": "Nadie se sabe 400 productos"
+    },
+    {
+      "id": "s3",
+      "dur": 2.873,
+      "pausa": 0.4,
+      "plantilla": "capacidad",
+      "datos": {
+        "n": "1",
+        "titulo": "El cliente espera",
+        "detalle": "Y a veces se va antes de que vuelvas."
+      },
+      "sub": "Cada viaje enfría una venta"
+    },
+    {
+      "id": "s4",
+      "dur": 3.12,
+      "pausa": 0.4,
+      "plantilla": "alerta",
+      "datos": {
+        "etiqueta": "En pantalla",
+        "texto": "Quedan 12<br>en bodega"
+      },
+      "sub": "La respuesta en el teléfono"
+    },
+    {
+      "id": "s5",
+      "dur": 2.312,
+      "pausa": 0.8,
+      "plantilla": "cierre",
+      "datos": {
+        "pill": "Partamos simple",
+        "titulo": "Comenta STOCK<br>y te la mando",
+        "detalle": "ByM Solutions · Iquique"
+      },
+      "sub": "Comenta STOCK"
+    }
+  ]
+}
