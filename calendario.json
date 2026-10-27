@@ -1320,12 +1320,13 @@
     "tema": "stock-aviso",
     "fecha": "2026-10-27",
     "hora": "13:00",
-    "publicado": false,
+    "publicado": true,
     "plantilla": "declaracion",
     "kicker": "Almacenes",
     "titulo": "«Se me acabó ayer»",
     "bajada": "La frase que te cuesta un cliente.",
-    "texto": "Control de inventario para almacenes de Iquique: «se me acabó ayer» es una venta que ya perdiste.\n\nY casi siempre es el producto que más sale, porque es el que menos miras.\n\nComenta STOCK y te mando la planilla de control de inventario que uso con mis clientes. Gratis, y no te voy a vender nada.\n\n#Iquique #AltoHospicio #Tarapaca"
+    "texto": "Control de inventario para almacenes de Iquique: «se me acabó ayer» es una venta que ya perdiste.\n\nY casi siempre es el producto que más sale, porque es el que menos miras.\n\nComenta STOCK y te mando la planilla de control de inventario que uso con mis clientes. Gratis, y no te voy a vender nada.\n\n#Iquique #AltoHospicio #Tarapaca",
+    "id_publicacion": "18088443101505784"
   },
   {
     "id": "reel-ferreteria",
