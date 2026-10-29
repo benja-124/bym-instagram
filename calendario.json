@@ -1345,7 +1345,7 @@
     "tema": "objeciones",
     "fecha": "2026-10-29",
     "hora": "13:00",
-    "publicado": false,
+    "publicado": true,
     "plantilla": "lista",
     "kicker": "Lo que escuchamos",
     "titulo": "3 razones para no ordenar el stock",
@@ -1354,7 +1354,8 @@
       "«No tengo tiempo para planillas».",
       "«Mi negocio es muy chico»."
     ],
-    "texto": "Control de inventario para negocios chicos de Iquique: las tres razones que más escuchamos para no ordenar el stock.\n\nLas tres son razonables. Por eso la planilla que regalo se llena en dos minutos al día y no pide aprender nada.\n\nComenta STOCK y te mando la planilla de control de inventario que uso con mis clientes. Gratis, y no te voy a vender nada.\n\n#Iquique #AltoHospicio #Tarapaca"
+    "texto": "Control de inventario para negocios chicos de Iquique: las tres razones que más escuchamos para no ordenar el stock.\n\nLas tres son razonables. Por eso la planilla que regalo se llena en dos minutos al día y no pide aprender nada.\n\nComenta STOCK y te mando la planilla de control de inventario que uso con mis clientes. Gratis, y no te voy a vender nada.\n\n#Iquique #AltoHospicio #Tarapaca",
+    "id_publicacion": "17950998909062857"
   },
   {
     "id": "reel-plata-parada",
