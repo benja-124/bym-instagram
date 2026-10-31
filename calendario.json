@@ -1363,9 +1363,10 @@
     "tema": "stock-plata-quieta",
     "fecha": "2026-10-30",
     "hora": "19:00",
-    "publicado": false,
+    "publicado": true,
     "portada": "reel-plata-parada-portada",
-    "texto": "Control de inventario para almacenes de Iquique: ¿cuánta plata tienes parada en la bodega ahora mismo?\n\nNo es lo que vendes: es lo que compraste y lleva meses sin moverse. En un almacén chico suelen ser varios cientos de miles de pesos.\n\nComenta STOCK y te mando la planilla de control de inventario que uso con mis clientes. Gratis, y no te voy a vender nada.\n\n#Iquique #AltoHospicio #Tarapaca"
+    "texto": "Control de inventario para almacenes de Iquique: ¿cuánta plata tienes parada en la bodega ahora mismo?\n\nNo es lo que vendes: es lo que compraste y lleva meses sin moverse. En un almacén chico suelen ser varios cientos de miles de pesos.\n\nComenta STOCK y te mando la planilla de control de inventario que uso con mis clientes. Gratis, y no te voy a vender nada.\n\n#Iquique #AltoHospicio #Tarapaca",
+    "id_publicacion": "17870325612660708"
   },
   {
     "id": "post-n3",
