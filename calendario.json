@@ -1412,12 +1412,13 @@
     "tema": "redes-demo",
     "fecha": "2026-11-02",
     "hora": "13:00",
-    "publicado": false,
+    "publicado": true,
     "plantilla": "declaracion",
     "kicker": "Esta cuenta",
     "titulo": "44 publicaciones sin abrir la app",
     "bajada": "Lo mismo se puede hacer con la tuya.",
-    "texto": "Automatización de redes para negocios de Iquique: esta cuenta lleva 44 publicaciones y nadie apretó publicar.\n\nComenta REDES y te muestro cómo se arma.\n\n#Iquique #AltoHospicio #Tarapaca"
+    "texto": "Automatización de redes para negocios de Iquique: esta cuenta lleva 44 publicaciones y nadie apretó publicar.\n\nComenta REDES y te muestro cómo se arma.\n\n#Iquique #AltoHospicio #Tarapaca",
+    "id_publicacion": "18122303242998537"
   },
   {
     "id": "reel-peluqueria",
