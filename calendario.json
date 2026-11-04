@@ -1426,9 +1426,10 @@
     "tema": "stock-insumos",
     "fecha": "2026-11-03",
     "hora": "19:00",
-    "publicado": false,
+    "publicado": true,
     "portada": "reel-peluqueria-portada",
-    "texto": "Control de insumos para peluquerías y barberías de Iquique: tu bodega es chica, pero ahí hay plata.\n\nTinturas que nadie pide, ampollas vencidas, y el tono que justo se acabó con la clienta sentada. La misma planilla sirve: cambias los productos y listo.\n\nComenta STOCK y te mando la planilla de control de inventario que uso con mis clientes. Gratis, y no te voy a vender nada.\n\n#Iquique #AltoHospicio #Tarapaca"
+    "texto": "Control de insumos para peluquerías y barberías de Iquique: tu bodega es chica, pero ahí hay plata.\n\nTinturas que nadie pide, ampollas vencidas, y el tono que justo se acabó con la clienta sentada. La misma planilla sirve: cambias los productos y listo.\n\nComenta STOCK y te mando la planilla de control de inventario que uso con mis clientes. Gratis, y no te voy a vender nada.\n\n#Iquique #AltoHospicio #Tarapaca",
+    "id_publicacion": "17912958771480408"
   },
   {
     "id": "post-n5",
