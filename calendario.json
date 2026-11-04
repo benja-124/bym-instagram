@@ -1437,7 +1437,7 @@
     "tema": "stock-plata-quieta",
     "fecha": "2026-11-04",
     "hora": "13:00",
-    "publicado": false,
+    "publicado": true,
     "plantilla": "lista",
     "kicker": "Plata detenida",
     "titulo": "3 señales de que compraste de más",
@@ -1446,7 +1446,8 @@
       "Pediste algo que ya tenías.",
       "No sabes qué lleva meses ahí."
     ],
-    "texto": "Control de inventario para almacenes de Iquique: tres señales de que estás comprando de más.\n\nLo que lleva meses parado en la bodega es plata que ya pagaste y todavía no recuperas.\n\nComenta STOCK y te mando la planilla de control de inventario que uso con mis clientes. Gratis, y no te voy a vender nada.\n\n#Iquique #AltoHospicio #Tarapaca"
+    "texto": "Control de inventario para almacenes de Iquique: tres señales de que estás comprando de más.\n\nLo que lleva meses parado en la bodega es plata que ya pagaste y todavía no recuperas.\n\nComenta STOCK y te mando la planilla de control de inventario que uso con mis clientes. Gratis, y no te voy a vender nada.\n\n#Iquique #AltoHospicio #Tarapaca",
+    "id_publicacion": "18101575361532946"
   },
   {
     "id": "car-n1",
