@@ -1584,12 +1584,13 @@
     "tema": "stock-insumos",
     "fecha": "2026-11-08",
     "hora": "13:00",
-    "publicado": false,
+    "publicado": true,
     "plantilla": "declaracion",
     "kicker": "Peluquerías",
     "titulo": "La bodega que nadie cuenta",
     "bajada": "Tu plata también está en las tinturas.",
-    "texto": "Control de insumos para peluquerías de Iquique: la bodega es chica, pero ahí hay más plata detenida de la que crees.\n\nTinturas que nadie pide y ampollas que se vencen calladas.\n\nComenta STOCK y te mando la planilla de control de inventario que uso con mis clientes. Gratis, y no te voy a vender nada.\n\n#Iquique #AltoHospicio #Tarapaca"
+    "texto": "Control de insumos para peluquerías de Iquique: la bodega es chica, pero ahí hay más plata detenida de la que crees.\n\nTinturas que nadie pide y ampollas que se vencen calladas.\n\nComenta STOCK y te mando la planilla de control de inventario que uso con mis clientes. Gratis, y no te voy a vender nada.\n\n#Iquique #AltoHospicio #Tarapaca",
+    "id_publicacion": "18137857765739331"
   },
   {
     "id": "car-n2",
