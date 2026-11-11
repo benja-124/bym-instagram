@@ -1736,9 +1736,10 @@
     "tema": "redes-demo",
     "fecha": "2026-11-11",
     "hora": "19:00",
-    "publicado": false,
+    "publicado": true,
     "portada": "reel-cuarenta-y-cuatro-portada",
-    "texto": "Automatización de redes para negocios de Iquique: esta cuenta publicó 44 veces sin que nadie la tocara.\n\nEl texto se escribe una vez. La imagen, la voz y la publicación salen solas, a la hora que le pongas.\n\nComenta REDES y te muestro cómo quedaría en tu negocio.\n\n#Iquique #AltoHospicio #Tarapaca"
+    "texto": "Automatización de redes para negocios de Iquique: esta cuenta publicó 44 veces sin que nadie la tocara.\n\nEl texto se escribe una vez. La imagen, la voz y la publicación salen solas, a la hora que le pongas.\n\nComenta REDES y te muestro cómo quedaría en tu negocio.\n\n#Iquique #AltoHospicio #Tarapaca",
+    "id_publicacion": "18064563455530358"
   },
   {
     "id": "post-n8",
