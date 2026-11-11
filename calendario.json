@@ -1725,9 +1725,10 @@
     "tema": "stock-pedido",
     "fecha": "2026-11-10",
     "hora": "19:00",
-    "publicado": false,
+    "publicado": true,
     "portada": "reel-proveedor-portada",
-    "texto": "Control de inventario para almacenes y botillerías: llegas donde el proveedor y pides de memoria.\n\nTraes de más lo que se vende poco y de menos lo que vuela, porque la memoria recuerda lo último, no lo que más sale. La planilla te arma la lista antes de salir, con cantidades.\n\nComenta STOCK y te mando la planilla de control de inventario que uso con mis clientes. Gratis, y no te voy a vender nada.\n\n#Iquique #AltoHospicio #Tarapaca"
+    "texto": "Control de inventario para almacenes y botillerías: llegas donde el proveedor y pides de memoria.\n\nTraes de más lo que se vende poco y de menos lo que vuela, porque la memoria recuerda lo último, no lo que más sale. La planilla te arma la lista antes de salir, con cantidades.\n\nComenta STOCK y te mando la planilla de control de inventario que uso con mis clientes. Gratis, y no te voy a vender nada.\n\n#Iquique #AltoHospicio #Tarapaca",
+    "id_publicacion": "18069587996795226"
   },
   {
     "id": "reel-cuarenta-y-cuatro",
