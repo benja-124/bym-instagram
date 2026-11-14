@@ -1761,7 +1761,7 @@
     "tema": "objeciones",
     "fecha": "2026-11-13",
     "hora": "19:00",
-    "publicado": false,
+    "publicado": true,
     "laminas": [
       {
         "id": "car-n4-1",
@@ -1809,7 +1809,8 @@
         "bajada": "Si no te sirve, la borras y listo."
       }
     ],
-    "texto": "Control de inventario para negocios chicos de Iquique: las tres objeciones que más escucho sobre las planillas.\n\nLas tres son justas. Por eso la que regalo tiene tres hojas y se llena en dos minutos.\n\nComenta STOCK y te mando la planilla de control de inventario que uso con mis clientes. Gratis, y no te voy a vender nada.\n\n#Iquique #AltoHospicio #Tarapaca"
+    "texto": "Control de inventario para negocios chicos de Iquique: las tres objeciones que más escucho sobre las planillas.\n\nLas tres son justas. Por eso la que regalo tiene tres hojas y se llena en dos minutos.\n\nComenta STOCK y te mando la planilla de control de inventario que uso con mis clientes. Gratis, y no te voy a vender nada.\n\n#Iquique #AltoHospicio #Tarapaca",
+    "id_publicacion": "17998325754021921"
   },
   {
     "id": "reel-de-planilla-a-whatsapp",
