@@ -1829,12 +1829,13 @@
     "tema": "cierre-ano",
     "fecha": "2026-11-15",
     "hora": "13:00",
-    "publicado": false,
+    "publicado": true,
     "plantilla": "declaracion",
     "kicker": "Noviembre",
     "titulo": "Diciembre se prepara ahora",
     "bajada": "No el 20 de diciembre.",
-    "texto": "Control de inventario para almacenes de Iquique: diciembre es el mes que más vendes y el que peor controlas.\n\nSi partes ahora, llegas al peak sabiendo qué pedir.\n\nComenta STOCK y te mando la planilla de control de inventario que uso con mis clientes. Gratis, y no te voy a vender nada.\n\n#Iquique #AltoHospicio #Tarapaca"
+    "texto": "Control de inventario para almacenes de Iquique: diciembre es el mes que más vendes y el que peor controlas.\n\nSi partes ahora, llegas al peak sabiendo qué pedir.\n\nComenta STOCK y te mando la planilla de control de inventario que uso con mis clientes. Gratis, y no te voy a vender nada.\n\n#Iquique #AltoHospicio #Tarapaca",
+    "id_publicacion": "18136626904736992"
   },
   {
     "id": "car-n3",
