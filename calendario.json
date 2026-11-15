@@ -1818,9 +1818,10 @@
     "tema": "stock-general",
     "fecha": "2026-11-14",
     "hora": "19:00",
-    "publicado": false,
+    "publicado": true,
     "portada": "reel-de-planilla-a-whatsapp-portada",
-    "texto": "Control de inventario por WhatsApp para negocios de Iquique: cuando la planilla ya no alcanza, hay un paso más.\n\nLa planilla funciona, pero alguien la tiene que abrir, y en un día cargado no pasa. Esto es lo mismo por WhatsApp: avisas lo que entra y el saldo se descuenta solo.\n\nParte por la planilla igual: comenta STOCK y te la mando gratis.\n\n#Iquique #AltoHospicio #Tarapaca"
+    "texto": "Control de inventario por WhatsApp para negocios de Iquique: cuando la planilla ya no alcanza, hay un paso más.\n\nLa planilla funciona, pero alguien la tiene que abrir, y en un día cargado no pasa. Esto es lo mismo por WhatsApp: avisas lo que entra y el saldo se descuenta solo.\n\nParte por la planilla igual: comenta STOCK y te la mando gratis.\n\n#Iquique #AltoHospicio #Tarapaca",
+    "id_publicacion": "18131462317866979"
   },
   {
     "id": "post-n9",
